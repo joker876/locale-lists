@@ -12,8 +12,8 @@ export const currencyInfo: CurrencyInfo[] = [
         symbol: "دج"
     },
     {
-        name: "Arabic Dirham",
-        code: ISOCurrencyCode.ArabicDirham,
+        name: "United Arab Emirates Dirham",
+        code: ISOCurrencyCode.UnitedArabEmiratesDirham,
         symbol: "د.إ"
     },
     {
@@ -207,8 +207,8 @@ export const currencyInfo: CurrencyInfo[] = [
         symbol: "$"
     },
     {
-        name: "Egypt Pound",
-        code: ISOCurrencyCode.EgyptPound,
+        name: "Egyptian Pound",
+        code: ISOCurrencyCode.EgyptianPound,
         symbol: "E£"
     },
     {
@@ -227,8 +227,8 @@ export const currencyInfo: CurrencyInfo[] = [
         symbol: "kr"
     },
     {
-        name: "Fidschi Dollar",
-        code: ISOCurrencyCode.FidschiDollar,
+        name: "Fijian Dollar",
+        code: ISOCurrencyCode.FijianDollar,
         symbol: "FJ$"
     },
     {
@@ -262,8 +262,8 @@ export const currencyInfo: CurrencyInfo[] = [
         symbol: "£"
     },
     {
-        name: "Guilder",
-        code: ISOCurrencyCode.Guilder,
+        name: "Aruban Guilder",
+        code: ISOCurrencyCode.ArubanGuilder,
         symbol: "ƒ"
     },
     {
@@ -332,8 +332,8 @@ export const currencyInfo: CurrencyInfo[] = [
         symbol: "¥"
     },
     {
-        name: "Jemen Rial",
-        code: ISOCurrencyCode.JemenRial,
+        name: "Yemeni Rial",
+        code: ISOCurrencyCode.YemeniRial,
         symbol: "﷼"
     },
     {
@@ -682,8 +682,8 @@ export const currencyInfo: CurrencyInfo[] = [
         symbol: "SD"
     },
     {
-        name: "Surinam Dollar",
-        code: ISOCurrencyCode.SurinamDollar,
+        name: "Surinamese Dollar",
+        code: ISOCurrencyCode.SurinameseDollar,
         symbol: "$"
     },
     {
@@ -785,6 +785,11 @@ export const currencyInfo: CurrencyInfo[] = [
         name: "Vatu",
         code: ISOCurrencyCode.Vatu,
         symbol: "VT"
+    },
+    {
+        name: "Venezuelan Bolívar",
+        code: ISOCurrencyCode.VenezuelanBolivar,
+        symbol: "Bs."
     },
     {
         name: "West African Franc",
