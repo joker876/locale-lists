@@ -1,3 +1,15 @@
+export type CountryInfo = {
+    name: string;
+    nameFull: string;
+    sovereign: boolean;
+    code: ISOCountryCode;
+    code3: ISOCountryCode3 | null;
+    dialCode: string | string[] | null;
+    domains: string[];
+    languages: ISOLanguageCode[];
+    region: WorldRegion[]; //TODO
+    territoryOf?: ISOCountryCode;
+}
 export type CurrencyInfo = {
     name: string;
     code: ISOCurrencyCode;
