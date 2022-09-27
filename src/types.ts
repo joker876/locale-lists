@@ -10,6 +10,16 @@ export type CountryInfo = {
     region: WorldRegion[]; //TODO
     territoryOf?: ISOCountryCode;
 }
+export type LanguageInfo = {
+    name: string;
+    code: ISOLanguageCode;
+    general?: boolean;
+    regionCode?: ISOCountryCode | WorldRegion;
+    popular?: true;
+    flag: ISOCountryCode | null;
+    customFlagUrl?: string;
+}
+
 export type CurrencyInfo = {
     name: string;
     code: ISOCurrencyCode;
