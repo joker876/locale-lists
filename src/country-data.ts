@@ -313,7 +313,7 @@ export const countryInfo: CountryInfo[] = [
         code: ISOCountryCode.Bahamas,
         code3: ISOCountryCode3.Bahamas,
         dialCode: "+1 242",
-        
+
         languages: [
             ISOLanguageCode.English,
             ISOLanguageCode.EnglishCaribbean,
@@ -503,7 +503,7 @@ export const countryInfo: CountryInfo[] = [
         code: ISOCountryCode.Bolivia,
         code3: ISOCountryCode3.Bolivia,
         dialCode: "+591",
-        
+
         languages: [
             ISOLanguageCode.Spanish,
             ISOLanguageCode.SpanishBolivia,
@@ -707,23 +707,6 @@ export const countryInfo: CountryInfo[] = [
         sovereign: true
     },
     {
-        name: "Cape Verde",
-        nameFull: "The Republic of Cabo Verde",
-        region: [
-            WorldRegion.Africa
-        ],
-        code: ISOCountryCode.CaboVerde,
-        code3: ISOCountryCode3.CaboVerde,
-        dialCode: "+238",
-        languages: [
-            ISOLanguageCode.Portuguese,
-        ],
-        domains: [
-            ".cv"
-        ],
-        sovereign: true
-    },
-    {
         name: "Cambodia",
         nameFull: "The Kingdom of Cambodia",
         region: [
@@ -781,6 +764,42 @@ export const countryInfo: CountryInfo[] = [
         sovereign: true
     },
     {
+        name: "Canary Islands",
+        nameFull: "Canary Islands",
+        region: [
+            WorldRegion.Africa
+        ],
+        code: ISOCountryCode.CanaryIslands,
+        code3: null,
+        dialCode: "+1",
+        languages: [
+            ISOLanguageCode.Spanish,
+            ISOLanguageCode.SpanishSpain,
+        ],
+        domains: [
+            ".ca"
+        ],
+        sovereign: false,
+        territoryOf: ISOCountryCode.Spain,
+    },
+    {
+        name: "Cape Verde",
+        nameFull: "The Republic of Cabo Verde",
+        region: [
+            WorldRegion.Africa
+        ],
+        code: ISOCountryCode.CaboVerde,
+        code3: ISOCountryCode3.CaboVerde,
+        dialCode: "+238",
+        languages: [
+            ISOLanguageCode.Portuguese,
+        ],
+        domains: [
+            ".cv"
+        ],
+        sovereign: true
+    },
+    {
         name: "Catalonia",
         nameFull: "Catalonia",
         region: [
@@ -798,25 +817,6 @@ export const countryInfo: CountryInfo[] = [
         ],
         domains: [
             ".es"
-        ],
-        sovereign: false,
-        territoryOf: ISOCountryCode.Spain,
-    },
-    {
-        name: "Canary Islands",
-        nameFull: "Canary Islands",
-        region: [
-            WorldRegion.Africa
-        ],
-        code: ISOCountryCode.CanaryIslands,
-        code3: null,
-        dialCode: "+1",
-        languages: [
-            ISOLanguageCode.Spanish,
-            ISOLanguageCode.SpanishSpain,
-        ],
-        domains: [
-            ".ca"
         ],
         sovereign: false,
         territoryOf: ISOCountryCode.Spain,
@@ -993,42 +993,6 @@ export const countryInfo: CountryInfo[] = [
         sovereign: true
     },
     {
-        name: "Democratic Republic of Congo",
-        nameFull: "The Democratic Republic of the Congo",
-        region: [
-            WorldRegion.Africa
-        ],
-        code: ISOCountryCode.DemocraticRepublicOfCongo,
-        code3: ISOCountryCode3.DemocraticRepublicOfCongo,
-        dialCode: "+243",
-        languages: [
-            ISOLanguageCode.French,
-            ISOLanguageCode.FrenchRepublicOfCongo,
-        ],
-        domains: [
-            ".cd"
-        ],
-        sovereign: true
-    },
-    {
-        name: "Republic of Congo",
-        nameFull: "The Republic of the Congo",
-        region: [
-            WorldRegion.Africa
-        ],
-        code: ISOCountryCode.RepublicOfCongo,
-        code3: ISOCountryCode3.RepublicOfCongo,
-        dialCode: "+242",
-        languages: [
-            ISOLanguageCode.French,
-            ISOLanguageCode.FrenchRepublicOfCongo,
-        ],
-        domains: [
-            ".cg"
-        ],
-        sovereign: true
-    },
-    {
         name: "Cook Islands",
         nameFull: "The Cook Islands",
         region: [
@@ -1064,24 +1028,6 @@ export const countryInfo: CountryInfo[] = [
         ],
         domains: [
             ".cr"
-        ],
-        sovereign: true
-    },
-    {
-        name: "Ivory Coast",
-        nameFull: "The Republic of Côte d'Ivoire",
-        region: [
-            WorldRegion.Africa
-        ],
-        code: ISOCountryCode.IvoryCoast,
-        code3: ISOCountryCode3.IvoryCoast,
-        dialCode: "+225",
-        languages: [
-            ISOLanguageCode.French,
-            ISOLanguageCode.FrenchIvoryCoast,
-        ],
-        domains: [
-            ".ci"
         ],
         sovereign: true
     },
@@ -1182,6 +1128,24 @@ export const countryInfo: CountryInfo[] = [
         ],
         domains: [
             ".cz"
+        ],
+        sovereign: true
+    },
+    {
+        name: "Democratic Republic of Congo",
+        nameFull: "The Democratic Republic of the Congo",
+        region: [
+            WorldRegion.Africa
+        ],
+        code: ISOCountryCode.DemocraticRepublicOfCongo,
+        code3: ISOCountryCode3.DemocraticRepublicOfCongo,
+        dialCode: "+243",
+        languages: [
+            ISOLanguageCode.French,
+            ISOLanguageCode.FrenchRepublicOfCongo,
+        ],
+        domains: [
+            ".cd"
         ],
         sovereign: true
     },
@@ -1936,25 +1900,6 @@ export const countryInfo: CountryInfo[] = [
         territoryOf: ISOCountryCode.Australia
     },
     {
-        name: "Vatican",
-        nameFull: "The Holy See",
-        region: [
-            WorldRegion.Europe,
-            WorldRegion.EuropeSouthern,
-        ],
-        code: ISOCountryCode.Vatican,
-        code3: ISOCountryCode3.Vatican,
-        dialCode: "+379",
-        languages: [
-            ISOLanguageCode.Latin,
-            ISOLanguageCode.Italian,
-        ],
-        domains: [
-            ".va"
-        ],
-        sovereign: false
-    },
-    {
         name: "Honduras",
         nameFull: "The Republic of Honduras",
         region: [
@@ -2190,6 +2135,24 @@ export const countryInfo: CountryInfo[] = [
         sovereign: true
     },
     {
+        name: "Ivory Coast",
+        nameFull: "The Republic of Côte d'Ivoire",
+        region: [
+            WorldRegion.Africa
+        ],
+        code: ISOCountryCode.IvoryCoast,
+        code3: ISOCountryCode3.IvoryCoast,
+        dialCode: "+225",
+        languages: [
+            ISOLanguageCode.French,
+            ISOLanguageCode.FrenchIvoryCoast,
+        ],
+        domains: [
+            ".ci"
+        ],
+        sovereign: true
+    },
+    {
         name: "Jamaica",
         nameFull: "Jamaica",
         region: [
@@ -2313,40 +2276,6 @@ export const countryInfo: CountryInfo[] = [
         ],
         domains: [
             ".ki"
-        ],
-        sovereign: true
-    },
-    {
-        name: "North Korea",
-        nameFull: "The Democratic People's Republic of Korea",
-        region: [
-            WorldRegion.Asia
-        ],
-        code: ISOCountryCode.NorthKorea,
-        code3: ISOCountryCode3.NorthKorea,
-        dialCode: "+850",
-        languages: [
-            ISOLanguageCode.Korean,
-        ],
-        domains: [
-            ".kp"
-        ],
-        sovereign: true
-    },
-    {
-        name: "South Korea",
-        nameFull: "The Republic of Korea",
-        region: [
-            WorldRegion.Asia
-        ],
-        code: ISOCountryCode.SouthKorea,
-        code3: ISOCountryCode3.SouthKorea,
-        dialCode: "+82",
-        languages: [
-            ISOLanguageCode.Korean,
-        ],
-        domains: [
-            ".kr"
         ],
         sovereign: true
     },
@@ -2593,25 +2522,6 @@ export const countryInfo: CountryInfo[] = [
         ],
         sovereign: false,
         territoryOf: ISOCountryCode.China
-    },
-    {
-        name: "North Macedonia",
-        nameFull: "The Republic of North Macedonia",
-        region: [
-            WorldRegion.Europe,
-            WorldRegion.EuropeSouthern,
-        ],
-        code: ISOCountryCode.NorthMacedonia,
-        code3: ISOCountryCode3.NorthMacedonia,
-        dialCode: "+389",
-        languages: [
-            ISOLanguageCode.Macedonian,
-            ISOLanguageCode.Albanian,
-        ],
-        domains: [
-            ".mk"
-        ],
-        sovereign: true
     },
     {
         name: "Madagascar",
@@ -2873,7 +2783,7 @@ export const countryInfo: CountryInfo[] = [
         nameFull: "The Principality of Monaco",
         region: [
             WorldRegion.Europe,
-        WorldRegion.EuropeSouthern,
+            WorldRegion.EuropeSouthern,
         ],
         code: ISOCountryCode.Monaco,
         code3: ISOCountryCode3.Monaco,
@@ -2909,7 +2819,7 @@ export const countryInfo: CountryInfo[] = [
         nameFull: "Montenegro",
         region: [
             WorldRegion.Europe,
-        WorldRegion.EuropeSouthern,
+            WorldRegion.EuropeSouthern,
         ],
         code: ISOCountryCode.Montenegro,
         code3: ISOCountryCode3.Montenegro,
@@ -3197,6 +3107,42 @@ export const countryInfo: CountryInfo[] = [
         ],
         sovereign: false,
         territoryOf: ISOCountryCode.Australia
+    },
+    {
+        name: "North Korea",
+        nameFull: "The Democratic People's Republic of Korea",
+        region: [
+            WorldRegion.Asia
+        ],
+        code: ISOCountryCode.NorthKorea,
+        code3: ISOCountryCode3.NorthKorea,
+        dialCode: "+850",
+        languages: [
+            ISOLanguageCode.Korean,
+        ],
+        domains: [
+            ".kp"
+        ],
+        sovereign: true
+    },
+    {
+        name: "North Macedonia",
+        nameFull: "The Republic of North Macedonia",
+        region: [
+            WorldRegion.Europe,
+            WorldRegion.EuropeSouthern,
+        ],
+        code: ISOCountryCode.NorthMacedonia,
+        code3: ISOCountryCode3.NorthMacedonia,
+        dialCode: "+389",
+        languages: [
+            ISOLanguageCode.Macedonian,
+            ISOLanguageCode.Albanian,
+        ],
+        domains: [
+            ".mk"
+        ],
+        sovereign: true
     },
     {
         name: "Northern Ireland",
@@ -3523,23 +3469,22 @@ export const countryInfo: CountryInfo[] = [
         sovereign: true
     },
     {
-        name: "Réunion",
-        nameFull: "Réunion",
+        name: "Republic of Congo",
+        nameFull: "The Republic of the Congo",
         region: [
             WorldRegion.Africa
         ],
-        code: ISOCountryCode.Reunion,
-        code3: ISOCountryCode3.Reunion,
-        dialCode: "+262",
+        code: ISOCountryCode.RepublicOfCongo,
+        code3: ISOCountryCode3.RepublicOfCongo,
+        dialCode: "+242",
         languages: [
             ISOLanguageCode.French,
-            ISOLanguageCode.FrenchFrance,
+            ISOLanguageCode.FrenchRepublicOfCongo,
         ],
         domains: [
-            ".re"
+            ".cg"
         ],
-        sovereign: false,
-        territoryOf: ISOCountryCode.France
+        sovereign: true
     },
     {
         name: "Romania",
@@ -3597,6 +3542,25 @@ export const countryInfo: CountryInfo[] = [
             ".rw"
         ],
         sovereign: true
+    },
+    {
+        name: "Réunion",
+        nameFull: "Réunion",
+        region: [
+            WorldRegion.Africa
+        ],
+        code: ISOCountryCode.Reunion,
+        code3: ISOCountryCode3.Reunion,
+        dialCode: "+262",
+        languages: [
+            ISOLanguageCode.French,
+            ISOLanguageCode.FrenchFrance,
+        ],
+        domains: [
+            ".re"
+        ],
+        sovereign: false,
+        territoryOf: ISOCountryCode.France
     },
     {
         name: "Saint Barthélemy",
@@ -4061,6 +4025,23 @@ export const countryInfo: CountryInfo[] = [
         ],
         sovereign: false,
         territoryOf: ISOCountryCode.UnitedKingdom
+    },
+    {
+        name: "South Korea",
+        nameFull: "The Republic of Korea",
+        region: [
+            WorldRegion.Asia
+        ],
+        code: ISOCountryCode.SouthKorea,
+        code3: ISOCountryCode3.SouthKorea,
+        dialCode: "+82",
+        languages: [
+            ISOLanguageCode.Korean,
+        ],
+        domains: [
+            ".kr"
+        ],
+        sovereign: true
     },
     {
         name: "South Sudan",
@@ -4672,6 +4653,25 @@ export const countryInfo: CountryInfo[] = [
             ".vu"
         ],
         sovereign: true
+    },
+    {
+        name: "Vatican",
+        nameFull: "The Holy See",
+        region: [
+            WorldRegion.Europe,
+            WorldRegion.EuropeSouthern,
+        ],
+        code: ISOCountryCode.Vatican,
+        code3: ISOCountryCode3.Vatican,
+        dialCode: "+379",
+        languages: [
+            ISOLanguageCode.Latin,
+            ISOLanguageCode.Italian,
+        ],
+        domains: [
+            ".va"
+        ],
+        sovereign: false
     },
     {
         name: "Venezuela",
