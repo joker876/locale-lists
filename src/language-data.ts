@@ -253,13 +253,6 @@ export const languageInfo: LanguageInfo[] = [
         flag: ISOCountryCode.Denmark
     },
     {
-        name: "Maldivian",
-        general: true,
-        code: ISOLanguageCode.Maldivian,
-        popular: true,
-        flag: ISOCountryCode.Maldives
-    },
-    {
         name: "Dutch",
         general: true,
         code: ISOLanguageCode.Dutch,
@@ -313,20 +306,6 @@ export const languageInfo: LanguageInfo[] = [
     },
     {
         name: "English",
-        regionCode: WorldRegion.Caribbean,
-        code: ISOLanguageCode.EnglishCaribbean,
-        popular: true,
-        flag: ISOCountryCode.Anguilla
-    },
-    {
-        name: "English",
-        regionCode: ISOCountryCode.UnitedKingdom,
-        code: ISOLanguageCode.EnglishGreatBritain,
-        popular: true,
-        flag: ISOCountryCode.UnitedKingdom
-    },
-    {
-        name: "English",
         regionCode: ISOCountryCode.India,
         code: ISOLanguageCode.EnglishIndia,
         popular: true,
@@ -361,12 +340,6 @@ export const languageInfo: LanguageInfo[] = [
         flag: ISOCountryCode.Philippines
     },
     {
-        name: "Pirate Speak",
-        code: ISOLanguageCode.EnglishPirateSpeak,
-        flag: null,
-        customFlagUrl: "https://upload.wikimedia.org/wikipedia/commons/4/47/Pirate_Flag_of_Jack_Rackham.svg"
-    },
-    {
         name: "English",
         regionCode: ISOCountryCode.SouthAfrica,
         code: ISOLanguageCode.EnglishAfrica,
@@ -378,6 +351,13 @@ export const languageInfo: LanguageInfo[] = [
         regionCode: ISOCountryCode.TrinidadAndTobago,
         code: ISOLanguageCode.EnglishTrinidadAndTobago,
         flag: ISOCountryCode.TrinidadAndTobago
+    },
+    {
+        name: "English",
+        regionCode: ISOCountryCode.UnitedKingdom,
+        code: ISOLanguageCode.EnglishGreatBritain,
+        popular: true,
+        flag: ISOCountryCode.UnitedKingdom
     },
     {
         name: "English",
@@ -394,18 +374,18 @@ export const languageInfo: LanguageInfo[] = [
         flag: ISOCountryCode.Zimbabwe
     },
     {
+        name: "English",
+        regionCode: WorldRegion.Caribbean,
+        code: ISOLanguageCode.EnglishCaribbean,
+        popular: true,
+        flag: ISOCountryCode.Anguilla
+    },
+    {
         name: "Estonian",
         general: true,
         code: ISOLanguageCode.Estonian,
         popular: true,
         flag: ISOCountryCode.Estonia
-    },
-    {
-        name: "Macedonian",
-        general: true,
-        code: ISOLanguageCode.Macedonian,
-        popular: true,
-        flag: ISOCountryCode.NorthMacedonia
     },
     {
         name: "Faroese",
@@ -449,22 +429,23 @@ export const languageInfo: LanguageInfo[] = [
     },
     {
         name: "French",
-        regionCode: ISOCountryCode.RepublicOfCongo,
-        code: ISOLanguageCode.FrenchRepublicOfCongo,
-        flag: ISOCountryCode.RepublicOfCongo
+        regionCode: ISOCountryCode.France,
+        code: ISOLanguageCode.FrenchFrance,
+        popular: true,
+        flag: ISOCountryCode.France
+    },
+    {
+        name: "French",
+        regionCode: ISOCountryCode.India,
+        code: ISOLanguageCode.FrenchIndia,
+        popular: true,
+        flag: ISOCountryCode.India
     },
     {
         name: "French",
         regionCode: ISOCountryCode.IvoryCoast,
         code: ISOLanguageCode.FrenchIvoryCoast,
         flag: ISOCountryCode.IvoryCoast
-    },
-    {
-        name: "French",
-        regionCode: ISOCountryCode.France,
-        code: ISOLanguageCode.FrenchFrance,
-        popular: true,
-        flag: ISOCountryCode.France
     },
     {
         name: "French",
@@ -495,6 +476,12 @@ export const languageInfo: LanguageInfo[] = [
     },
     {
         name: "French",
+        regionCode: ISOCountryCode.RepublicOfCongo,
+        code: ISOLanguageCode.FrenchRepublicOfCongo,
+        flag: ISOCountryCode.RepublicOfCongo
+    },
+    {
+        name: "French",
         regionCode: ISOCountryCode.Senegal,
         code: ISOLanguageCode.FrenchSenegal,
         flag: ISOCountryCode.Senegal
@@ -505,13 +492,6 @@ export const languageInfo: LanguageInfo[] = [
         code: ISOLanguageCode.FrenchSwitzerland,
         popular: true,
         flag: ISOCountryCode.Switzerland
-    },
-    {
-        name: "French",
-        regionCode: ISOCountryCode.India,
-        code: ISOLanguageCode.FrenchIndia,
-        popular: true,
-        flag: ISOCountryCode.India
     },
     {
         name: "Gaelic",
@@ -746,6 +726,13 @@ export const languageInfo: LanguageInfo[] = [
         flag: ISOCountryCode.Luxembourg
     },
     {
+        name: "Macedonian",
+        general: true,
+        code: ISOLanguageCode.Macedonian,
+        popular: true,
+        flag: ISOCountryCode.NorthMacedonia
+    },
+    {
         name: "Malay",
         general: true,
         code: ISOLanguageCode.Malay,
@@ -768,6 +755,13 @@ export const languageInfo: LanguageInfo[] = [
         general: true,
         code: ISOLanguageCode.Malayalam,
         flag: ISOCountryCode.India
+    },
+    {
+        name: "Maldivian",
+        general: true,
+        code: ISOLanguageCode.Maldivian,
+        popular: true,
+        flag: ISOCountryCode.Maldives
     },
     {
         name: "Maltese",
@@ -820,6 +814,12 @@ export const languageInfo: LanguageInfo[] = [
         general: true,
         code: ISOLanguageCode.Pashto,
         flag: ISOCountryCode.Afghanistan
+    },
+    {
+        name: "Pirate Speak",
+        code: ISOLanguageCode.EnglishPirateSpeak,
+        flag: null,
+        customFlagUrl: "https://upload.wikimedia.org/wikipedia/commons/4/47/Pirate_Flag_of_Jack_Rackham.svg"
     },
     {
         name: "Polish",
@@ -1221,4 +1221,4 @@ export const languageInfo: LanguageInfo[] = [
         code: ISOLanguageCode.Zulu,
         flag: ISOCountryCode.SouthAfrica
     }
-]
+];
