@@ -816,11 +816,6 @@ export const languageInfo: LanguageInfo[] = [
         flag: ISOCountryCode.Afghanistan
     },
     {
-        name: "Pirate Speak",
-        code: ISOLanguageCode.EnglishPirateSpeak,
-        flag: "https://upload.wikimedia.org/wikipedia/commons/4/47/Pirate_Flag_of_Jack_Rackham.svg",
-    },
-    {
         name: "Polish",
         general: true,
         code: ISOLanguageCode.Polish,
@@ -891,11 +886,6 @@ export const languageInfo: LanguageInfo[] = [
         code: ISOLanguageCode.Serbian,
         popular: true,
         flag: ISOCountryCode.Serbia
-    },
-    {
-        name: "Silesian",
-        code: ISOLanguageCode.Silesian,
-        flag: ISOCountryCode.Poland
     },
     {
         name: "Sindhi",

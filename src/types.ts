@@ -17,7 +17,7 @@ export type LanguageInfo = {
     countryCode?: ISOCountryCode | WorldRegion;
     general?: boolean;
     popular?: true;
-    flag: ISOCountryCode | string;
+    flag: ISOCountryCode;
 }
 
 export type CurrencyInfo = {
@@ -593,7 +593,6 @@ export enum ISOLanguageCode {
     EnglishJamaica = "en-jm",
     EnglishNewZealand = "en-nz",
     EnglishPhilippines = "en-ph",
-    EnglishPirateSpeak = "qpe",
     EnglishTrinidadAndTobago = "en-tt",
     EnglishUnitedStatesOfAmerica = "en-us",
     EnglishZimbabwe = "en-zw",
@@ -676,7 +675,6 @@ export enum ISOLanguageCode {
     Samoan = "sm",
     Serbian = "sr-sp",
     Setsuana = "tn",
-    Silesian = "szl",
     Sindhi = "sd",
     Sinhalese = "si",
     Slovak = "sk",
