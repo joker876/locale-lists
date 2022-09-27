@@ -1,13 +1,13 @@
 export type CountryInfo = {
     name: string;
-    nameFull: string;
-    sovereign: boolean;
-    code: ISOCountryCode;
-    code3: ISOCountryCode3 | null;
+    officialName: string;
+    isSovereign: boolean;
+    alpha2: ISOCountryCode;
+    alpha3: ISOCountryCode3 | null;
     dialCode: string | string[] | null;
     domains: string[];
     languages: ISOLanguageCode[];
-    region: WorldRegion[]; //TODO
+    region: WorldRegion[];
     territoryOf?: ISOCountryCode;
 }
 export type LanguageInfo = {

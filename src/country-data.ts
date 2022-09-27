@@ -9,12 +9,12 @@ import {
 export const countryInfo: CountryInfo[] = [
     {
         name: "Afghanistan",
-        nameFull: "The Islamic Republic of Afghanistan",
+        officialName: "The Islamic Republic of Afghanistan",
         region: [
             WorldRegion.Asia
         ],
-        code: ISOCountryCode.Afghanistan,
-        code3: ISOCountryCode3.Afghanistan,
+        alpha2: ISOCountryCode.Afghanistan,
+        alpha3: ISOCountryCode3.Afghanistan,
         dialCode: "+93",
         languages: [
             ISOLanguageCode.Pashto,
@@ -22,16 +22,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".af"
         ],
-        sovereign: true,
+        isSovereign: true,
     },
     {
         name: "Åland Islands",
-        nameFull: "Åland",
+        officialName: "Åland",
         region: [
             WorldRegion.Europe
         ],
-        code: ISOCountryCode.AlandIslands,
-        code3: ISOCountryCode3.AlandIslands,
+        alpha2: ISOCountryCode.AlandIslands,
+        alpha3: ISOCountryCode3.AlandIslands,
         dialCode: "+358 18",
         languages: [
             ISOLanguageCode.Swedish,
@@ -39,18 +39,18 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".ax"
         ],
-        sovereign: false,
+        isSovereign: false,
         territoryOf: ISOCountryCode.Finland,
     },
     {
         name: "Albania",
-        nameFull: "The Republic of Albania",
+        officialName: "The Republic of Albania",
         region: [
             WorldRegion.Europe,
             WorldRegion.EuropeEastern,
         ],
-        code: ISOCountryCode.Albania,
-        code3: ISOCountryCode3.Albania,
+        alpha2: ISOCountryCode.Albania,
+        alpha3: ISOCountryCode3.Albania,
         dialCode: "+355",
         languages: [
             ISOLanguageCode.Albanian,
@@ -58,16 +58,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".al"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Algeria",
-        nameFull: "The People's Democratic Republic of Algeria",
+        officialName: "The People's Democratic Republic of Algeria",
         region: [
             WorldRegion.Africa
         ],
-        code: ISOCountryCode.Algeria,
-        code3: ISOCountryCode3.Algeria,
+        alpha2: ISOCountryCode.Algeria,
+        alpha3: ISOCountryCode3.Algeria,
         dialCode: "+213",
         languages: [
             ISOLanguageCode.Arabic,
@@ -76,16 +76,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".dz"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "American Samoa",
-        nameFull: "The Territory of American Samoa",
+        officialName: "The Territory of American Samoa",
         region: [
             WorldRegion.Oceania
         ],
-        code: ISOCountryCode.AmericanSamoa,
-        code3: ISOCountryCode3.AmericanSamoa,
+        alpha2: ISOCountryCode.AmericanSamoa,
+        alpha3: ISOCountryCode3.AmericanSamoa,
         dialCode: "+1 684",
         languages: [
             ISOLanguageCode.Samoan,
@@ -95,18 +95,18 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".as"
         ],
-        sovereign: false,
+        isSovereign: false,
         territoryOf: ISOCountryCode.UnitedStatesOfAmerica,
     },
     {
         name: "Andorra",
-        nameFull: "The Principality of Andorra",
+        officialName: "The Principality of Andorra",
         region: [
             WorldRegion.Europe,
             WorldRegion.EuropeSouthern,
         ],
-        code: ISOCountryCode.Andorra,
-        code3: ISOCountryCode3.Andorra,
+        alpha2: ISOCountryCode.Andorra,
+        alpha3: ISOCountryCode3.Andorra,
         dialCode: "+376",
         languages: [
             ISOLanguageCode.Catalan,
@@ -114,16 +114,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".ad"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Angola",
-        nameFull: "The Republic of Angola",
+        officialName: "The Republic of Angola",
         region: [
             WorldRegion.Africa
         ],
-        code: ISOCountryCode.Angola,
-        code3: ISOCountryCode3.Angola,
+        alpha2: ISOCountryCode.Angola,
+        alpha3: ISOCountryCode3.Angola,
         dialCode: "+244",
         languages: [
             ISOLanguageCode.Portuguese,
@@ -131,18 +131,18 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".ao"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Anguilla",
-        nameFull: "Anguilla",
+        officialName: "Anguilla",
         region: [
             WorldRegion.America,
             WorldRegion.NorthAmerica,
             WorldRegion.Caribbean
         ],
-        code: ISOCountryCode.Anguilla,
-        code3: ISOCountryCode3.Anguilla,
+        alpha2: ISOCountryCode.Anguilla,
+        alpha3: ISOCountryCode3.Anguilla,
         dialCode: "+1 264",
         languages: [
             ISOLanguageCode.English,
@@ -151,34 +151,34 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".ai"
         ],
-        sovereign: false,
+        isSovereign: false,
         territoryOf: ISOCountryCode.UnitedKingdom
     },
     {
         name: "Antarctica",
-        nameFull: "Antarctica",
+        officialName: "Antarctica",
         region: [
             WorldRegion.Antarctica
         ],
-        code: ISOCountryCode.Antarctica,
-        code3: ISOCountryCode3.Antarctica,
+        alpha2: ISOCountryCode.Antarctica,
+        alpha3: ISOCountryCode3.Antarctica,
         dialCode: "+672",
         languages: [],
         domains: [
             ".aq"
         ],
-        sovereign: false
+        isSovereign: false
     },
     {
         name: "Antigua and Barbuda",
-        nameFull: "Antigua and Barbuda",
+        officialName: "Antigua and Barbuda",
         region: [
             WorldRegion.America,
             WorldRegion.SouthAmerica,
             WorldRegion.Caribbean
         ],
-        code: ISOCountryCode.AntiguaAndBarbuda,
-        code3: ISOCountryCode3.AntiguaAndBarbuda,
+        alpha2: ISOCountryCode.AntiguaAndBarbuda,
+        alpha3: ISOCountryCode3.AntiguaAndBarbuda,
         dialCode: "+1 268",
         languages: [
             ISOLanguageCode.English,
@@ -187,17 +187,17 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".ag"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Argentina",
-        nameFull: "The Argentine Republic",
+        officialName: "The Argentine Republic",
         region: [
             WorldRegion.America,
             WorldRegion.SouthAmerica
         ],
-        code: ISOCountryCode.Argentina,
-        code3: ISOCountryCode3.Argentina,
+        alpha2: ISOCountryCode.Argentina,
+        alpha3: ISOCountryCode3.Argentina,
         dialCode: "+54",
         languages: [
             ISOLanguageCode.Spanish,
@@ -206,16 +206,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".ar"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Armenia",
-        nameFull: "The Republic of Armenia",
+        officialName: "The Republic of Armenia",
         region: [
             WorldRegion.Asia
         ],
-        code: ISOCountryCode.Armenia,
-        code3: ISOCountryCode3.Armenia,
+        alpha2: ISOCountryCode.Armenia,
+        alpha3: ISOCountryCode3.Armenia,
         dialCode: "+374",
         languages: [
             ISOLanguageCode.Armenian,
@@ -223,18 +223,18 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".am"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Aruba",
-        nameFull: "Aruba",
+        officialName: "Aruba",
         region: [
             WorldRegion.America,
             WorldRegion.SouthAmerica,
             WorldRegion.Caribbean
         ],
-        code: ISOCountryCode.Aruba,
-        code3: ISOCountryCode3.Aruba,
+        alpha2: ISOCountryCode.Aruba,
+        alpha3: ISOCountryCode3.Aruba,
         dialCode: "+297",
         languages: [
             ISOLanguageCode.Dutch,
@@ -243,18 +243,18 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".aw"
         ],
-        sovereign: false,
+        isSovereign: false,
         territoryOf: ISOCountryCode.Netherlands
     },
     {
         name: "Australia",
-        nameFull: "The Commonwealth of Australia",
+        officialName: "The Commonwealth of Australia",
         region: [
             WorldRegion.Australia,
             WorldRegion.Oceania
         ],
-        code: ISOCountryCode.Australia,
-        code3: ISOCountryCode3.Australia,
+        alpha2: ISOCountryCode.Australia,
+        alpha3: ISOCountryCode3.Australia,
         dialCode: "+61",
         languages: [
             ISOLanguageCode.English,
@@ -263,18 +263,18 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".au"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Austria",
-        nameFull: "The Republic of Austria",
+        officialName: "The Republic of Austria",
         region: [
             WorldRegion.Europe,
             WorldRegion.EuropeWestern,
             WorldRegion.EuropeanUnion,
         ],
-        code: ISOCountryCode.Austria,
-        code3: ISOCountryCode3.Austria,
+        alpha2: ISOCountryCode.Austria,
+        alpha3: ISOCountryCode3.Austria,
         dialCode: "+43",
         languages: [
             ISOLanguageCode.German,
@@ -283,16 +283,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".at"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Azerbaijan",
-        nameFull: "The Republic of Azerbaijan",
+        officialName: "The Republic of Azerbaijan",
         region: [
             WorldRegion.Asia
         ],
-        code: ISOCountryCode.Azerbaijan,
-        code3: ISOCountryCode3.Azerbaijan,
+        alpha2: ISOCountryCode.Azerbaijan,
+        alpha3: ISOCountryCode3.Azerbaijan,
         dialCode: "+994",
         languages: [
             ISOLanguageCode.Azeri,
@@ -300,18 +300,18 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".az"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Bahamas",
-        nameFull: "The Commonwealth of The Bahamas",
+        officialName: "The Commonwealth of The Bahamas",
         region: [
             WorldRegion.America,
             WorldRegion.NorthAmerica,
             WorldRegion.Caribbean
         ],
-        code: ISOCountryCode.Bahamas,
-        code3: ISOCountryCode3.Bahamas,
+        alpha2: ISOCountryCode.Bahamas,
+        alpha3: ISOCountryCode3.Bahamas,
         dialCode: "+1 242",
 
         languages: [
@@ -321,17 +321,17 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".bs"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Bahrain",
-        nameFull: "The Kingdom of Bahrain",
+        officialName: "The Kingdom of Bahrain",
         region: [
             WorldRegion.Asia,
             WorldRegion.MiddleEast
         ],
-        code: ISOCountryCode.Bahrain,
-        code3: ISOCountryCode3.Bahrain,
+        alpha2: ISOCountryCode.Bahrain,
+        alpha3: ISOCountryCode3.Bahrain,
         dialCode: "+973",
         languages: [
             ISOLanguageCode.Arabic,
@@ -340,16 +340,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".bh"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Bangladesh",
-        nameFull: "The People's Republic of Bangladesh",
+        officialName: "The People's Republic of Bangladesh",
         region: [
             WorldRegion.Asia
         ],
-        code: ISOCountryCode.Bangladesh,
-        code3: ISOCountryCode3.Bangladesh,
+        alpha2: ISOCountryCode.Bangladesh,
+        alpha3: ISOCountryCode3.Bangladesh,
         dialCode: "+880",
         languages: [
             ISOLanguageCode.Bengali,
@@ -357,18 +357,18 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".bd"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Barbados",
-        nameFull: "Barbados",
+        officialName: "Barbados",
         region: [
             WorldRegion.America,
             WorldRegion.SouthAmerica,
             WorldRegion.Caribbean
         ],
-        code: ISOCountryCode.Barbados,
-        code3: ISOCountryCode3.Barbados,
+        alpha2: ISOCountryCode.Barbados,
+        alpha3: ISOCountryCode3.Barbados,
         dialCode: "+1 264",
         languages: [
             ISOLanguageCode.English,
@@ -377,17 +377,17 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".bb"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Belarus",
-        nameFull: "The Republic of Belarus",
+        officialName: "The Republic of Belarus",
         region: [
             WorldRegion.Europe,
             WorldRegion.EuropeEastern,
         ],
-        code: ISOCountryCode.Belarus,
-        code3: ISOCountryCode3.Belarus,
+        alpha2: ISOCountryCode.Belarus,
+        alpha3: ISOCountryCode3.Belarus,
         dialCode: "+375",
         languages: [
             ISOLanguageCode.Belarusian,
@@ -396,18 +396,18 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".by"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Belgium",
-        nameFull: "The Kingdom of Belgium",
+        officialName: "The Kingdom of Belgium",
         region: [
             WorldRegion.Europe,
             WorldRegion.EuropeWestern,
             WorldRegion.EuropeanUnion,
         ],
-        code: ISOCountryCode.Belgium,
-        code3: ISOCountryCode3.Belgium,
+        alpha2: ISOCountryCode.Belgium,
+        alpha3: ISOCountryCode3.Belgium,
         dialCode: "+32",
         languages: [
             ISOLanguageCode.Dutch,
@@ -418,17 +418,17 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".be"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Belize",
-        nameFull: "Belize",
+        officialName: "Belize",
         region: [
             WorldRegion.America,
             WorldRegion.NorthAmerica
         ],
-        code: ISOCountryCode.Belize,
-        code3: ISOCountryCode3.Belize,
+        alpha2: ISOCountryCode.Belize,
+        alpha3: ISOCountryCode3.Belize,
         dialCode: "+501",
         languages: [
             ISOLanguageCode.English,
@@ -437,16 +437,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".bz"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Benin",
-        nameFull: "The Republic of Benin",
+        officialName: "The Republic of Benin",
         region: [
             WorldRegion.Africa
         ],
-        code: ISOCountryCode.Benin,
-        code3: ISOCountryCode3.Benin,
+        alpha2: ISOCountryCode.Benin,
+        alpha3: ISOCountryCode3.Benin,
         dialCode: "+229",
         languages: [
             ISOLanguageCode.French,
@@ -454,17 +454,17 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".bj"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Bermuda",
-        nameFull: "Bermuda",
+        officialName: "Bermuda",
         region: [
             WorldRegion.America,
             WorldRegion.NorthAmerica
         ],
-        code: ISOCountryCode.Bermuda,
-        code3: ISOCountryCode3.Bermuda,
+        alpha2: ISOCountryCode.Bermuda,
+        alpha3: ISOCountryCode3.Bermuda,
         dialCode: "+1 441",
         languages: [
             ISOLanguageCode.English,
@@ -473,17 +473,17 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".bm"
         ],
-        sovereign: false,
+        isSovereign: false,
         territoryOf: ISOCountryCode.UnitedKingdom
     },
     {
         name: "Bhutan",
-        nameFull: "The Kingdom of Bhutan",
+        officialName: "The Kingdom of Bhutan",
         region: [
             WorldRegion.Asia
         ],
-        code: ISOCountryCode.Bhutan,
-        code3: ISOCountryCode3.Bhutan,
+        alpha2: ISOCountryCode.Bhutan,
+        alpha3: ISOCountryCode3.Bhutan,
         dialCode: "+975",
         languages: [
             ISOLanguageCode.Dzongkha,
@@ -491,17 +491,17 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".bt"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Bolivia",
-        nameFull: "The Plurinational State of Bolivia",
+        officialName: "The Plurinational State of Bolivia",
         region: [
             WorldRegion.America,
             WorldRegion.SouthAmerica
         ],
-        code: ISOCountryCode.Bolivia,
-        code3: ISOCountryCode3.Bolivia,
+        alpha2: ISOCountryCode.Bolivia,
+        alpha3: ISOCountryCode3.Bolivia,
         dialCode: "+591",
 
         languages: [
@@ -512,18 +512,18 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".bo"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Bonaire, Sint Eustatius, Saba",
-        nameFull: "Bonaire, Sint Eustatius and Saba",
+        officialName: "Bonaire, Sint Eustatius and Saba",
         region: [
             WorldRegion.America,
             WorldRegion.SouthAmerica,
             WorldRegion.Caribbean
         ],
-        code: ISOCountryCode.BonaireSintEustatiusSaba,
-        code3: ISOCountryCode3.BonaireSintEustatiusSaba,
+        alpha2: ISOCountryCode.BonaireSintEustatiusSaba,
+        alpha3: ISOCountryCode3.BonaireSintEustatiusSaba,
         dialCode: ["+599 7", "+599 3", "599 4"],
         languages: [
             ISOLanguageCode.Dutch,
@@ -533,18 +533,18 @@ export const countryInfo: CountryInfo[] = [
             ".bq",
             ".nl"
         ],
-        sovereign: false,
+        isSovereign: false,
         territoryOf: ISOCountryCode.Netherlands
     },
     {
         name: "Bosnia and Herzegovina",
-        nameFull: "Bosnia and Herzegovina",
+        officialName: "Bosnia and Herzegovina",
         region: [
             WorldRegion.Europe,
             WorldRegion.EuropeEastern,
         ],
-        code: ISOCountryCode.BosniaAndHerzegovina,
-        code3: ISOCountryCode3.BosniaAndHerzegovina,
+        alpha2: ISOCountryCode.BosniaAndHerzegovina,
+        alpha3: ISOCountryCode3.BosniaAndHerzegovina,
         dialCode: "+387",
         languages: [
             ISOLanguageCode.Bosnian,
@@ -554,16 +554,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".ba"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Botswana",
-        nameFull: "The Republic of Botswana",
+        officialName: "The Republic of Botswana",
         region: [
             WorldRegion.Africa
         ],
-        code: ISOCountryCode.Botswana,
-        code3: ISOCountryCode3.Botswana,
+        alpha2: ISOCountryCode.Botswana,
+        alpha3: ISOCountryCode3.Botswana,
         dialCode: "+267",
         languages: [
             ISOLanguageCode.English,
@@ -572,17 +572,17 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".bw"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Bouvet Island",
-        nameFull: "Bouvet Island",
+        officialName: "Bouvet Island",
         region: [
             WorldRegion.America,
             WorldRegion.SouthAmerica
         ],
-        code: ISOCountryCode.BouvetIsland,
-        code3: ISOCountryCode3.BouvetIsland,
+        alpha2: ISOCountryCode.BouvetIsland,
+        alpha3: ISOCountryCode3.BouvetIsland,
         dialCode: "+47",
         languages: [
             ISOLanguageCode.Norwegian,
@@ -591,18 +591,18 @@ export const countryInfo: CountryInfo[] = [
             ".no",
             ".bv"
         ],
-        sovereign: false,
+        isSovereign: false,
         territoryOf: ISOCountryCode.Norway
     },
     {
         name: "Brazil",
-        nameFull: "The Federative Republic of Brazil",
+        officialName: "The Federative Republic of Brazil",
         region: [
             WorldRegion.America,
             WorldRegion.SouthAmerica
         ],
-        code: ISOCountryCode.Brazil,
-        code3: ISOCountryCode3.Brazil,
+        alpha2: ISOCountryCode.Brazil,
+        alpha3: ISOCountryCode3.Brazil,
         dialCode: "+55",
         languages: [
             ISOLanguageCode.Portuguese,
@@ -611,16 +611,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".br"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "British Indian Ocean Territory",
-        nameFull: "The British Indian Ocean Territory",
+        officialName: "The British Indian Ocean Territory",
         region: [
             WorldRegion.Asia
         ],
-        code: ISOCountryCode.BritishIndianOceanTerritory,
-        code3: ISOCountryCode3.BritishIndianOceanTerritory,
+        alpha2: ISOCountryCode.BritishIndianOceanTerritory,
+        alpha3: ISOCountryCode3.BritishIndianOceanTerritory,
         dialCode: "+246",
         languages: [
             ISOLanguageCode.English,
@@ -629,17 +629,17 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".io"
         ],
-        sovereign: false,
+        isSovereign: false,
         territoryOf: ISOCountryCode.UnitedKingdom
     },
     {
         name: "Brunei Darussalam",
-        nameFull: "The Nation of Brunei, the Abode of Peace",
+        officialName: "The Nation of Brunei, the Abode of Peace",
         region: [
             WorldRegion.Asia
         ],
-        code: ISOCountryCode.BruneiDarussalam,
-        code3: ISOCountryCode3.BruneiDarussalam,
+        alpha2: ISOCountryCode.BruneiDarussalam,
+        alpha3: ISOCountryCode3.BruneiDarussalam,
         dialCode: "+673",
         languages: [
             ISOLanguageCode.Malay,
@@ -649,18 +649,18 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".bn"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Bulgaria",
-        nameFull: "The Republic of Bulgaria",
+        officialName: "The Republic of Bulgaria",
         region: [
             WorldRegion.Europe,
             WorldRegion.EuropeEastern,
             WorldRegion.EuropeanUnion,
         ],
-        code: ISOCountryCode.Bulgaria,
-        code3: ISOCountryCode3.Bulgaria,
+        alpha2: ISOCountryCode.Bulgaria,
+        alpha3: ISOCountryCode3.Bulgaria,
         dialCode: "+359",
         languages: [
             ISOLanguageCode.Bulgarian,
@@ -668,16 +668,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".bg"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Burkina Faso",
-        nameFull: "Burkina Faso",
+        officialName: "Burkina Faso",
         region: [
             WorldRegion.Africa
         ],
-        code: ISOCountryCode.BurkinaFaso,
-        code3: ISOCountryCode3.BurkinaFaso,
+        alpha2: ISOCountryCode.BurkinaFaso,
+        alpha3: ISOCountryCode3.BurkinaFaso,
         dialCode: "+226",
         languages: [
             ISOLanguageCode.French,
@@ -685,16 +685,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".bf"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Burundi",
-        nameFull: "The Republic of Burundi",
+        officialName: "The Republic of Burundi",
         region: [
             WorldRegion.Africa
         ],
-        code: ISOCountryCode.Burundi,
-        code3: ISOCountryCode3.Burundi,
+        alpha2: ISOCountryCode.Burundi,
+        alpha3: ISOCountryCode3.Burundi,
         dialCode: "+257",
         languages: [
             ISOLanguageCode.French,
@@ -704,16 +704,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".bi"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Cambodia",
-        nameFull: "The Kingdom of Cambodia",
+        officialName: "The Kingdom of Cambodia",
         region: [
             WorldRegion.Asia
         ],
-        code: ISOCountryCode.Cambodia,
-        code3: ISOCountryCode3.Cambodia,
+        alpha2: ISOCountryCode.Cambodia,
+        alpha3: ISOCountryCode3.Cambodia,
         dialCode: "+855",
         languages: [
             ISOLanguageCode.Khmer,
@@ -721,16 +721,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".kh"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Cameroon",
-        nameFull: "The Republic of Cameroon",
+        officialName: "The Republic of Cameroon",
         region: [
             WorldRegion.Africa
         ],
-        code: ISOCountryCode.Cameroon,
-        code3: ISOCountryCode3.Cameroon,
+        alpha2: ISOCountryCode.Cameroon,
+        alpha3: ISOCountryCode3.Cameroon,
         dialCode: "+237",
         languages: [
             ISOLanguageCode.English,
@@ -740,17 +740,17 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".cm"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Canada",
-        nameFull: "Canada",
+        officialName: "Canada",
         region: [
             WorldRegion.America,
             WorldRegion.NorthAmerica
         ],
-        code: ISOCountryCode.Canada,
-        code3: ISOCountryCode3.Canada,
+        alpha2: ISOCountryCode.Canada,
+        alpha3: ISOCountryCode3.Canada,
         dialCode: "+1",
         languages: [
             ISOLanguageCode.English,
@@ -761,16 +761,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".ca"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Canary Islands",
-        nameFull: "Canary Islands",
+        officialName: "Canary Islands",
         region: [
             WorldRegion.Africa
         ],
-        code: ISOCountryCode.CanaryIslands,
-        code3: null,
+        alpha2: ISOCountryCode.CanaryIslands,
+        alpha3: null,
         dialCode: "+1",
         languages: [
             ISOLanguageCode.Spanish,
@@ -779,17 +779,17 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".ca"
         ],
-        sovereign: false,
+        isSovereign: false,
         territoryOf: ISOCountryCode.Spain,
     },
     {
         name: "Cape Verde",
-        nameFull: "The Republic of Cabo Verde",
+        officialName: "The Republic of Cabo Verde",
         region: [
             WorldRegion.Africa
         ],
-        code: ISOCountryCode.CaboVerde,
-        code3: ISOCountryCode3.CaboVerde,
+        alpha2: ISOCountryCode.CaboVerde,
+        alpha3: ISOCountryCode3.CaboVerde,
         dialCode: "+238",
         languages: [
             ISOLanguageCode.Portuguese,
@@ -797,18 +797,18 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".cv"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Catalonia",
-        nameFull: "Catalonia",
+        officialName: "Catalonia",
         region: [
             WorldRegion.Europe,
             WorldRegion.EuropeSouthern,
             WorldRegion.EuropeanUnion,
         ],
-        code: ISOCountryCode.Catalonia,
-        code3: null,
+        alpha2: ISOCountryCode.Catalonia,
+        alpha3: null,
         dialCode: ["+34 93", "+34 97"],
         languages: [
             ISOLanguageCode.Spanish,
@@ -818,19 +818,19 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".es"
         ],
-        sovereign: false,
+        isSovereign: false,
         territoryOf: ISOCountryCode.Spain,
     },
     {
         name: "Cayman Islands",
-        nameFull: "The Cayman Islands",
+        officialName: "The Cayman Islands",
         region: [
             WorldRegion.America,
             WorldRegion.NorthAmerica,
             WorldRegion.Caribbean
         ],
-        code: ISOCountryCode.CaymanIslands,
-        code3: ISOCountryCode3.CaymanIslands,
+        alpha2: ISOCountryCode.CaymanIslands,
+        alpha3: ISOCountryCode3.CaymanIslands,
         dialCode: "+1 345",
         languages: [
             ISOLanguageCode.English,
@@ -839,17 +839,17 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".ky"
         ],
-        sovereign: false,
+        isSovereign: false,
         territoryOf: ISOCountryCode.UnitedKingdom
     },
     {
         name: "Central African Republic",
-        nameFull: "The Central African Republic",
+        officialName: "The Central African Republic",
         region: [
             WorldRegion.Africa
         ],
-        code: ISOCountryCode.CentralAfricanRepublic,
-        code3: ISOCountryCode3.CentralAfricanRepublic,
+        alpha2: ISOCountryCode.CentralAfricanRepublic,
+        alpha3: ISOCountryCode3.CentralAfricanRepublic,
         dialCode: "+236",
         languages: [
             ISOLanguageCode.French,
@@ -857,16 +857,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".cf"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Chad",
-        nameFull: "The Republic of Chad",
+        officialName: "The Republic of Chad",
         region: [
             WorldRegion.Africa
         ],
-        code: ISOCountryCode.Chad,
-        code3: ISOCountryCode3.Chad,
+        alpha2: ISOCountryCode.Chad,
+        alpha3: ISOCountryCode3.Chad,
         dialCode: "+235",
         languages: [
             ISOLanguageCode.Arabic,
@@ -875,17 +875,17 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".td"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Chile",
-        nameFull: "The Republic of Chile",
+        officialName: "The Republic of Chile",
         region: [
             WorldRegion.America,
             WorldRegion.SouthAmerica
         ],
-        code: ISOCountryCode.Chile,
-        code3: ISOCountryCode3.Chile,
+        alpha2: ISOCountryCode.Chile,
+        alpha3: ISOCountryCode3.Chile,
         dialCode: "+56",
         languages: [
             ISOLanguageCode.Spanish,
@@ -894,16 +894,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".cl"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "China",
-        nameFull: "The People's Republic of China",
+        officialName: "The People's Republic of China",
         region: [
             WorldRegion.Asia
         ],
-        code: ISOCountryCode.China,
-        code3: ISOCountryCode3.China,
+        alpha2: ISOCountryCode.China,
+        alpha3: ISOCountryCode3.China,
         dialCode: "+86",
         languages: [
             ISOLanguageCode.Chinese,
@@ -912,16 +912,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".cn"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Christmas Island",
-        nameFull: "The Territory of Christmas Island",
+        officialName: "The Territory of Christmas Island",
         region: [
             WorldRegion.Asia
         ],
-        code: ISOCountryCode.ChristmasIsland,
-        code3: ISOCountryCode3.ChristmasIsland,
+        alpha2: ISOCountryCode.ChristmasIsland,
+        alpha3: ISOCountryCode3.ChristmasIsland,
         dialCode: "+61 89164",
         languages: [
             ISOLanguageCode.English,
@@ -932,17 +932,17 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".cx"
         ],
-        sovereign: false,
+        isSovereign: false,
         territoryOf: ISOCountryCode.Australia
     },
     {
         name: "Cocos (Keeling) Islands",
-        nameFull: "The Territory of Cocos (Keeling) Islands",
+        officialName: "The Territory of Cocos (Keeling) Islands",
         region: [
             WorldRegion.Asia
         ],
-        code: ISOCountryCode.CocosIslands,
-        code3: ISOCountryCode3.CocosIslands,
+        alpha2: ISOCountryCode.CocosIslands,
+        alpha3: ISOCountryCode3.CocosIslands,
         dialCode: "+61 89162",
         languages: [
             ISOLanguageCode.English,
@@ -952,18 +952,18 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".cc"
         ],
-        sovereign: false,
+        isSovereign: false,
         territoryOf: ISOCountryCode.Australia
     },
     {
         name: "Colombia",
-        nameFull: "The Republic of Colombia",
+        officialName: "The Republic of Colombia",
         region: [
             WorldRegion.America,
             WorldRegion.SouthAmerica
         ],
-        code: ISOCountryCode.Colombia,
-        code3: ISOCountryCode3.Colombia,
+        alpha2: ISOCountryCode.Colombia,
+        alpha3: ISOCountryCode3.Colombia,
         dialCode: "+57",
         languages: [
             ISOLanguageCode.Spanish,
@@ -972,16 +972,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".co"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Comoros",
-        nameFull: "The Union of the Comoros",
+        officialName: "The Union of the Comoros",
         region: [
             WorldRegion.Africa
         ],
-        code: ISOCountryCode.Comoros,
-        code3: ISOCountryCode3.Comoros,
+        alpha2: ISOCountryCode.Comoros,
+        alpha3: ISOCountryCode3.Comoros,
         dialCode: "+269",
         languages: [
             ISOLanguageCode.Arabic,
@@ -990,17 +990,17 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".km"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Cook Islands",
-        nameFull: "The Cook Islands",
+        officialName: "The Cook Islands",
         region: [
             WorldRegion.Asia,
             WorldRegion.Oceania
         ],
-        code: ISOCountryCode.CookIslands,
-        code3: ISOCountryCode3.CookIslands,
+        alpha2: ISOCountryCode.CookIslands,
+        alpha3: ISOCountryCode3.CookIslands,
         dialCode: "+682",
         languages: [
             ISOLanguageCode.English,
@@ -1009,18 +1009,18 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".ck"
         ],
-        sovereign: false,
+        isSovereign: false,
         territoryOf: ISOCountryCode.NewZealand
     },
     {
         name: "Costa Rica",
-        nameFull: "The Republic of Costa Rica",
+        officialName: "The Republic of Costa Rica",
         region: [
             WorldRegion.America,
             WorldRegion.SouthAmerica
         ],
-        code: ISOCountryCode.CostaRica,
-        code3: ISOCountryCode3.CostaRica,
+        alpha2: ISOCountryCode.CostaRica,
+        alpha3: ISOCountryCode3.CostaRica,
         dialCode: "+506",
         languages: [
             ISOLanguageCode.Spanish,
@@ -1029,18 +1029,18 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".cr"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Croatia",
-        nameFull: "The Republic of Croatia",
+        officialName: "The Republic of Croatia",
         region: [
             WorldRegion.Europe,
             WorldRegion.EuropeSouthern,
             WorldRegion.EuropeanUnion,
         ],
-        code: ISOCountryCode.Croatia,
-        code3: ISOCountryCode3.Croatia,
+        alpha2: ISOCountryCode.Croatia,
+        alpha3: ISOCountryCode3.Croatia,
         dialCode: "+385",
         languages: [
             ISOLanguageCode.Croatian,
@@ -1048,18 +1048,18 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".hr"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Cuba",
-        nameFull: "The Republic of Cuba",
+        officialName: "The Republic of Cuba",
         region: [
             WorldRegion.America,
             WorldRegion.NorthAmerica,
             WorldRegion.Caribbean
         ],
-        code: ISOCountryCode.Cuba,
-        code3: ISOCountryCode3.Cuba,
+        alpha2: ISOCountryCode.Cuba,
+        alpha3: ISOCountryCode3.Cuba,
         dialCode: "+53",
         languages: [
             ISOLanguageCode.Spanish,
@@ -1067,18 +1067,18 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".cu"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Curaçao",
-        nameFull: "The Country of Curaçao",
+        officialName: "The Country of Curaçao",
         region: [
             WorldRegion.America,
             WorldRegion.SouthAmerica,
             WorldRegion.Caribbean
         ],
-        code: ISOCountryCode.Curacao,
-        code3: ISOCountryCode3.Curacao,
+        alpha2: ISOCountryCode.Curacao,
+        alpha3: ISOCountryCode3.Curacao,
         dialCode: "+599 9",
         languages: [
             ISOLanguageCode.Dutch,
@@ -1087,20 +1087,20 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".cw"
         ],
-        sovereign: false,
+        isSovereign: false,
         territoryOf: ISOCountryCode.Netherlands
     },
     {
         name: "Cyprus",
-        nameFull: "The Republic of Cyprus",
+        officialName: "The Republic of Cyprus",
         region: [
             WorldRegion.Europe,
             WorldRegion.EuropeSouthern,
             WorldRegion.EuropeanUnion,
             WorldRegion.MiddleEast
         ],
-        code: ISOCountryCode.Cyprus,
-        code3: ISOCountryCode3.Cyprus,
+        alpha2: ISOCountryCode.Cyprus,
+        alpha3: ISOCountryCode3.Cyprus,
         dialCode: "+357",
         languages: [
             ISOLanguageCode.Greek,
@@ -1109,18 +1109,18 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".cy"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Czechia",
-        nameFull: "The Czech Republic",
+        officialName: "The Czech Republic",
         region: [
             WorldRegion.Europe,
             WorldRegion.EuropeEastern,
             WorldRegion.EuropeanUnion,
         ],
-        code: ISOCountryCode.Czechia,
-        code3: ISOCountryCode3.Czechia,
+        alpha2: ISOCountryCode.Czechia,
+        alpha3: ISOCountryCode3.Czechia,
         dialCode: "+420",
         languages: [
             ISOLanguageCode.Czech,
@@ -1129,16 +1129,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".cz"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Democratic Republic of Congo",
-        nameFull: "The Democratic Republic of the Congo",
+        officialName: "The Democratic Republic of the Congo",
         region: [
             WorldRegion.Africa
         ],
-        code: ISOCountryCode.DemocraticRepublicOfCongo,
-        code3: ISOCountryCode3.DemocraticRepublicOfCongo,
+        alpha2: ISOCountryCode.DemocraticRepublicOfCongo,
+        alpha3: ISOCountryCode3.DemocraticRepublicOfCongo,
         dialCode: "+243",
         languages: [
             ISOLanguageCode.French,
@@ -1147,18 +1147,18 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".cd"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Denmark",
-        nameFull: "The Kingdom of Denmark",
+        officialName: "The Kingdom of Denmark",
         region: [
             WorldRegion.Europe,
             WorldRegion.EuropeNorthern,
             WorldRegion.EuropeanUnion,
         ],
-        code: ISOCountryCode.Denmark,
-        code3: ISOCountryCode3.Denmark,
+        alpha2: ISOCountryCode.Denmark,
+        alpha3: ISOCountryCode3.Denmark,
         dialCode: "+45",
         languages: [
             ISOLanguageCode.Danish,
@@ -1166,16 +1166,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".dk"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Djibouti",
-        nameFull: "The Republic of Djibouti",
+        officialName: "The Republic of Djibouti",
         region: [
             WorldRegion.Africa
         ],
-        code: ISOCountryCode.Djibouti,
-        code3: ISOCountryCode3.Djibouti,
+        alpha2: ISOCountryCode.Djibouti,
+        alpha3: ISOCountryCode3.Djibouti,
         dialCode: "+253",
         languages: [
             ISOLanguageCode.Arabic,
@@ -1184,18 +1184,18 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".dj"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Dominica",
-        nameFull: "The Commonwealth of Dominica",
+        officialName: "The Commonwealth of Dominica",
         region: [
             WorldRegion.America,
             WorldRegion.SouthAmerica,
             WorldRegion.Caribbean
         ],
-        code: ISOCountryCode.Dominica,
-        code3: ISOCountryCode3.Dominica,
+        alpha2: ISOCountryCode.Dominica,
+        alpha3: ISOCountryCode3.Dominica,
         dialCode: "+1 767",
         languages: [
             ISOLanguageCode.English,
@@ -1204,18 +1204,18 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".dm"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Dominican Republic",
-        nameFull: "The Dominican Republic",
+        officialName: "The Dominican Republic",
         region: [
             WorldRegion.America,
             WorldRegion.NorthAmerica,
             WorldRegion.Caribbean
         ],
-        code: ISOCountryCode.DominicanRepublic,
-        code3: ISOCountryCode3.DominicanRepublic,
+        alpha2: ISOCountryCode.DominicanRepublic,
+        alpha3: ISOCountryCode3.DominicanRepublic,
         dialCode: ["+1 809", "+1 829", "+1 849"],
         languages: [
             ISOLanguageCode.Spanish,
@@ -1224,17 +1224,17 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".do"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Ecuador",
-        nameFull: "The Republic of Ecuador",
+        officialName: "The Republic of Ecuador",
         region: [
             WorldRegion.America,
             WorldRegion.SouthAmerica
         ],
-        code: ISOCountryCode.Ecuador,
-        code3: ISOCountryCode3.Ecuador,
+        alpha2: ISOCountryCode.Ecuador,
+        alpha3: ISOCountryCode3.Ecuador,
         dialCode: "+593",
         languages: [
             ISOLanguageCode.Spanish,
@@ -1243,17 +1243,17 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".ec"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Egypt",
-        nameFull: "The Arab Republic of Egypt",
+        officialName: "The Arab Republic of Egypt",
         region: [
             WorldRegion.Africa,
             WorldRegion.MiddleEast
         ],
-        code: ISOCountryCode.Egypt,
-        code3: ISOCountryCode3.Egypt,
+        alpha2: ISOCountryCode.Egypt,
+        alpha3: ISOCountryCode3.Egypt,
         dialCode: "+20",
         languages: [
             ISOLanguageCode.Arabic,
@@ -1262,16 +1262,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".eg"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "El Salvador",
-        nameFull: "The Republic of El Salvador",
+        officialName: "The Republic of El Salvador",
         region: [
             WorldRegion.SouthAmerica
         ],
-        code: ISOCountryCode.ElSalvador,
-        code3: ISOCountryCode3.ElSalvador,
+        alpha2: ISOCountryCode.ElSalvador,
+        alpha3: ISOCountryCode3.ElSalvador,
         dialCode: "+503",
         languages: [
             ISOLanguageCode.Spanish,
@@ -1280,18 +1280,18 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".sv"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "England",
-        nameFull: "England",
+        officialName: "England",
         region: [
             WorldRegion.Europe,
             WorldRegion.EuropeNorthern,
             WorldRegion.MainlandUnitedKingdom
         ],
-        code: ISOCountryCode.England,
-        code3: null,
+        alpha2: ISOCountryCode.England,
+        alpha3: null,
         dialCode: "+44",
         languages: [
             ISOLanguageCode.English,
@@ -1301,17 +1301,17 @@ export const countryInfo: CountryInfo[] = [
             ".gb",
             ".uk"
         ],
-        sovereign: false,
+        isSovereign: false,
         territoryOf: ISOCountryCode.UnitedKingdom,
     },
     {
         name: "Equatorial Guinea",
-        nameFull: "The Republic of Equatorial Guinea",
+        officialName: "The Republic of Equatorial Guinea",
         region: [
             WorldRegion.Africa
         ],
-        code: ISOCountryCode.EquatorialGuinea,
-        code3: ISOCountryCode3.EquatorialGuinea,
+        alpha2: ISOCountryCode.EquatorialGuinea,
+        alpha3: ISOCountryCode3.EquatorialGuinea,
         dialCode: "+240",
         languages: [
             ISOLanguageCode.French,
@@ -1321,16 +1321,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".gq"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Eritrea",
-        nameFull: "The State of Eritrea",
+        officialName: "The State of Eritrea",
         region: [
             WorldRegion.Africa
         ],
-        code: ISOCountryCode.Eritrea,
-        code3: ISOCountryCode3.Eritrea,
+        alpha2: ISOCountryCode.Eritrea,
+        alpha3: ISOCountryCode3.Eritrea,
         dialCode: "+291",
         languages: [
             ISOLanguageCode.Tigrinya
@@ -1338,18 +1338,18 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".er"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Estonia",
-        nameFull: "The Republic of Estonia",
+        officialName: "The Republic of Estonia",
         region: [
             WorldRegion.Europe,
             WorldRegion.EuropeNorthern,
             WorldRegion.EuropeanUnion,
         ],
-        code: ISOCountryCode.Estonia,
-        code3: ISOCountryCode3.Estonia,
+        alpha2: ISOCountryCode.Estonia,
+        alpha3: ISOCountryCode3.Estonia,
         dialCode: "+372",
         languages: [
             ISOLanguageCode.Estonian,
@@ -1357,16 +1357,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".ee"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Eswatini",
-        nameFull: "The Kingdom of Eswatini",
+        officialName: "The Kingdom of Eswatini",
         region: [
             WorldRegion.Africa
         ],
-        code: ISOCountryCode.Eswatini,
-        code3: ISOCountryCode3.Eswatini,
+        alpha2: ISOCountryCode.Eswatini,
+        alpha3: ISOCountryCode3.Eswatini,
         dialCode: "+268",
         languages: [
             ISOLanguageCode.English,
@@ -1376,16 +1376,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".sz"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Ethiopia",
-        nameFull: "The Federal Democratic Republic of Ethiopia",
+        officialName: "The Federal Democratic Republic of Ethiopia",
         region: [
             WorldRegion.Africa
         ],
-        code: ISOCountryCode.Ethiopia,
-        code3: ISOCountryCode3.Ethiopia,
+        alpha2: ISOCountryCode.Ethiopia,
+        alpha3: ISOCountryCode3.Ethiopia,
         dialCode: "+251",
         languages: [
             ISOLanguageCode.Amharic,
@@ -1395,16 +1395,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".et"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "European Union",
-        nameFull: "European Union",
+        officialName: "European Union",
         region: [
             WorldRegion.Europe,
         ],
-        code: ISOCountryCode.EuropeanUnion,
-        code3: null,
+        alpha2: ISOCountryCode.EuropeanUnion,
+        alpha3: null,
         dialCode: null,
         languages: [
             ISOLanguageCode.English,
@@ -1414,16 +1414,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".eu"
         ],
-        sovereign: false,
+        isSovereign: false,
     },
     {
         name: "Falkland Islands",
-        nameFull: "The Falkland Islands",
+        officialName: "The Falkland Islands",
         region: [
             WorldRegion.SouthAmerica
         ],
-        code: ISOCountryCode.FalklandIslands,
-        code3: ISOCountryCode3.FalklandIslands,
+        alpha2: ISOCountryCode.FalklandIslands,
+        alpha3: ISOCountryCode3.FalklandIslands,
         dialCode: "+500",
         languages: [
             ISOLanguageCode.English,
@@ -1432,17 +1432,17 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".fk"
         ],
-        sovereign: false,
+        isSovereign: false,
         territoryOf: ISOCountryCode.UnitedKingdom
     },
     {
         name: "Faroe Islands",
-        nameFull: "The Faroe Islands",
+        officialName: "The Faroe Islands",
         region: [
             WorldRegion.Europe
         ],
-        code: ISOCountryCode.FaroeIslands,
-        code3: ISOCountryCode3.FaroeIslands,
+        alpha2: ISOCountryCode.FaroeIslands,
+        alpha3: ISOCountryCode3.FaroeIslands,
         dialCode: "+298",
         languages: [
             ISOLanguageCode.Faroese,
@@ -1450,17 +1450,17 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".fo"
         ],
-        sovereign: false,
+        isSovereign: false,
         territoryOf: ISOCountryCode.Denmark
     },
     {
         name: "Fiji",
-        nameFull: "The Republic of Fiji",
+        officialName: "The Republic of Fiji",
         region: [
             WorldRegion.Oceania
         ],
-        code: ISOCountryCode.Fiji,
-        code3: ISOCountryCode3.Fiji,
+        alpha2: ISOCountryCode.Fiji,
+        alpha3: ISOCountryCode3.Fiji,
         dialCode: "+679",
         languages: [
             ISOLanguageCode.English,
@@ -1469,19 +1469,19 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".fj"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Finland",
-        nameFull: "The Republic of Finland",
+        officialName: "The Republic of Finland",
         region: [
             WorldRegion.Europe,
             WorldRegion.EuropeNorthern,
             WorldRegion.EuropeanUnion,
             WorldRegion.Scandinavia,
         ],
-        code: ISOCountryCode.Finland,
-        code3: ISOCountryCode3.Finland,
+        alpha2: ISOCountryCode.Finland,
+        alpha3: ISOCountryCode3.Finland,
         dialCode: "+358",
         languages: [
             ISOLanguageCode.Finnish,
@@ -1491,18 +1491,18 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".fi"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "France",
-        nameFull: "The French Republic",
+        officialName: "The French Republic",
         region: [
             WorldRegion.Europe,
             WorldRegion.EuropeWestern,
             WorldRegion.EuropeanUnion,
         ],
-        code: ISOCountryCode.France,
-        code3: ISOCountryCode3.France,
+        alpha2: ISOCountryCode.France,
+        alpha3: ISOCountryCode3.France,
         dialCode: "+33",
         languages: [
             ISOLanguageCode.French,
@@ -1511,16 +1511,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".fr"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "French Guiana",
-        nameFull: "Guyane",
+        officialName: "Guyane",
         region: [
             WorldRegion.SouthAmerica
         ],
-        code: ISOCountryCode.FrenchGuiana,
-        code3: ISOCountryCode3.FrenchGuiana,
+        alpha2: ISOCountryCode.FrenchGuiana,
+        alpha3: ISOCountryCode3.FrenchGuiana,
         dialCode: "+594",
         languages: [
             ISOLanguageCode.French,
@@ -1528,18 +1528,18 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".gf"
         ],
-        sovereign: false,
+        isSovereign: false,
         territoryOf: ISOCountryCode.France
     },
     {
         name: "French Polynesia",
-        nameFull: "French Polynesia",
+        officialName: "French Polynesia",
         region: [
             WorldRegion.Asia,
             WorldRegion.Oceania
         ],
-        code: ISOCountryCode.FrenchPolynesia,
-        code3: ISOCountryCode3.FrenchPolynesia,
+        alpha2: ISOCountryCode.FrenchPolynesia,
+        alpha3: ISOCountryCode3.FrenchPolynesia,
         dialCode: "+689",
         languages: [
             ISOLanguageCode.French,
@@ -1547,17 +1547,17 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".pf"
         ],
-        sovereign: false,
+        isSovereign: false,
         territoryOf: ISOCountryCode.France
     },
     {
         name: "French Southern Territories",
-        nameFull: "The French Southern and Antarctic Lands",
+        officialName: "The French Southern and Antarctic Lands",
         region: [
             WorldRegion.Antarctica
         ],
-        code: ISOCountryCode.FrenchSouthernTerritories,
-        code3: ISOCountryCode3.FrenchSouthernTerritories,
+        alpha2: ISOCountryCode.FrenchSouthernTerritories,
+        alpha3: ISOCountryCode3.FrenchSouthernTerritories,
         dialCode: "+262",
         languages: [
             ISOLanguageCode.French,
@@ -1565,17 +1565,17 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".tf"
         ],
-        sovereign: false,
+        isSovereign: false,
         territoryOf: ISOCountryCode.France
     },
     {
         name: "Gabon",
-        nameFull: "The Gabonese Republic",
+        officialName: "The Gabonese Republic",
         region: [
             WorldRegion.Africa
         ],
-        code: ISOCountryCode.Gabon,
-        code3: ISOCountryCode3.Gabon,
+        alpha2: ISOCountryCode.Gabon,
+        alpha3: ISOCountryCode3.Gabon,
         dialCode: "+241",
         languages: [
             ISOLanguageCode.French,
@@ -1583,16 +1583,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".ga"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Gambia",
-        nameFull: "The Republic of The Gambia",
+        officialName: "The Republic of The Gambia",
         region: [
             WorldRegion.Africa
         ],
-        code: ISOCountryCode.Gambia,
-        code3: ISOCountryCode3.Gambia,
+        alpha2: ISOCountryCode.Gambia,
+        alpha3: ISOCountryCode3.Gambia,
         dialCode: "+220",
         languages: [
             ISOLanguageCode.English,
@@ -1601,17 +1601,17 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".gm"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Georgia",
-        nameFull: "Georgia",
+        officialName: "Georgia",
         region: [
             WorldRegion.Europe,
             WorldRegion.Asia
         ],
-        code: ISOCountryCode.Georgia,
-        code3: ISOCountryCode3.Georgia,
+        alpha2: ISOCountryCode.Georgia,
+        alpha3: ISOCountryCode3.Georgia,
         dialCode: "+995",
         languages: [
             ISOLanguageCode.Georgian,
@@ -1619,18 +1619,18 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".ge"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Germany",
-        nameFull: "The Federal Republic of Germany",
+        officialName: "The Federal Republic of Germany",
         region: [
             WorldRegion.Europe,
             WorldRegion.EuropeWestern,
             WorldRegion.EuropeanUnion,
         ],
-        code: ISOCountryCode.Germany,
-        code3: ISOCountryCode3.Germany,
+        alpha2: ISOCountryCode.Germany,
+        alpha3: ISOCountryCode3.Germany,
         dialCode: "+49",
         languages: [
             ISOLanguageCode.German,
@@ -1639,16 +1639,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".de"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Ghana",
-        nameFull: "The Republic of Ghana",
+        officialName: "The Republic of Ghana",
         region: [
             WorldRegion.Africa
         ],
-        code: ISOCountryCode.Ghana,
-        code3: ISOCountryCode3.Ghana,
+        alpha2: ISOCountryCode.Ghana,
+        alpha3: ISOCountryCode3.Ghana,
         dialCode: "+233",
         languages: [
             ISOLanguageCode.English,
@@ -1657,17 +1657,17 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".gh"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Gibraltar",
-        nameFull: "Gibraltar",
+        officialName: "Gibraltar",
         region: [
             WorldRegion.Europe,
             WorldRegion.EuropeSouthern,
         ],
-        code: ISOCountryCode.Gibraltar,
-        code3: ISOCountryCode3.Gibraltar,
+        alpha2: ISOCountryCode.Gibraltar,
+        alpha3: ISOCountryCode3.Gibraltar,
         dialCode: "+350",
         languages: [
             ISOLanguageCode.English,
@@ -1675,19 +1675,19 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".gi"
         ],
-        sovereign: false,
+        isSovereign: false,
         territoryOf: ISOCountryCode.UnitedKingdom
     },
     {
         name: "Greece",
-        nameFull: "The Hellenic Republic",
+        officialName: "The Hellenic Republic",
         region: [
             WorldRegion.Europe,
             WorldRegion.EuropeSouthern,
             WorldRegion.EuropeanUnion,
         ],
-        code: ISOCountryCode.Greece,
-        code3: ISOCountryCode3.Greece,
+        alpha2: ISOCountryCode.Greece,
+        alpha3: ISOCountryCode3.Greece,
         dialCode: "+30",
         languages: [
             ISOLanguageCode.Greek,
@@ -1695,17 +1695,17 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".gr"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Greenland",
-        nameFull: "Kalaallit Nunaat",
+        officialName: "Kalaallit Nunaat",
         region: [
             WorldRegion.America,
             WorldRegion.NorthAmerica
         ],
-        code: ISOCountryCode.Greenland,
-        code3: ISOCountryCode3.Greenland,
+        alpha2: ISOCountryCode.Greenland,
+        alpha3: ISOCountryCode3.Greenland,
         dialCode: "+299",
         languages: [
             ISOLanguageCode.Greenlandic,
@@ -1713,19 +1713,19 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".gl"
         ],
-        sovereign: false,
+        isSovereign: false,
         territoryOf: ISOCountryCode.Denmark
     },
     {
         name: "Grenada",
-        nameFull: "Grenada",
+        officialName: "Grenada",
         region: [
             WorldRegion.America,
             WorldRegion.SouthAmerica,
             WorldRegion.Caribbean
         ],
-        code: ISOCountryCode.Grenada,
-        code3: ISOCountryCode3.Grenada,
+        alpha2: ISOCountryCode.Grenada,
+        alpha3: ISOCountryCode3.Grenada,
         dialCode: "+1 473",
         languages: [
             ISOLanguageCode.English,
@@ -1733,18 +1733,18 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".gd"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Guadeloupe",
-        nameFull: "Guadeloupe",
+        officialName: "Guadeloupe",
         region: [
             WorldRegion.America,
             WorldRegion.SouthAmerica,
             WorldRegion.Caribbean
         ],
-        code: ISOCountryCode.Guadeloupe,
-        code3: ISOCountryCode3.Guadeloupe,
+        alpha2: ISOCountryCode.Guadeloupe,
+        alpha3: ISOCountryCode3.Guadeloupe,
         dialCode: "+590",
         languages: [
             ISOLanguageCode.French,
@@ -1753,17 +1753,17 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".gp"
         ],
-        sovereign: false,
+        isSovereign: false,
         territoryOf: ISOCountryCode.France
     },
     {
         name: "Guam",
-        nameFull: "The Territory of Guam",
+        officialName: "The Territory of Guam",
         region: [
             WorldRegion.Oceania
         ],
-        code: ISOCountryCode.Guam,
-        code3: ISOCountryCode3.Guam,
+        alpha2: ISOCountryCode.Guam,
+        alpha3: ISOCountryCode3.Guam,
         dialCode: "+1 671",
         languages: [
             ISOLanguageCode.English,
@@ -1772,18 +1772,18 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".gu"
         ],
-        sovereign: false,
+        isSovereign: false,
         territoryOf: ISOCountryCode.UnitedStatesOfAmerica,
     },
     {
         name: "Guatemala",
-        nameFull: "The Republic of Guatemala",
+        officialName: "The Republic of Guatemala",
         region: [
             WorldRegion.America,
             WorldRegion.NorthAmerica
         ],
-        code: ISOCountryCode.Guatemala,
-        code3: ISOCountryCode3.Guatemala,
+        alpha2: ISOCountryCode.Guatemala,
+        alpha3: ISOCountryCode3.Guatemala,
         dialCode: "+502",
         languages: [
             ISOLanguageCode.Spanish,
@@ -1792,16 +1792,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".gt"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Guernsey",
-        nameFull: "The Bailiwick of Guernsey",
+        officialName: "The Bailiwick of Guernsey",
         region: [
             WorldRegion.Europe
         ],
-        code: ISOCountryCode.Guernsey,
-        code3: ISOCountryCode3.Guernsey,
+        alpha2: ISOCountryCode.Guernsey,
+        alpha3: ISOCountryCode3.Guernsey,
         dialCode: ["+44 1481", "+44 7781", "+44 7839", "+44 7911"],
         languages: [
             ISOLanguageCode.English,
@@ -1809,16 +1809,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".gg"
         ],
-        sovereign: false,
+        isSovereign: false,
     },
     {
         name: "Guinea",
-        nameFull: "The Republic of Guinea",
+        officialName: "The Republic of Guinea",
         region: [
             WorldRegion.Africa
         ],
-        code: ISOCountryCode.Guinea,
-        code3: ISOCountryCode3.Guinea,
+        alpha2: ISOCountryCode.Guinea,
+        alpha3: ISOCountryCode3.Guinea,
         dialCode: "+224",
         languages: [
             ISOLanguageCode.French,
@@ -1826,16 +1826,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".gn"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Guinea-Bissau",
-        nameFull: "The Republic of Guinea-Bissau",
+        officialName: "The Republic of Guinea-Bissau",
         region: [
             WorldRegion.Africa
         ],
-        code: ISOCountryCode.GuineaBissau,
-        code3: ISOCountryCode3.GuineaBissau,
+        alpha2: ISOCountryCode.GuineaBissau,
+        alpha3: ISOCountryCode3.GuineaBissau,
         dialCode: "+245",
         languages: [
             ISOLanguageCode.Portuguese,
@@ -1843,18 +1843,18 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".gw"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Guyana",
-        nameFull: "The Co-operative Republic of Guyana",
+        officialName: "The Co-operative Republic of Guyana",
         region: [
             WorldRegion.America,
             WorldRegion.SouthAmerica,
             WorldRegion.Caribbean
         ],
-        code: ISOCountryCode.Guyana,
-        code3: ISOCountryCode3.Guyana,
+        alpha2: ISOCountryCode.Guyana,
+        alpha3: ISOCountryCode3.Guyana,
         dialCode: "+592",
         languages: [
             ISOLanguageCode.English,
@@ -1862,18 +1862,18 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".gy"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Haiti",
-        nameFull: "The Republic of Haiti",
+        officialName: "The Republic of Haiti",
         region: [
             WorldRegion.America,
             WorldRegion.NorthAmerica,
             WorldRegion.Caribbean
         ],
-        code: ISOCountryCode.Haiti,
-        code3: ISOCountryCode3.Haiti,
+        alpha2: ISOCountryCode.Haiti,
+        alpha3: ISOCountryCode3.Haiti,
         dialCode: "+509",
         languages: [
             ISOLanguageCode.French,
@@ -1881,33 +1881,33 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".ht"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Heard Island and McDonald Islands",
-        nameFull: "The Territory of Heard Island and McDonald Islands",
+        officialName: "The Territory of Heard Island and McDonald Islands",
         region: [
             WorldRegion.Antarctica
         ],
-        code: ISOCountryCode.HeardIslandAndMcdonaldIslands,
-        code3: ISOCountryCode3.HeardIslandAndMcdonaldIslands,
+        alpha2: ISOCountryCode.HeardIslandAndMcdonaldIslands,
+        alpha3: ISOCountryCode3.HeardIslandAndMcdonaldIslands,
         dialCode: "+0",
         languages: [],
         domains: [
             ".hm"
         ],
-        sovereign: false,
+        isSovereign: false,
         territoryOf: ISOCountryCode.Australia
     },
     {
         name: "Honduras",
-        nameFull: "The Republic of Honduras",
+        officialName: "The Republic of Honduras",
         region: [
             WorldRegion.America,
             WorldRegion.NorthAmerica
         ],
-        code: ISOCountryCode.Honduras,
-        code3: ISOCountryCode3.Honduras,
+        alpha2: ISOCountryCode.Honduras,
+        alpha3: ISOCountryCode3.Honduras,
         dialCode: "+504",
         languages: [
             ISOLanguageCode.Spanish,
@@ -1916,16 +1916,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".hn"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Hong Kong",
-        nameFull: "The Hong Kong Special Administrative Region of China",
+        officialName: "The Hong Kong Special Administrative Region of China",
         region: [
             WorldRegion.Asia
         ],
-        code: ISOCountryCode.HongKong,
-        code3: ISOCountryCode3.HongKong,
+        alpha2: ISOCountryCode.HongKong,
+        alpha3: ISOCountryCode3.HongKong,
         dialCode: "+852",
         languages: [
             ISOLanguageCode.Chinese,
@@ -1934,19 +1934,19 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".hk"
         ],
-        sovereign: false,
+        isSovereign: false,
         territoryOf: ISOCountryCode.China
     },
     {
         name: "Hungary",
-        nameFull: "Hungary",
+        officialName: "Hungary",
         region: [
             WorldRegion.Europe,
             WorldRegion.EuropeEastern,
             WorldRegion.EuropeanUnion,
         ],
-        code: ISOCountryCode.Hungary,
-        code3: ISOCountryCode3.Hungary,
+        alpha2: ISOCountryCode.Hungary,
+        alpha3: ISOCountryCode3.Hungary,
         dialCode: "+36",
         languages: [
             ISOLanguageCode.Hungarian,
@@ -1954,17 +1954,17 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".hu"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Iceland",
-        nameFull: "Iceland",
+        officialName: "Iceland",
         region: [
             WorldRegion.Europe,
             WorldRegion.EuropeNorthern,
         ],
-        code: ISOCountryCode.Iceland,
-        code3: ISOCountryCode3.Iceland,
+        alpha2: ISOCountryCode.Iceland,
+        alpha3: ISOCountryCode3.Iceland,
         dialCode: "+354",
         languages: [
             ISOLanguageCode.Icelandic,
@@ -1972,16 +1972,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".is"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "India",
-        nameFull: "The Republic of India",
+        officialName: "The Republic of India",
         region: [
             WorldRegion.Asia
         ],
-        code: ISOCountryCode.India,
-        code3: ISOCountryCode3.India,
+        alpha2: ISOCountryCode.India,
+        alpha3: ISOCountryCode3.India,
         dialCode: "+91",
         languages: [
             ISOLanguageCode.Hindi,
@@ -2000,16 +2000,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".in"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Indonesia",
-        nameFull: "The Republic of Indonesia",
+        officialName: "The Republic of Indonesia",
         region: [
             WorldRegion.Asia
         ],
-        code: ISOCountryCode.Indonesia,
-        code3: ISOCountryCode3.Indonesia,
+        alpha2: ISOCountryCode.Indonesia,
+        alpha3: ISOCountryCode3.Indonesia,
         dialCode: "+62",
         languages: [
             ISOLanguageCode.Indonesian,
@@ -2017,17 +2017,17 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".id"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Iran",
-        nameFull: "The Islamic Republic of Iran",
+        officialName: "The Islamic Republic of Iran",
         region: [
             WorldRegion.Asia,
             WorldRegion.MiddleEast
         ],
-        code: ISOCountryCode.Iran,
-        code3: ISOCountryCode3.Iran,
+        alpha2: ISOCountryCode.Iran,
+        alpha3: ISOCountryCode3.Iran,
         dialCode: "+98",
         languages: [
             ISOLanguageCode.Persian,
@@ -2035,17 +2035,17 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".ir"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Iraq",
-        nameFull: "The Republic of Iraq",
+        officialName: "The Republic of Iraq",
         region: [
             WorldRegion.Asia,
             WorldRegion.MiddleEast
         ],
-        code: ISOCountryCode.Iraq,
-        code3: ISOCountryCode3.Iraq,
+        alpha2: ISOCountryCode.Iraq,
+        alpha3: ISOCountryCode3.Iraq,
         dialCode: "+964",
         languages: [
             ISOLanguageCode.Arabic,
@@ -2054,18 +2054,18 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".iq"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Ireland",
-        nameFull: "Ireland",
+        officialName: "Ireland",
         region: [
             WorldRegion.Europe,
             WorldRegion.EuropeNorthern,
             WorldRegion.EuropeanUnion,
         ],
-        code: ISOCountryCode.Ireland,
-        code3: ISOCountryCode3.Ireland,
+        alpha2: ISOCountryCode.Ireland,
+        alpha3: ISOCountryCode3.Ireland,
         dialCode: "+353",
         languages: [
             ISOLanguageCode.Irish,
@@ -2076,17 +2076,17 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".ie"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Isle of Man",
-        nameFull: "The Isle of Man",
+        officialName: "The Isle of Man",
         region: [
             WorldRegion.Europe,
             WorldRegion.EuropeNorthern,
         ],
-        code: ISOCountryCode.IsleOfMan,
-        code3: ISOCountryCode3.IsleOfMan,
+        alpha2: ISOCountryCode.IsleOfMan,
+        alpha3: ISOCountryCode3.IsleOfMan,
         dialCode: ["+44 1624", "+44 7524", "+44 7624", "+44 7924"],
         languages: [
             ISOLanguageCode.English,
@@ -2094,17 +2094,17 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".im"
         ],
-        sovereign: false,
+        isSovereign: false,
     },
     {
         name: "Israel",
-        nameFull: "The State of Israel",
+        officialName: "The State of Israel",
         region: [
             WorldRegion.Asia,
             WorldRegion.MiddleEast
         ],
-        code: ISOCountryCode.Israel,
-        code3: ISOCountryCode3.Israel,
+        alpha2: ISOCountryCode.Israel,
+        alpha3: ISOCountryCode3.Israel,
         dialCode: "+972",
         languages: [
             ISOLanguageCode.Hebrew,
@@ -2112,18 +2112,18 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".il"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Italy",
-        nameFull: "The Italian Republic",
+        officialName: "The Italian Republic",
         region: [
             WorldRegion.Europe,
             WorldRegion.EuropeSouthern,
             WorldRegion.EuropeanUnion,
         ],
-        code: ISOCountryCode.Italy,
-        code3: ISOCountryCode3.Italy,
+        alpha2: ISOCountryCode.Italy,
+        alpha3: ISOCountryCode3.Italy,
         dialCode: "+39",
         languages: [
             ISOLanguageCode.Italian,
@@ -2132,16 +2132,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".it"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Ivory Coast",
-        nameFull: "The Republic of Côte d'Ivoire",
+        officialName: "The Republic of Côte d'Ivoire",
         region: [
             WorldRegion.Africa
         ],
-        code: ISOCountryCode.IvoryCoast,
-        code3: ISOCountryCode3.IvoryCoast,
+        alpha2: ISOCountryCode.IvoryCoast,
+        alpha3: ISOCountryCode3.IvoryCoast,
         dialCode: "+225",
         languages: [
             ISOLanguageCode.French,
@@ -2150,18 +2150,18 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".ci"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Jamaica",
-        nameFull: "Jamaica",
+        officialName: "Jamaica",
         region: [
             WorldRegion.America,
             WorldRegion.NorthAmerica,
             WorldRegion.Caribbean
         ],
-        code: ISOCountryCode.Jamaica,
-        code3: ISOCountryCode3.Jamaica,
+        alpha2: ISOCountryCode.Jamaica,
+        alpha3: ISOCountryCode3.Jamaica,
         dialCode: ["+1 658", "+1 876"],
         languages: [
             ISOLanguageCode.English,
@@ -2170,16 +2170,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".jm"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Japan",
-        nameFull: "Japan",
+        officialName: "Japan",
         region: [
             WorldRegion.Asia
         ],
-        code: ISOCountryCode.Japan,
-        code3: ISOCountryCode3.Japan,
+        alpha2: ISOCountryCode.Japan,
+        alpha3: ISOCountryCode3.Japan,
         dialCode: "+81",
         languages: [
             ISOLanguageCode.Japanese,
@@ -2187,16 +2187,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".jp"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Jersey",
-        nameFull: "The Bailiwick of Jersey",
+        officialName: "The Bailiwick of Jersey",
         region: [
             WorldRegion.Europe
         ],
-        code: ISOCountryCode.Jersey,
-        code3: ISOCountryCode3.Jersey,
+        alpha2: ISOCountryCode.Jersey,
+        alpha3: ISOCountryCode3.Jersey,
         dialCode: "+44 1534",
         languages: [
             ISOLanguageCode.English,
@@ -2204,17 +2204,17 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".je"
         ],
-        sovereign: false,
+        isSovereign: false,
     },
     {
         name: "Jordan",
-        nameFull: "The Hashemite Kingdom of Jordan",
+        officialName: "The Hashemite Kingdom of Jordan",
         region: [
             WorldRegion.Asia,
             WorldRegion.MiddleEast
         ],
-        code: ISOCountryCode.Jordan,
-        code3: ISOCountryCode3.Jordan,
+        alpha2: ISOCountryCode.Jordan,
+        alpha3: ISOCountryCode3.Jordan,
         dialCode: "+962",
         languages: [
             ISOLanguageCode.Arabic,
@@ -2223,16 +2223,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".jo"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Kazakhstan",
-        nameFull: "The Republic of Kazakhstan",
+        officialName: "The Republic of Kazakhstan",
         region: [
             WorldRegion.Asia
         ],
-        code: ISOCountryCode.Kazakhstan,
-        code3: ISOCountryCode3.Kazakhstan,
+        alpha2: ISOCountryCode.Kazakhstan,
+        alpha3: ISOCountryCode3.Kazakhstan,
         dialCode: ["+7 6", "+7 7"],
         languages: [
             ISOLanguageCode.Kazakh,
@@ -2241,16 +2241,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".kz"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Kenya",
-        nameFull: "The Republic of Kenya",
+        officialName: "The Republic of Kenya",
         region: [
             WorldRegion.Africa
         ],
-        code: ISOCountryCode.Kenya,
-        code3: ISOCountryCode3.Kenya,
+        alpha2: ISOCountryCode.Kenya,
+        alpha3: ISOCountryCode3.Kenya,
         dialCode: "+254",
         languages: [
             ISOLanguageCode.English,
@@ -2260,16 +2260,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".ke"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Kiribati",
-        nameFull: "The Republic of Kiribati",
+        officialName: "The Republic of Kiribati",
         region: [
             WorldRegion.Oceania
         ],
-        code: ISOCountryCode.Kiribati,
-        code3: ISOCountryCode3.Kiribati,
+        alpha2: ISOCountryCode.Kiribati,
+        alpha3: ISOCountryCode3.Kiribati,
         dialCode: "+686",
         languages: [
             ISOLanguageCode.English,
@@ -2277,17 +2277,17 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".ki"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Kosovo",
-        nameFull: "Republic of Kosovo",
+        officialName: "Republic of Kosovo",
         region: [
             WorldRegion.Europe,
             WorldRegion.EuropeEastern,
         ],
-        code: ISOCountryCode.Kosovo,
-        code3: ISOCountryCode3.Kosovo,
+        alpha2: ISOCountryCode.Kosovo,
+        alpha3: ISOCountryCode3.Kosovo,
         dialCode: "+383",
         languages: [
             ISOLanguageCode.Albanian,
@@ -2296,17 +2296,17 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".xk"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Kuwait",
-        nameFull: "The State of Kuwait",
+        officialName: "The State of Kuwait",
         region: [
             WorldRegion.Asia,
             WorldRegion.MiddleEast
         ],
-        code: ISOCountryCode.Kuwait,
-        code3: ISOCountryCode3.Kuwait,
+        alpha2: ISOCountryCode.Kuwait,
+        alpha3: ISOCountryCode3.Kuwait,
         dialCode: "+965",
         languages: [
             ISOLanguageCode.Arabic,
@@ -2315,16 +2315,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".kw"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Kyrgyzstan",
-        nameFull: "The Kyrgyz Republic",
+        officialName: "The Kyrgyz Republic",
         region: [
             WorldRegion.Asia
         ],
-        code: ISOCountryCode.Kyrgyzstan,
-        code3: ISOCountryCode3.Kyrgyzstan,
+        alpha2: ISOCountryCode.Kyrgyzstan,
+        alpha3: ISOCountryCode3.Kyrgyzstan,
         dialCode: "+996",
         languages: [
             ISOLanguageCode.Kyrgyz,
@@ -2333,16 +2333,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".kg"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Laos",
-        nameFull: "The Lao People's Democratic Republic",
+        officialName: "The Lao People's Democratic Republic",
         region: [
             WorldRegion.Asia
         ],
-        code: ISOCountryCode.Laos,
-        code3: ISOCountryCode3.Laos,
+        alpha2: ISOCountryCode.Laos,
+        alpha3: ISOCountryCode3.Laos,
         dialCode: "+859",
         languages: [
             ISOLanguageCode.Lao,
@@ -2350,18 +2350,18 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".la"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Latvia",
-        nameFull: "The Republic of Latvia",
+        officialName: "The Republic of Latvia",
         region: [
             WorldRegion.Europe,
             WorldRegion.EuropeNorthern,
             WorldRegion.EuropeanUnion,
         ],
-        code: ISOCountryCode.Latvia,
-        code3: ISOCountryCode3.Latvia,
+        alpha2: ISOCountryCode.Latvia,
+        alpha3: ISOCountryCode3.Latvia,
         dialCode: "+371",
         languages: [
             ISOLanguageCode.Latvian,
@@ -2369,17 +2369,17 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".lv"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Lebanon",
-        nameFull: "The Lebanese Republic",
+        officialName: "The Lebanese Republic",
         region: [
             WorldRegion.Asia,
             WorldRegion.MiddleEast
         ],
-        code: ISOCountryCode.Lebanon,
-        code3: ISOCountryCode3.Lebanon,
+        alpha2: ISOCountryCode.Lebanon,
+        alpha3: ISOCountryCode3.Lebanon,
         dialCode: "+961",
         languages: [
             ISOLanguageCode.Arabic,
@@ -2388,16 +2388,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".lb"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Lesotho",
-        nameFull: "The Kingdom of Lesotho",
+        officialName: "The Kingdom of Lesotho",
         region: [
             WorldRegion.Africa
         ],
-        code: ISOCountryCode.Lesotho,
-        code3: ISOCountryCode3.Lesotho,
+        alpha2: ISOCountryCode.Lesotho,
+        alpha3: ISOCountryCode3.Lesotho,
         dialCode: "+266",
         languages: [
             ISOLanguageCode.Sotho,
@@ -2406,16 +2406,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".ls"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Liberia",
-        nameFull: "The Republic of Liberia",
+        officialName: "The Republic of Liberia",
         region: [
             WorldRegion.Africa
         ],
-        code: ISOCountryCode.Liberia,
-        code3: ISOCountryCode3.Liberia,
+        alpha2: ISOCountryCode.Liberia,
+        alpha3: ISOCountryCode3.Liberia,
         dialCode: "+231",
         languages: [
             ISOLanguageCode.English,
@@ -2423,16 +2423,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".lr"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Libya",
-        nameFull: "The State of Libya",
+        officialName: "The State of Libya",
         region: [
             WorldRegion.Africa
         ],
-        code: ISOCountryCode.Libya,
-        code3: ISOCountryCode3.Libya,
+        alpha2: ISOCountryCode.Libya,
+        alpha3: ISOCountryCode3.Libya,
         dialCode: "+218",
         languages: [
             ISOLanguageCode.Arabic,
@@ -2441,17 +2441,17 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".ly"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Liechtenstein",
-        nameFull: "The Principality of Liechtenstein",
+        officialName: "The Principality of Liechtenstein",
         region: [
             WorldRegion.Europe,
             WorldRegion.EuropeWestern,
         ],
-        code: ISOCountryCode.Liechtenstein,
-        code3: ISOCountryCode3.Liechtenstein,
+        alpha2: ISOCountryCode.Liechtenstein,
+        alpha3: ISOCountryCode3.Liechtenstein,
         dialCode: "+423",
         languages: [
             ISOLanguageCode.German,
@@ -2460,17 +2460,17 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".li"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Lithuania",
-        nameFull: "The Republic of Lithuania",
+        officialName: "The Republic of Lithuania",
         region: [
             WorldRegion.Europe,
             WorldRegion.EuropeNorthern,
         ],
-        code: ISOCountryCode.Lithuania,
-        code3: ISOCountryCode3.Lithuania,
+        alpha2: ISOCountryCode.Lithuania,
+        alpha3: ISOCountryCode3.Lithuania,
         dialCode: "+370",
         languages: [
             ISOLanguageCode.Lithuanian,
@@ -2478,18 +2478,18 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".lt"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Luxembourg",
-        nameFull: "The Grand Duchy of Luxembourg",
+        officialName: "The Grand Duchy of Luxembourg",
         region: [
             WorldRegion.Europe,
             WorldRegion.EuropeWestern,
             WorldRegion.EuropeanUnion,
         ],
-        code: ISOCountryCode.Luxembourg,
-        code3: ISOCountryCode3.Luxembourg,
+        alpha2: ISOCountryCode.Luxembourg,
+        alpha3: ISOCountryCode3.Luxembourg,
         dialCode: "+352",
         languages: [
             ISOLanguageCode.Luxembourgish,
@@ -2501,16 +2501,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".lu"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Macau",
-        nameFull: "The Macao Special Administrative Region of China",
+        officialName: "The Macao Special Administrative Region of China",
         region: [
             WorldRegion.Asia
         ],
-        code: ISOCountryCode.Macau,
-        code3: ISOCountryCode3.Macau,
+        alpha2: ISOCountryCode.Macau,
+        alpha3: ISOCountryCode3.Macau,
         dialCode: "+853",
         languages: [
             ISOLanguageCode.Chinese,
@@ -2520,17 +2520,17 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".mo"
         ],
-        sovereign: false,
+        isSovereign: false,
         territoryOf: ISOCountryCode.China
     },
     {
         name: "Madagascar",
-        nameFull: "The Republic of Madagascar",
+        officialName: "The Republic of Madagascar",
         region: [
             WorldRegion.Africa
         ],
-        code: ISOCountryCode.Madagascar,
-        code3: ISOCountryCode3.Madagascar,
+        alpha2: ISOCountryCode.Madagascar,
+        alpha3: ISOCountryCode3.Madagascar,
         dialCode: "+261",
         languages: [
             ISOLanguageCode.French,
@@ -2538,16 +2538,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".mg"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Malawi",
-        nameFull: "The Republic of Malawi",
+        officialName: "The Republic of Malawi",
         region: [
             WorldRegion.Africa
         ],
-        code: ISOCountryCode.Malawi,
-        code3: ISOCountryCode3.Malawi,
+        alpha2: ISOCountryCode.Malawi,
+        alpha3: ISOCountryCode3.Malawi,
         dialCode: "+265",
         languages: [
             ISOLanguageCode.English,
@@ -2555,16 +2555,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".mw"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Malaysia",
-        nameFull: "Malaysia",
+        officialName: "Malaysia",
         region: [
             WorldRegion.Asia
         ],
-        code: ISOCountryCode.Malaysia,
-        code3: ISOCountryCode3.Malaysia,
+        alpha2: ISOCountryCode.Malaysia,
+        alpha3: ISOCountryCode3.Malaysia,
         dialCode: "+60",
         languages: [
             ISOLanguageCode.Malay,
@@ -2573,16 +2573,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".my"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Maldives",
-        nameFull: "The Republic of Maldives",
+        officialName: "The Republic of Maldives",
         region: [
             WorldRegion.Asia
         ],
-        code: ISOCountryCode.Maldives,
-        code3: ISOCountryCode3.Maldives,
+        alpha2: ISOCountryCode.Maldives,
+        alpha3: ISOCountryCode3.Maldives,
         dialCode: "+960",
         languages: [
             ISOLanguageCode.Maldivian,
@@ -2590,16 +2590,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".mv"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Mali",
-        nameFull: "The Republic of Mali",
+        officialName: "The Republic of Mali",
         region: [
             WorldRegion.Africa
         ],
-        code: ISOCountryCode.Mali,
-        code3: ISOCountryCode3.Mali,
+        alpha2: ISOCountryCode.Mali,
+        alpha3: ISOCountryCode3.Mali,
         dialCode: "+223",
         languages: [
             ISOLanguageCode.French,
@@ -2608,18 +2608,18 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".ml"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Malta",
-        nameFull: "The Republic of Malta",
+        officialName: "The Republic of Malta",
         region: [
             WorldRegion.Europe,
             WorldRegion.EuropeSouthern,
             WorldRegion.EuropeanUnion,
         ],
-        code: ISOCountryCode.Malta,
-        code3: ISOCountryCode3.Malta,
+        alpha2: ISOCountryCode.Malta,
+        alpha3: ISOCountryCode3.Malta,
         dialCode: "+356",
         languages: [
             ISOLanguageCode.Maltese,
@@ -2628,16 +2628,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".mt"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Marshall Islands",
-        nameFull: "The Republic of the Marshall Islands",
+        officialName: "The Republic of the Marshall Islands",
         region: [
             WorldRegion.Oceania
         ],
-        code: ISOCountryCode.MarshallIslands,
-        code3: ISOCountryCode3.MarshallIslands,
+        alpha2: ISOCountryCode.MarshallIslands,
+        alpha3: ISOCountryCode3.MarshallIslands,
         dialCode: "+692",
         languages: [
             ISOLanguageCode.English,
@@ -2645,18 +2645,18 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".mh"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Martinique",
-        nameFull: "Martinique",
+        officialName: "Martinique",
         region: [
             WorldRegion.America,
             WorldRegion.SouthAmerica,
             WorldRegion.Caribbean
         ],
-        code: ISOCountryCode.Martinique,
-        code3: ISOCountryCode3.Martinique,
+        alpha2: ISOCountryCode.Martinique,
+        alpha3: ISOCountryCode3.Martinique,
         dialCode: "+596",
         languages: [
             ISOLanguageCode.French,
@@ -2665,17 +2665,17 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".mq"
         ],
-        sovereign: false,
+        isSovereign: false,
         territoryOf: ISOCountryCode.France
     },
     {
         name: "Mauritania",
-        nameFull: "The Islamic Republic of Mauritania",
+        officialName: "The Islamic Republic of Mauritania",
         region: [
             WorldRegion.Africa
         ],
-        code: ISOCountryCode.Mauritania,
-        code3: ISOCountryCode3.Mauritania,
+        alpha2: ISOCountryCode.Mauritania,
+        alpha3: ISOCountryCode3.Mauritania,
         dialCode: "+222",
         languages: [
             ISOLanguageCode.Arabic,
@@ -2683,16 +2683,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".mr"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Mauritius",
-        nameFull: "The Republic of Mauritius",
+        officialName: "The Republic of Mauritius",
         region: [
             WorldRegion.Africa
         ],
-        code: ISOCountryCode.Mauritius,
-        code3: ISOCountryCode3.Mauritius,
+        alpha2: ISOCountryCode.Mauritius,
+        alpha3: ISOCountryCode3.Mauritius,
         dialCode: "+230",
         languages: [
             ISOLanguageCode.English,
@@ -2700,16 +2700,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".mu"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Mayotte",
-        nameFull: "The Department of Mayotte",
+        officialName: "The Department of Mayotte",
         region: [
             WorldRegion.Africa
         ],
-        code: ISOCountryCode.Mayotte,
-        code3: ISOCountryCode3.Mayotte,
+        alpha2: ISOCountryCode.Mayotte,
+        alpha3: ISOCountryCode3.Mayotte,
         dialCode: ["+262 269", "+262 639"],
         languages: [
             ISOLanguageCode.French,
@@ -2718,18 +2718,18 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".yt"
         ],
-        sovereign: false,
+        isSovereign: false,
         territoryOf: ISOCountryCode.France
     },
     {
         name: "Mexico",
-        nameFull: "The United Mexican States",
+        officialName: "The United Mexican States",
         region: [
             WorldRegion.America,
             WorldRegion.NorthAmerica
         ],
-        code: ISOCountryCode.Mexico,
-        code3: ISOCountryCode3.Mexico,
+        alpha2: ISOCountryCode.Mexico,
+        alpha3: ISOCountryCode3.Mexico,
         dialCode: "+52",
         languages: [
             ISOLanguageCode.Spanish,
@@ -2738,16 +2738,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".mx"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Micronesia",
-        nameFull: "The Federated States of Micronesia",
+        officialName: "The Federated States of Micronesia",
         region: [
             WorldRegion.Oceania
         ],
-        code: ISOCountryCode.Micronesia,
-        code3: ISOCountryCode3.Micronesia,
+        alpha2: ISOCountryCode.Micronesia,
+        alpha3: ISOCountryCode3.Micronesia,
         dialCode: "+691",
         languages: [
             ISOLanguageCode.English,
@@ -2755,17 +2755,17 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".fm"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Moldova",
-        nameFull: "The Republic of Moldova",
+        officialName: "The Republic of Moldova",
         region: [
             WorldRegion.Europe,
             WorldRegion.EuropeEastern,
         ],
-        code: ISOCountryCode.Moldova,
-        code3: ISOCountryCode3.Moldova,
+        alpha2: ISOCountryCode.Moldova,
+        alpha3: ISOCountryCode3.Moldova,
         dialCode: "+373",
         languages: [
             ISOLanguageCode.Romanian,
@@ -2776,17 +2776,17 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".md"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Monaco",
-        nameFull: "The Principality of Monaco",
+        officialName: "The Principality of Monaco",
         region: [
             WorldRegion.Europe,
             WorldRegion.EuropeSouthern,
         ],
-        code: ISOCountryCode.Monaco,
-        code3: ISOCountryCode3.Monaco,
+        alpha2: ISOCountryCode.Monaco,
+        alpha3: ISOCountryCode3.Monaco,
         dialCode: "+377",
         languages: [
             ISOLanguageCode.French,
@@ -2795,16 +2795,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".mc"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Mongolia",
-        nameFull: "Mongolia",
+        officialName: "Mongolia",
         region: [
             WorldRegion.Asia
         ],
-        code: ISOCountryCode.Mongolia,
-        code3: ISOCountryCode3.Mongolia,
+        alpha2: ISOCountryCode.Mongolia,
+        alpha3: ISOCountryCode3.Mongolia,
         dialCode: "+976",
         languages: [
             ISOLanguageCode.Mongolian,
@@ -2812,17 +2812,17 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".mn"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Montenegro",
-        nameFull: "Montenegro",
+        officialName: "Montenegro",
         region: [
             WorldRegion.Europe,
             WorldRegion.EuropeSouthern,
         ],
-        code: ISOCountryCode.Montenegro,
-        code3: ISOCountryCode3.Montenegro,
+        alpha2: ISOCountryCode.Montenegro,
+        alpha3: ISOCountryCode3.Montenegro,
         dialCode: "+382",
         languages: [
             ISOLanguageCode.Serbian,
@@ -2830,18 +2830,18 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".me"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Montserrat",
-        nameFull: "Montserrat",
+        officialName: "Montserrat",
         region: [
             WorldRegion.America,
             WorldRegion.SouthAmerica,
             WorldRegion.Caribbean
         ],
-        code: ISOCountryCode.Montserrat,
-        code3: ISOCountryCode3.Montserrat,
+        alpha2: ISOCountryCode.Montserrat,
+        alpha3: ISOCountryCode3.Montserrat,
         dialCode: "+1 664",
         languages: [
             ISOLanguageCode.English,
@@ -2851,17 +2851,17 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".ms"
         ],
-        sovereign: false,
+        isSovereign: false,
         territoryOf: ISOCountryCode.UnitedKingdom
     },
     {
         name: "Morocco",
-        nameFull: "The Kingdom of Morocco",
+        officialName: "The Kingdom of Morocco",
         region: [
             WorldRegion.Africa
         ],
-        code: ISOCountryCode.Morocco,
-        code3: ISOCountryCode3.Morocco,
+        alpha2: ISOCountryCode.Morocco,
+        alpha3: ISOCountryCode3.Morocco,
         dialCode: "+212",
         languages: [
             ISOLanguageCode.Arabic,
@@ -2870,16 +2870,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".ma"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Mozambique",
-        nameFull: "The Republic of Mozambique",
+        officialName: "The Republic of Mozambique",
         region: [
             WorldRegion.Africa
         ],
-        code: ISOCountryCode.Mozambique,
-        code3: ISOCountryCode3.Mozambique,
+        alpha2: ISOCountryCode.Mozambique,
+        alpha3: ISOCountryCode3.Mozambique,
         dialCode: "+258",
         languages: [
             ISOLanguageCode.Portuguese,
@@ -2887,16 +2887,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".mz"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Myanmar",
-        nameFull: "The Republic of the Union of Myanmar",
+        officialName: "The Republic of the Union of Myanmar",
         region: [
             WorldRegion.Asia
         ],
-        code: ISOCountryCode.Myanmar,
-        code3: ISOCountryCode3.Myanmar,
+        alpha2: ISOCountryCode.Myanmar,
+        alpha3: ISOCountryCode3.Myanmar,
         dialCode: "+95",
         languages: [
             ISOLanguageCode.Burmese,
@@ -2904,16 +2904,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".mm"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Namibia",
-        nameFull: "The Republic of Namibia",
+        officialName: "The Republic of Namibia",
         region: [
             WorldRegion.Africa
         ],
-        code: ISOCountryCode.Namibia,
-        code3: ISOCountryCode3.Namibia,
+        alpha2: ISOCountryCode.Namibia,
+        alpha3: ISOCountryCode3.Namibia,
         dialCode: "+264",
         languages: [
             ISOLanguageCode.English,
@@ -2921,16 +2921,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".na"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Nauru",
-        nameFull: "The Republic of Nauru",
+        officialName: "The Republic of Nauru",
         region: [
             WorldRegion.Oceania
         ],
-        code: ISOCountryCode.Nauru,
-        code3: ISOCountryCode3.Nauru,
+        alpha2: ISOCountryCode.Nauru,
+        alpha3: ISOCountryCode3.Nauru,
         dialCode: "+674",
         languages: [
             ISOLanguageCode.English,
@@ -2938,16 +2938,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".nr"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Nepal",
-        nameFull: "The Federal Democratic Republic of Nepal",
+        officialName: "The Federal Democratic Republic of Nepal",
         region: [
             WorldRegion.Asia
         ],
-        code: ISOCountryCode.Nepal,
-        code3: ISOCountryCode3.Nepal,
+        alpha2: ISOCountryCode.Nepal,
+        alpha3: ISOCountryCode3.Nepal,
         dialCode: "+977",
         languages: [
             ISOLanguageCode.Nepali,
@@ -2955,18 +2955,18 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".np"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Netherlands",
-        nameFull: "The Kingdom of the Netherlands",
+        officialName: "The Kingdom of the Netherlands",
         region: [
             WorldRegion.Europe,
             WorldRegion.EuropeWestern,
             WorldRegion.EuropeanUnion,
         ],
-        code: ISOCountryCode.Netherlands,
-        code3: ISOCountryCode3.Netherlands,
+        alpha2: ISOCountryCode.Netherlands,
+        alpha3: ISOCountryCode3.Netherlands,
         dialCode: "+31",
         languages: [
             ISOLanguageCode.Dutch,
@@ -2975,16 +2975,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".nl"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "New Caledonia",
-        nameFull: "New Caledonia",
+        officialName: "New Caledonia",
         region: [
             WorldRegion.Oceania
         ],
-        code: ISOCountryCode.NewCaledonia,
-        code3: ISOCountryCode3.NewCaledonia,
+        alpha2: ISOCountryCode.NewCaledonia,
+        alpha3: ISOCountryCode3.NewCaledonia,
         dialCode: "+687",
         languages: [
             ISOLanguageCode.French,
@@ -2993,18 +2993,18 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".nc"
         ],
-        sovereign: false,
+        isSovereign: false,
         territoryOf: ISOCountryCode.France
     },
     {
         name: "New Zealand",
-        nameFull: "New Zealand",
+        officialName: "New Zealand",
         region: [
             WorldRegion.Australia,
             WorldRegion.Oceania
         ],
-        code: ISOCountryCode.NewZealand,
-        code3: ISOCountryCode3.NewZealand,
+        alpha2: ISOCountryCode.NewZealand,
+        alpha3: ISOCountryCode3.NewZealand,
         dialCode: "+64",
         languages: [
             ISOLanguageCode.English,
@@ -3014,17 +3014,17 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".nz"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Nicaragua",
-        nameFull: "The Republic of Nicaragua",
+        officialName: "The Republic of Nicaragua",
         region: [
             WorldRegion.America,
             WorldRegion.NorthAmerica
         ],
-        code: ISOCountryCode.Nicaragua,
-        code3: ISOCountryCode3.Nicaragua,
+        alpha2: ISOCountryCode.Nicaragua,
+        alpha3: ISOCountryCode3.Nicaragua,
         dialCode: "+505",
         languages: [
             ISOLanguageCode.Spanish,
@@ -3033,16 +3033,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".ni"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Niger",
-        nameFull: "The Republic of the Niger",
+        officialName: "The Republic of the Niger",
         region: [
             WorldRegion.Africa
         ],
-        code: ISOCountryCode.Niger,
-        code3: ISOCountryCode3.Niger,
+        alpha2: ISOCountryCode.Niger,
+        alpha3: ISOCountryCode3.Niger,
         dialCode: "+227",
         languages: [
             ISOLanguageCode.French,
@@ -3050,16 +3050,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".ne"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Nigeria",
-        nameFull: "The Federal Republic of Nigeria",
+        officialName: "The Federal Republic of Nigeria",
         region: [
             WorldRegion.Africa
         ],
-        code: ISOCountryCode.Nigeria,
-        code3: ISOCountryCode3.Nigeria,
+        alpha2: ISOCountryCode.Nigeria,
+        alpha3: ISOCountryCode3.Nigeria,
         dialCode: "+234",
         languages: [
             ISOLanguageCode.English,
@@ -3068,16 +3068,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".ng"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Niue",
-        nameFull: "Niue",
+        officialName: "Niue",
         region: [
             WorldRegion.Oceania
         ],
-        code: ISOCountryCode.Niue,
-        code3: ISOCountryCode3.Niue,
+        alpha2: ISOCountryCode.Niue,
+        alpha3: ISOCountryCode3.Niue,
         dialCode: "+683",
         languages: [
             ISOLanguageCode.English,
@@ -3086,17 +3086,17 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".nu"
         ],
-        sovereign: false,
+        isSovereign: false,
         territoryOf: ISOCountryCode.NewZealand
     },
     {
         name: "Norfolk Island",
-        nameFull: "The Territory of Norfolk Island",
+        officialName: "The Territory of Norfolk Island",
         region: [
             WorldRegion.Australia
         ],
-        code: ISOCountryCode.NorfolkIsland,
-        code3: ISOCountryCode3.NorfolkIsland,
+        alpha2: ISOCountryCode.NorfolkIsland,
+        alpha3: ISOCountryCode3.NorfolkIsland,
         dialCode: "+672 3",
         languages: [
             ISOLanguageCode.English,
@@ -3105,17 +3105,17 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".nf"
         ],
-        sovereign: false,
+        isSovereign: false,
         territoryOf: ISOCountryCode.Australia
     },
     {
         name: "North Korea",
-        nameFull: "The Democratic People's Republic of Korea",
+        officialName: "The Democratic People's Republic of Korea",
         region: [
             WorldRegion.Asia
         ],
-        code: ISOCountryCode.NorthKorea,
-        code3: ISOCountryCode3.NorthKorea,
+        alpha2: ISOCountryCode.NorthKorea,
+        alpha3: ISOCountryCode3.NorthKorea,
         dialCode: "+850",
         languages: [
             ISOLanguageCode.Korean,
@@ -3123,17 +3123,17 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".kp"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "North Macedonia",
-        nameFull: "The Republic of North Macedonia",
+        officialName: "The Republic of North Macedonia",
         region: [
             WorldRegion.Europe,
             WorldRegion.EuropeSouthern,
         ],
-        code: ISOCountryCode.NorthMacedonia,
-        code3: ISOCountryCode3.NorthMacedonia,
+        alpha2: ISOCountryCode.NorthMacedonia,
+        alpha3: ISOCountryCode3.NorthMacedonia,
         dialCode: "+389",
         languages: [
             ISOLanguageCode.Macedonian,
@@ -3142,18 +3142,18 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".mk"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Northern Ireland",
-        nameFull: "Northern Ireland",
+        officialName: "Northern Ireland",
         region: [
             WorldRegion.Europe,
             WorldRegion.EuropeNorthern,
             WorldRegion.MainlandUnitedKingdom
         ],
-        code: ISOCountryCode.NorthernIreland,
-        code3: null,
+        alpha2: ISOCountryCode.NorthernIreland,
+        alpha3: null,
         dialCode: "+44",
         languages: [
             ISOLanguageCode.English,
@@ -3164,17 +3164,17 @@ export const countryInfo: CountryInfo[] = [
             ".gb",
             ".uk"
         ],
-        sovereign: false,
+        isSovereign: false,
         territoryOf: ISOCountryCode.UnitedKingdom,
     },
     {
         name: "Northern Mariana Islands",
-        nameFull: "The Commonwealth of the Northern Mariana Islands",
+        officialName: "The Commonwealth of the Northern Mariana Islands",
         region: [
             WorldRegion.Oceania
         ],
-        code: ISOCountryCode.NorthernMarianaIslands,
-        code3: ISOCountryCode3.NorthernMarianaIslands,
+        alpha2: ISOCountryCode.NorthernMarianaIslands,
+        alpha3: ISOCountryCode3.NorthernMarianaIslands,
         dialCode: "+1 670",
         languages: [
             ISOLanguageCode.English,
@@ -3183,19 +3183,19 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".mp"
         ],
-        sovereign: false,
+        isSovereign: false,
         territoryOf: ISOCountryCode.UnitedStatesOfAmerica
     },
     {
         name: "Norway",
-        nameFull: "The Kingdom of Norway",
+        officialName: "The Kingdom of Norway",
         region: [
             WorldRegion.Europe,
             WorldRegion.EuropeNorthern,
             WorldRegion.Scandinavia,
         ],
-        code: ISOCountryCode.Norway,
-        code3: ISOCountryCode3.Norway,
+        alpha2: ISOCountryCode.Norway,
+        alpha3: ISOCountryCode3.Norway,
         dialCode: "+47",
         languages: [
             ISOLanguageCode.Norwegian,
@@ -3203,17 +3203,17 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".no"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Oman",
-        nameFull: "The Sultanate of Oman",
+        officialName: "The Sultanate of Oman",
         region: [
             WorldRegion.Asia,
             WorldRegion.MiddleEast
         ],
-        code: ISOCountryCode.Oman,
-        code3: ISOCountryCode3.Oman,
+        alpha2: ISOCountryCode.Oman,
+        alpha3: ISOCountryCode3.Oman,
         dialCode: "+968",
         languages: [
             ISOLanguageCode.Arabic,
@@ -3222,16 +3222,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".om"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Pakistan",
-        nameFull: "The Islamic Republic of Pakistan",
+        officialName: "The Islamic Republic of Pakistan",
         region: [
             WorldRegion.Asia
         ],
-        code: ISOCountryCode.Pakistan,
-        code3: ISOCountryCode3.Pakistan,
+        alpha2: ISOCountryCode.Pakistan,
+        alpha3: ISOCountryCode3.Pakistan,
         dialCode: "+92",
         languages: [
             ISOLanguageCode.Urdu,
@@ -3241,16 +3241,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".pk"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Palau",
-        nameFull: "The Republic of Palau",
+        officialName: "The Republic of Palau",
         region: [
             WorldRegion.Oceania
         ],
-        code: ISOCountryCode.Palau,
-        code3: ISOCountryCode3.Palau,
+        alpha2: ISOCountryCode.Palau,
+        alpha3: ISOCountryCode3.Palau,
         dialCode: "+680",
         languages: [
             ISOLanguageCode.English,
@@ -3258,17 +3258,17 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".pw"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Palestine",
-        nameFull: "The State of Palestine",
+        officialName: "The State of Palestine",
         region: [
             WorldRegion.Asia,
             WorldRegion.MiddleEast
         ],
-        code: ISOCountryCode.Palestine,
-        code3: ISOCountryCode3.Palestine,
+        alpha2: ISOCountryCode.Palestine,
+        alpha3: ISOCountryCode3.Palestine,
         dialCode: "+970",
         languages: [
             ISOLanguageCode.Arabic,
@@ -3276,17 +3276,17 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".ps"
         ],
-        sovereign: false
+        isSovereign: false
     },
     {
         name: "Panama",
-        nameFull: "The Republic of Panamá",
+        officialName: "The Republic of Panamá",
         region: [
             WorldRegion.America,
             WorldRegion.NorthAmerica
         ],
-        code: ISOCountryCode.Panama,
-        code3: ISOCountryCode3.Panama,
+        alpha2: ISOCountryCode.Panama,
+        alpha3: ISOCountryCode3.Panama,
         dialCode: "+507",
         languages: [
             ISOLanguageCode.Spanish,
@@ -3295,16 +3295,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".pa"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Papua New Guinea",
-        nameFull: "The Independent State of Papua New Guinea",
+        officialName: "The Independent State of Papua New Guinea",
         region: [
             WorldRegion.Oceania
         ],
-        code: ISOCountryCode.PapuaNewGuinea,
-        code3: ISOCountryCode3.PapuaNewGuinea,
+        alpha2: ISOCountryCode.PapuaNewGuinea,
+        alpha3: ISOCountryCode3.PapuaNewGuinea,
         dialCode: "+675",
         languages: [
             ISOLanguageCode.English,
@@ -3312,17 +3312,17 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".pg"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Paraguay",
-        nameFull: "The Republic of Paraguay",
+        officialName: "The Republic of Paraguay",
         region: [
             WorldRegion.America,
             WorldRegion.SouthAmerica
         ],
-        code: ISOCountryCode.Paraguay,
-        code3: ISOCountryCode3.Paraguay,
+        alpha2: ISOCountryCode.Paraguay,
+        alpha3: ISOCountryCode3.Paraguay,
         dialCode: "+595",
         languages: [
             ISOLanguageCode.Spanish,
@@ -3331,17 +3331,17 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".py"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Peru",
-        nameFull: "The Republic of Perú",
+        officialName: "The Republic of Perú",
         region: [
             WorldRegion.America,
             WorldRegion.SouthAmerica
         ],
-        code: ISOCountryCode.Peru,
-        code3: ISOCountryCode3.Peru,
+        alpha2: ISOCountryCode.Peru,
+        alpha3: ISOCountryCode3.Peru,
         dialCode: "+51",
         languages: [
             ISOLanguageCode.Spanish,
@@ -3350,16 +3350,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".pe"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Philippines",
-        nameFull: "The Republic of the Philippines",
+        officialName: "The Republic of the Philippines",
         region: [
             WorldRegion.Asia
         ],
-        code: ISOCountryCode.Philippines,
-        code3: ISOCountryCode3.Philippines,
+        alpha2: ISOCountryCode.Philippines,
+        alpha3: ISOCountryCode3.Philippines,
         dialCode: "+63",
         languages: [
             ISOLanguageCode.English,
@@ -3368,16 +3368,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".ph"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Pitcairn",
-        nameFull: "The Pitcairn, Henderson, Ducie and Oeno Islands",
+        officialName: "The Pitcairn, Henderson, Ducie and Oeno Islands",
         region: [
             WorldRegion.Oceania
         ],
-        code: ISOCountryCode.Pitcairn,
-        code3: ISOCountryCode3.Pitcairn,
+        alpha2: ISOCountryCode.Pitcairn,
+        alpha3: ISOCountryCode3.Pitcairn,
         dialCode: "+64",
         languages: [
             ISOLanguageCode.English,
@@ -3386,19 +3386,19 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".pn"
         ],
-        sovereign: false,
+        isSovereign: false,
         territoryOf: ISOCountryCode.UnitedKingdom
     },
     {
         name: "Poland",
-        nameFull: "The Republic of Poland",
+        officialName: "The Republic of Poland",
         region: [
             WorldRegion.Europe,
             WorldRegion.EuropeEastern,
             WorldRegion.EuropeanUnion,
         ],
-        code: ISOCountryCode.Poland,
-        code3: ISOCountryCode3.Poland,
+        alpha2: ISOCountryCode.Poland,
+        alpha3: ISOCountryCode3.Poland,
         dialCode: "+48",
         languages: [
             ISOLanguageCode.Polish,
@@ -3406,18 +3406,18 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".pl"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Portugal",
-        nameFull: "The Portuguese Republic",
+        officialName: "The Portuguese Republic",
         region: [
             WorldRegion.Europe,
             WorldRegion.EuropeSouthern,
             WorldRegion.EuropeanUnion,
         ],
-        code: ISOCountryCode.Portugal,
-        code3: ISOCountryCode3.Portugal,
+        alpha2: ISOCountryCode.Portugal,
+        alpha3: ISOCountryCode3.Portugal,
         dialCode: "+351",
         languages: [
             ISOLanguageCode.Portuguese,
@@ -3426,18 +3426,18 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".pt"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Puerto Rico",
-        nameFull: "The Commonwealth of Puerto Rico",
+        officialName: "The Commonwealth of Puerto Rico",
         region: [
             WorldRegion.America,
             WorldRegion.NorthAmerica,
             WorldRegion.Caribbean
         ],
-        code: ISOCountryCode.PuertoRico,
-        code3: ISOCountryCode3.PuertoRico,
+        alpha2: ISOCountryCode.PuertoRico,
+        alpha3: ISOCountryCode3.PuertoRico,
         dialCode: ["+1 787", "+1 939"],
         languages: [
             ISOLanguageCode.Spanish,
@@ -3446,18 +3446,18 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".pr"
         ],
-        sovereign: false,
+        isSovereign: false,
         territoryOf: ISOCountryCode.UnitedStatesOfAmerica
     },
     {
         name: "Qatar",
-        nameFull: "The State of Qatar",
+        officialName: "The State of Qatar",
         region: [
             WorldRegion.Asia,
             WorldRegion.MiddleEast
         ],
-        code: ISOCountryCode.Qatar,
-        code3: ISOCountryCode3.Qatar,
+        alpha2: ISOCountryCode.Qatar,
+        alpha3: ISOCountryCode3.Qatar,
         dialCode: "+974",
         languages: [
             ISOLanguageCode.Arabic,
@@ -3466,16 +3466,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".qa"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Republic of Congo",
-        nameFull: "The Republic of the Congo",
+        officialName: "The Republic of the Congo",
         region: [
             WorldRegion.Africa
         ],
-        code: ISOCountryCode.RepublicOfCongo,
-        code3: ISOCountryCode3.RepublicOfCongo,
+        alpha2: ISOCountryCode.RepublicOfCongo,
+        alpha3: ISOCountryCode3.RepublicOfCongo,
         dialCode: "+242",
         languages: [
             ISOLanguageCode.French,
@@ -3484,18 +3484,18 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".cg"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Romania",
-        nameFull: "Romania",
+        officialName: "Romania",
         region: [
             WorldRegion.Europe,
             WorldRegion.EuropeEastern,
             WorldRegion.EuropeanUnion,
         ],
-        code: ISOCountryCode.Romania,
-        code3: ISOCountryCode3.Romania,
+        alpha2: ISOCountryCode.Romania,
+        alpha3: ISOCountryCode3.Romania,
         dialCode: "+40",
         languages: [
             ISOLanguageCode.Romanian,
@@ -3503,18 +3503,18 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".ro"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Russian Federation",
-        nameFull: "The Russian Federation",
+        officialName: "The Russian Federation",
         region: [
             WorldRegion.Europe,
             WorldRegion.Asia,
             WorldRegion.EuropeEastern,
         ],
-        code: ISOCountryCode.RussianFederation,
-        code3: ISOCountryCode3.RussianFederation,
+        alpha2: ISOCountryCode.RussianFederation,
+        alpha3: ISOCountryCode3.RussianFederation,
         dialCode: "+7",
         languages: [
             ISOLanguageCode.Russian,
@@ -3522,16 +3522,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".ru"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Rwanda",
-        nameFull: "The Republic of Rwanda",
+        officialName: "The Republic of Rwanda",
         region: [
             WorldRegion.Africa
         ],
-        code: ISOCountryCode.Rwanda,
-        code3: ISOCountryCode3.Rwanda,
+        alpha2: ISOCountryCode.Rwanda,
+        alpha3: ISOCountryCode3.Rwanda,
         dialCode: "+250",
         languages: [
             ISOLanguageCode.English,
@@ -3541,16 +3541,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".rw"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Réunion",
-        nameFull: "Réunion",
+        officialName: "Réunion",
         region: [
             WorldRegion.Africa
         ],
-        code: ISOCountryCode.Reunion,
-        code3: ISOCountryCode3.Reunion,
+        alpha2: ISOCountryCode.Reunion,
+        alpha3: ISOCountryCode3.Reunion,
         dialCode: "+262",
         languages: [
             ISOLanguageCode.French,
@@ -3559,19 +3559,19 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".re"
         ],
-        sovereign: false,
+        isSovereign: false,
         territoryOf: ISOCountryCode.France
     },
     {
         name: "Saint Barthélemy",
-        nameFull: "The Collectivity of Saint-Barthélemy",
+        officialName: "The Collectivity of Saint-Barthélemy",
         region: [
             WorldRegion.America,
             WorldRegion.NorthAmerica,
             WorldRegion.Caribbean
         ],
-        code: ISOCountryCode.SaintBarthelemy,
-        code3: ISOCountryCode3.SaintBarthelemy,
+        alpha2: ISOCountryCode.SaintBarthelemy,
+        alpha3: ISOCountryCode3.SaintBarthelemy,
         dialCode: "+590",
         languages: [
             ISOLanguageCode.French,
@@ -3580,17 +3580,17 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".bl"
         ],
-        sovereign: false,
+        isSovereign: false,
         territoryOf: ISOCountryCode.France
     },
     {
         name: "Saint Helena, Ascension Island, Tristan da Cunha",
-        nameFull: "Saint Helena, Ascension and Tristan da Cunha",
+        officialName: "Saint Helena, Ascension and Tristan da Cunha",
         region: [
             WorldRegion.Africa
         ],
-        code: ISOCountryCode.SaintHelenaAscensionIslandTristanDaCunha,
-        code3: ISOCountryCode3.SaintHelenaAscensionIslandTristanDaCunha,
+        alpha2: ISOCountryCode.SaintHelenaAscensionIslandTristanDaCunha,
+        alpha3: ISOCountryCode3.SaintHelenaAscensionIslandTristanDaCunha,
         dialCode: "+290",
         languages: [
             ISOLanguageCode.English,
@@ -3599,19 +3599,19 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".sh"
         ],
-        sovereign: false,
+        isSovereign: false,
         territoryOf: ISOCountryCode.UnitedKingdom
     },
     {
         name: "Saint Kitts and Nevis",
-        nameFull: "Saint Kitts and Nevis",
+        officialName: "Saint Kitts and Nevis",
         region: [
             WorldRegion.America,
             WorldRegion.NorthAmerica,
             WorldRegion.Caribbean
         ],
-        code: ISOCountryCode.SaintKittsAndNevis,
-        code3: ISOCountryCode3.SaintKittsAndNevis,
+        alpha2: ISOCountryCode.SaintKittsAndNevis,
+        alpha3: ISOCountryCode3.SaintKittsAndNevis,
         dialCode: "+1 869",
         languages: [
             ISOLanguageCode.English,
@@ -3620,18 +3620,18 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".kn"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Saint Lucia",
-        nameFull: "Saint Lucia",
+        officialName: "Saint Lucia",
         region: [
             WorldRegion.America,
             WorldRegion.SouthAmerica,
             WorldRegion.Caribbean
         ],
-        code: ISOCountryCode.SaintLucia,
-        code3: ISOCountryCode3.SaintLucia,
+        alpha2: ISOCountryCode.SaintLucia,
+        alpha3: ISOCountryCode3.SaintLucia,
         dialCode: "+1 758",
         languages: [
             ISOLanguageCode.English,
@@ -3640,18 +3640,18 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".lc"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Saint Martin",
-        nameFull: "The Collectivity of Saint-Martin",
+        officialName: "The Collectivity of Saint-Martin",
         region: [
             WorldRegion.America,
             WorldRegion.SouthAmerica,
             WorldRegion.Caribbean
         ],
-        code: ISOCountryCode.SaintMartin,
-        code3: ISOCountryCode3.SaintMartin,
+        alpha2: ISOCountryCode.SaintMartin,
+        alpha3: ISOCountryCode3.SaintMartin,
         dialCode: "+590",
         languages: [
             ISOLanguageCode.English,
@@ -3660,18 +3660,18 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".mf"
         ],
-        sovereign: false,
+        isSovereign: false,
         territoryOf: ISOCountryCode.France
     },
     {
         name: "Saint Pierre and Miquelon",
-        nameFull: "The Overseas Collectivity of Saint-Pierre and Miquelon",
+        officialName: "The Overseas Collectivity of Saint-Pierre and Miquelon",
         region: [
             WorldRegion.America,
             WorldRegion.NorthAmerica
         ],
-        code: ISOCountryCode.SaintPierreAndMiquelon,
-        code3: ISOCountryCode3.SaintPierreAndMiquelon,
+        alpha2: ISOCountryCode.SaintPierreAndMiquelon,
+        alpha3: ISOCountryCode3.SaintPierreAndMiquelon,
         dialCode: "+508",
         languages: [
             ISOLanguageCode.French,
@@ -3680,19 +3680,19 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".pm"
         ],
-        sovereign: false,
+        isSovereign: false,
         territoryOf: ISOCountryCode.France
     },
     {
         name: "Saint Vincent and the Grenadines",
-        nameFull: "Saint Vincent and the Grenadines",
+        officialName: "Saint Vincent and the Grenadines",
         region: [
             WorldRegion.America,
             WorldRegion.SouthAmerica,
             WorldRegion.Caribbean
         ],
-        code: ISOCountryCode.SaintVincentAndTheGrenadines,
-        code3: ISOCountryCode3.SaintVincentAndTheGrenadines,
+        alpha2: ISOCountryCode.SaintVincentAndTheGrenadines,
+        alpha3: ISOCountryCode3.SaintVincentAndTheGrenadines,
         dialCode: "+1 784",
         languages: [
             ISOLanguageCode.English,
@@ -3701,16 +3701,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".vc"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Samoa",
-        nameFull: "The Independent State of Samoa",
+        officialName: "The Independent State of Samoa",
         region: [
             WorldRegion.Oceania
         ],
-        code: ISOCountryCode.Samoa,
-        code3: ISOCountryCode3.Samoa,
+        alpha2: ISOCountryCode.Samoa,
+        alpha3: ISOCountryCode3.Samoa,
         dialCode: "+685",
         languages: [
             ISOLanguageCode.English,
@@ -3719,17 +3719,17 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".ws"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "San Marino",
-        nameFull: "The Republic of San Marino",
+        officialName: "The Republic of San Marino",
         region: [
             WorldRegion.Europe,
             WorldRegion.EuropeSouthern,
         ],
-        code: ISOCountryCode.SanMarino,
-        code3: ISOCountryCode3.SanMarino,
+        alpha2: ISOCountryCode.SanMarino,
+        alpha3: ISOCountryCode3.SanMarino,
         dialCode: "+378",
         languages: [
             ISOLanguageCode.Italian,
@@ -3737,16 +3737,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".sm"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Sao Tome and Principe",
-        nameFull: "The Democratic Republic of São Tomé and Príncipe",
+        officialName: "The Democratic Republic of São Tomé and Príncipe",
         region: [
             WorldRegion.Africa
         ],
-        code: ISOCountryCode.SaoTomeAndPrincipe,
-        code3: ISOCountryCode3.SaoTomeAndPrincipe,
+        alpha2: ISOCountryCode.SaoTomeAndPrincipe,
+        alpha3: ISOCountryCode3.SaoTomeAndPrincipe,
         dialCode: "+239",
         languages: [
             ISOLanguageCode.Portuguese,
@@ -3754,17 +3754,17 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".st"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Saudi Arabia",
-        nameFull: "The Kingdom of Saudi Arabia",
+        officialName: "The Kingdom of Saudi Arabia",
         region: [
             WorldRegion.Asia,
             WorldRegion.MiddleEast
         ],
-        code: ISOCountryCode.SaudiArabia,
-        code3: ISOCountryCode3.SaudiArabia,
+        alpha2: ISOCountryCode.SaudiArabia,
+        alpha3: ISOCountryCode3.SaudiArabia,
         dialCode: "+966",
         languages: [
             ISOLanguageCode.Arabic,
@@ -3773,18 +3773,18 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".sa"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Scotland",
-        nameFull: "Scotland",
+        officialName: "Scotland",
         region: [
             WorldRegion.Europe,
             WorldRegion.EuropeNorthern,
             WorldRegion.MainlandUnitedKingdom
         ],
-        code: ISOCountryCode.Scotland,
-        code3: null,
+        alpha2: ISOCountryCode.Scotland,
+        alpha3: null,
         dialCode: "+44",
         languages: [
             ISOLanguageCode.English,
@@ -3796,17 +3796,17 @@ export const countryInfo: CountryInfo[] = [
             ".uk",
             ".scot"
         ],
-        sovereign: false,
+        isSovereign: false,
         territoryOf: ISOCountryCode.UnitedKingdom,
     },
     {
         name: "Senegal",
-        nameFull: "The Republic of Senegal",
+        officialName: "The Republic of Senegal",
         region: [
             WorldRegion.Africa
         ],
-        code: ISOCountryCode.Senegal,
-        code3: ISOCountryCode3.Senegal,
+        alpha2: ISOCountryCode.Senegal,
+        alpha3: ISOCountryCode3.Senegal,
         dialCode: "+221",
         languages: [
             ISOLanguageCode.French,
@@ -3815,17 +3815,17 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".sn"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Serbia",
-        nameFull: "The Republic of Serbia",
+        officialName: "The Republic of Serbia",
         region: [
             WorldRegion.Europe,
             WorldRegion.EuropeEastern,
         ],
-        code: ISOCountryCode.Serbia,
-        code3: ISOCountryCode3.Serbia,
+        alpha2: ISOCountryCode.Serbia,
+        alpha3: ISOCountryCode3.Serbia,
         dialCode: "+381",
         languages: [
             ISOLanguageCode.Serbian,
@@ -3833,16 +3833,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".rs"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Seychelles",
-        nameFull: "The Republic of Seychelles",
+        officialName: "The Republic of Seychelles",
         region: [
             WorldRegion.Africa
         ],
-        code: ISOCountryCode.Seychelles,
-        code3: ISOCountryCode3.Seychelles,
+        alpha2: ISOCountryCode.Seychelles,
+        alpha3: ISOCountryCode3.Seychelles,
         dialCode: "+248",
         languages: [
             ISOLanguageCode.English,
@@ -3851,16 +3851,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".sc"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Sierra Leone",
-        nameFull: "The Republic of Sierra Leone",
+        officialName: "The Republic of Sierra Leone",
         region: [
             WorldRegion.Africa
         ],
-        code: ISOCountryCode.SierraLeone,
-        code3: ISOCountryCode3.SierraLeone,
+        alpha2: ISOCountryCode.SierraLeone,
+        alpha3: ISOCountryCode3.SierraLeone,
         dialCode: "+232",
         languages: [
             ISOLanguageCode.English,
@@ -3868,16 +3868,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".sl"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Singapore",
-        nameFull: "The Republic of Singapore",
+        officialName: "The Republic of Singapore",
         region: [
             WorldRegion.Asia
         ],
-        code: ISOCountryCode.Singapore,
-        code3: ISOCountryCode3.Singapore,
+        alpha2: ISOCountryCode.Singapore,
+        alpha3: ISOCountryCode3.Singapore,
         dialCode: "+65",
         languages: [
             ISOLanguageCode.English,
@@ -3888,18 +3888,18 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".sg"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Sint Maarten",
-        nameFull: "Sint Maarten",
+        officialName: "Sint Maarten",
         region: [
             WorldRegion.America,
             WorldRegion.NorthAmerica,
             WorldRegion.Caribbean
         ],
-        code: ISOCountryCode.SintMaarten,
-        code3: ISOCountryCode3.SintMaarten,
+        alpha2: ISOCountryCode.SintMaarten,
+        alpha3: ISOCountryCode3.SintMaarten,
         dialCode: "+1 721",
         languages: [
             ISOLanguageCode.Dutch,
@@ -3908,19 +3908,19 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".sx"
         ],
-        sovereign: false,
+        isSovereign: false,
         territoryOf: ISOCountryCode.Netherlands
     },
     {
         name: "Slovakia",
-        nameFull: "The Slovak Republic",
+        officialName: "The Slovak Republic",
         region: [
             WorldRegion.Europe,
             WorldRegion.EuropeSouthern,
             WorldRegion.EuropeanUnion,
         ],
-        code: ISOCountryCode.Slovakia,
-        code3: ISOCountryCode3.Slovakia,
+        alpha2: ISOCountryCode.Slovakia,
+        alpha3: ISOCountryCode3.Slovakia,
         dialCode: "+421",
         languages: [
             ISOLanguageCode.Slovak,
@@ -3928,18 +3928,18 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".sk"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Slovenia",
-        nameFull: "The Republic of Slovenia",
+        officialName: "The Republic of Slovenia",
         region: [
             WorldRegion.Europe,
             WorldRegion.EuropeEastern,
             WorldRegion.EuropeanUnion,
         ],
-        code: ISOCountryCode.Slovenia,
-        code3: ISOCountryCode3.Slovenia,
+        alpha2: ISOCountryCode.Slovenia,
+        alpha3: ISOCountryCode3.Slovenia,
         dialCode: "+386",
         languages: [
             ISOLanguageCode.Slovenian,
@@ -3947,16 +3947,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".si"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Solomon Islands",
-        nameFull: "The Solomon Islands",
+        officialName: "The Solomon Islands",
         region: [
             WorldRegion.Oceania
         ],
-        code: ISOCountryCode.SolomonIslands,
-        code3: ISOCountryCode3.SolomonIslands,
+        alpha2: ISOCountryCode.SolomonIslands,
+        alpha3: ISOCountryCode3.SolomonIslands,
         dialCode: "+677",
         languages: [
             ISOLanguageCode.English,
@@ -3964,16 +3964,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".sb"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Somalia",
-        nameFull: "The Federal Republic of Somalia",
+        officialName: "The Federal Republic of Somalia",
         region: [
             WorldRegion.Africa
         ],
-        code: ISOCountryCode.Somalia,
-        code3: ISOCountryCode3.Somalia,
+        alpha2: ISOCountryCode.Somalia,
+        alpha3: ISOCountryCode3.Somalia,
         dialCode: "+252",
         languages: [
             ISOLanguageCode.Arabic,
@@ -3981,16 +3981,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".so"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "South Africa",
-        nameFull: "The Republic of South Africa",
+        officialName: "The Republic of South Africa",
         region: [
             WorldRegion.Africa
         ],
-        code: ISOCountryCode.SouthAfrica,
-        code3: ISOCountryCode3.SouthAfrica,
+        alpha2: ISOCountryCode.SouthAfrica,
+        alpha3: ISOCountryCode3.SouthAfrica,
         dialCode: "+27",
         languages: [
             ISOLanguageCode.Afrikaans,
@@ -4004,17 +4004,17 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".za"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "South Georgia and the South Sandwich Islands",
-        nameFull: "South Georgia and the South Sandwich Islands",
+        officialName: "South Georgia and the South Sandwich Islands",
         region: [
             WorldRegion.America,
             WorldRegion.SouthAmerica
         ],
-        code: ISOCountryCode.SouthGeorgiaAndTheSouthSandwichIslands,
-        code3: ISOCountryCode3.SouthGeorgiaAndTheSouthSandwichIslands,
+        alpha2: ISOCountryCode.SouthGeorgiaAndTheSouthSandwichIslands,
+        alpha3: ISOCountryCode3.SouthGeorgiaAndTheSouthSandwichIslands,
         dialCode: "+500",
         languages: [
             ISOLanguageCode.English,
@@ -4023,17 +4023,17 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".gs"
         ],
-        sovereign: false,
+        isSovereign: false,
         territoryOf: ISOCountryCode.UnitedKingdom
     },
     {
         name: "South Korea",
-        nameFull: "The Republic of Korea",
+        officialName: "The Republic of Korea",
         region: [
             WorldRegion.Asia
         ],
-        code: ISOCountryCode.SouthKorea,
-        code3: ISOCountryCode3.SouthKorea,
+        alpha2: ISOCountryCode.SouthKorea,
+        alpha3: ISOCountryCode3.SouthKorea,
         dialCode: "+82",
         languages: [
             ISOLanguageCode.Korean,
@@ -4041,16 +4041,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".kr"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "South Sudan",
-        nameFull: "The Republic of South Sudan",
+        officialName: "The Republic of South Sudan",
         region: [
             WorldRegion.Africa
         ],
-        code: ISOCountryCode.SouthSudan,
-        code3: ISOCountryCode3.SouthSudan,
+        alpha2: ISOCountryCode.SouthSudan,
+        alpha3: ISOCountryCode3.SouthSudan,
         dialCode: "+211",
         languages: [
             ISOLanguageCode.English,
@@ -4058,18 +4058,18 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".ss"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Spain",
-        nameFull: "The Kingdom of Spain",
+        officialName: "The Kingdom of Spain",
         region: [
             WorldRegion.Europe,
             WorldRegion.EuropeSouthern,
             WorldRegion.EuropeanUnion,
         ],
-        code: ISOCountryCode.Spain,
-        code3: ISOCountryCode3.Spain,
+        alpha2: ISOCountryCode.Spain,
+        alpha3: ISOCountryCode3.Spain,
         dialCode: "+34",
         languages: [
             ISOLanguageCode.Spanish,
@@ -4078,16 +4078,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".es"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Sri Lanka",
-        nameFull: "The Democratic Socialist Republic of Sri Lanka",
+        officialName: "The Democratic Socialist Republic of Sri Lanka",
         region: [
             WorldRegion.Asia
         ],
-        code: ISOCountryCode.SriLanka,
-        code3: ISOCountryCode3.SriLanka,
+        alpha2: ISOCountryCode.SriLanka,
+        alpha3: ISOCountryCode3.SriLanka,
         dialCode: "+94",
         languages: [
             ISOLanguageCode.Sinhalese,
@@ -4096,16 +4096,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".lk"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Sudan",
-        nameFull: "The Republic of the Sudan",
+        officialName: "The Republic of the Sudan",
         region: [
             WorldRegion.Africa
         ],
-        code: ISOCountryCode.Sudan,
-        code3: ISOCountryCode3.Sudan,
+        alpha2: ISOCountryCode.Sudan,
+        alpha3: ISOCountryCode3.Sudan,
         dialCode: "+249",
         languages: [
             ISOLanguageCode.Arabic,
@@ -4113,17 +4113,17 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".sd"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Suriname",
-        nameFull: "The Republic of Suriname",
+        officialName: "The Republic of Suriname",
         region: [
             WorldRegion.America,
             WorldRegion.SouthAmerica
         ],
-        code: ISOCountryCode.Suriname,
-        code3: ISOCountryCode3.Suriname,
+        alpha2: ISOCountryCode.Suriname,
+        alpha3: ISOCountryCode3.Suriname,
         dialCode: "+597",
         languages: [
             ISOLanguageCode.Dutch,
@@ -4131,16 +4131,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".sr"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Svalbard, Jan Mayen",
-        nameFull: "Svalbard and Jan Mayen",
+        officialName: "Svalbard and Jan Mayen",
         region: [
             WorldRegion.Europe
         ],
-        code: ISOCountryCode.SvalbardJanMayen,
-        code3: ISOCountryCode3.SvalbardJanMayen,
+        alpha2: ISOCountryCode.SvalbardJanMayen,
+        alpha3: ISOCountryCode3.SvalbardJanMayen,
         dialCode: "+47 79",
         languages: [
             ISOLanguageCode.Norwegian,
@@ -4149,20 +4149,20 @@ export const countryInfo: CountryInfo[] = [
             ".no",
             ".sj"
         ],
-        sovereign: false,
+        isSovereign: false,
         territoryOf: ISOCountryCode.Norway
     },
     {
         name: "Sweden",
-        nameFull: "The Kingdom of Sweden",
+        officialName: "The Kingdom of Sweden",
         region: [
             WorldRegion.Europe,
             WorldRegion.EuropeNorthern,
             WorldRegion.EuropeanUnion,
             WorldRegion.Scandinavia,
         ],
-        code: ISOCountryCode.Sweden,
-        code3: ISOCountryCode3.Sweden,
+        alpha2: ISOCountryCode.Sweden,
+        alpha3: ISOCountryCode3.Sweden,
         dialCode: "+46",
         languages: [
             ISOLanguageCode.Swedish,
@@ -4171,17 +4171,17 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".se"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Switzerland",
-        nameFull: "The Swiss Confederation",
+        officialName: "The Swiss Confederation",
         region: [
             WorldRegion.Europe,
             WorldRegion.EuropeWestern,
         ],
-        code: ISOCountryCode.Switzerland,
-        code3: ISOCountryCode3.Switzerland,
+        alpha2: ISOCountryCode.Switzerland,
+        alpha3: ISOCountryCode3.Switzerland,
         dialCode: "+41",
         languages: [
             ISOLanguageCode.German,
@@ -4194,17 +4194,17 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".ch"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Syria",
-        nameFull: "The Syrian Arab Republic",
+        officialName: "The Syrian Arab Republic",
         region: [
             WorldRegion.Asia,
             WorldRegion.MiddleEast
         ],
-        code: ISOCountryCode.Syria,
-        code3: ISOCountryCode3.Syria,
+        alpha2: ISOCountryCode.Syria,
+        alpha3: ISOCountryCode3.Syria,
         dialCode: "+963",
         languages: [
             ISOLanguageCode.Syriac,
@@ -4214,16 +4214,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".sy"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Taiwan",
-        nameFull: "The Republic of China",
+        officialName: "The Republic of China",
         region: [
             WorldRegion.Asia
         ],
-        code: ISOCountryCode.Taiwan,
-        code3: ISOCountryCode3.Taiwan,
+        alpha2: ISOCountryCode.Taiwan,
+        alpha3: ISOCountryCode3.Taiwan,
         dialCode: "+886",
         languages: [
             ISOLanguageCode.Chinese,
@@ -4232,17 +4232,17 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".tw"
         ],
-        sovereign: false,
+        isSovereign: false,
         territoryOf: ISOCountryCode.China
     },
     {
         name: "Tajikistan",
-        nameFull: "The Republic of Tajikistan",
+        officialName: "The Republic of Tajikistan",
         region: [
             WorldRegion.Asia
         ],
-        code: ISOCountryCode.Tajikistan,
-        code3: ISOCountryCode3.Tajikistan,
+        alpha2: ISOCountryCode.Tajikistan,
+        alpha3: ISOCountryCode3.Tajikistan,
         dialCode: "+992",
         languages: [
             ISOLanguageCode.Tajik,
@@ -4250,16 +4250,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".tj"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Tanzania",
-        nameFull: "The United Republic of Tanzania",
+        officialName: "The United Republic of Tanzania",
         region: [
             WorldRegion.Africa
         ],
-        code: ISOCountryCode.Tanzania,
-        code3: ISOCountryCode3.Tanzania,
+        alpha2: ISOCountryCode.Tanzania,
+        alpha3: ISOCountryCode3.Tanzania,
         dialCode: "+255",
         languages: [
             ISOLanguageCode.English,
@@ -4267,16 +4267,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".tz"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Thailand",
-        nameFull: "The Kingdom of Thailand",
+        officialName: "The Kingdom of Thailand",
         region: [
             WorldRegion.Asia
         ],
-        code: ISOCountryCode.Thailand,
-        code3: ISOCountryCode3.Thailand,
+        alpha2: ISOCountryCode.Thailand,
+        alpha3: ISOCountryCode3.Thailand,
         dialCode: "+66",
         languages: [
             ISOLanguageCode.Thai,
@@ -4284,16 +4284,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".th"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Timor-Leste",
-        nameFull: "The Democratic Republic of Timor-Leste",
+        officialName: "The Democratic Republic of Timor-Leste",
         region: [
             WorldRegion.Asia
         ],
-        code: ISOCountryCode.TimorLeste,
-        code3: ISOCountryCode3.TimorLeste,
+        alpha2: ISOCountryCode.TimorLeste,
+        alpha3: ISOCountryCode3.TimorLeste,
         dialCode: "+670",
         languages: [
             ISOLanguageCode.Portuguese,
@@ -4301,16 +4301,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".tl"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Togo",
-        nameFull: "The Togolese Republic",
+        officialName: "The Togolese Republic",
         region: [
             WorldRegion.Africa
         ],
-        code: ISOCountryCode.Togo,
-        code3: ISOCountryCode3.Togo,
+        alpha2: ISOCountryCode.Togo,
+        alpha3: ISOCountryCode3.Togo,
         dialCode: "+228",
         languages: [
             ISOLanguageCode.French,
@@ -4318,16 +4318,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".tg"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Tokelau",
-        nameFull: "Tokelau",
+        officialName: "Tokelau",
         region: [
             WorldRegion.Oceania
         ],
-        code: ISOCountryCode.Tokelau,
-        code3: ISOCountryCode3.Tokelau,
+        alpha2: ISOCountryCode.Tokelau,
+        alpha3: ISOCountryCode3.Tokelau,
         dialCode: "+690",
         languages: [
             ISOLanguageCode.English,
@@ -4335,17 +4335,17 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".tk"
         ],
-        sovereign: false,
+        isSovereign: false,
         territoryOf: ISOCountryCode.NewZealand
     },
     {
         name: "Tonga",
-        nameFull: "The Kingdom of Tonga",
+        officialName: "The Kingdom of Tonga",
         region: [
             WorldRegion.Oceania
         ],
-        code: ISOCountryCode.Tonga,
-        code3: ISOCountryCode3.Tonga,
+        alpha2: ISOCountryCode.Tonga,
+        alpha3: ISOCountryCode3.Tonga,
         dialCode: "+676",
         languages: [
             ISOLanguageCode.English,
@@ -4353,18 +4353,18 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".to"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Trinidad and Tobago",
-        nameFull: "The Republic of Trinidad and Tobago",
+        officialName: "The Republic of Trinidad and Tobago",
         region: [
             WorldRegion.America,
             WorldRegion.SouthAmerica,
             WorldRegion.Caribbean
         ],
-        code: ISOCountryCode.TrinidadAndTobago,
-        code3: ISOCountryCode3.TrinidadAndTobago,
+        alpha2: ISOCountryCode.TrinidadAndTobago,
+        alpha3: ISOCountryCode3.TrinidadAndTobago,
         dialCode: "+1 868",
         languages: [
             ISOLanguageCode.English,
@@ -4373,16 +4373,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".tt"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Tunisia",
-        nameFull: "The Republic of Tunisia",
+        officialName: "The Republic of Tunisia",
         region: [
             WorldRegion.Asia
         ],
-        code: ISOCountryCode.Tunisia,
-        code3: ISOCountryCode3.Tunisia,
+        alpha2: ISOCountryCode.Tunisia,
+        alpha3: ISOCountryCode3.Tunisia,
         dialCode: "+216",
         languages: [
             ISOLanguageCode.Arabic,
@@ -4391,17 +4391,17 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".tn"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Turkey",
-        nameFull: "The Republic of Türkiye",
+        officialName: "The Republic of Türkiye",
         region: [
             WorldRegion.Europe,
             WorldRegion.MiddleEast
         ],
-        code: ISOCountryCode.Turkey,
-        code3: ISOCountryCode3.Turkey,
+        alpha2: ISOCountryCode.Turkey,
+        alpha3: ISOCountryCode3.Turkey,
         dialCode: "+90",
         languages: [
             ISOLanguageCode.Turkish,
@@ -4409,16 +4409,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".tr"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Turkmenistan",
-        nameFull: "Turkmenistan",
+        officialName: "Turkmenistan",
         region: [
             WorldRegion.Asia
         ],
-        code: ISOCountryCode.Turkmenistan,
-        code3: ISOCountryCode3.Turkmenistan,
+        alpha2: ISOCountryCode.Turkmenistan,
+        alpha3: ISOCountryCode3.Turkmenistan,
         dialCode: "+993",
         languages: [
             ISOLanguageCode.Turkmen,
@@ -4426,18 +4426,18 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".tm"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Turks and Caicos Islands",
-        nameFull: "The Turks and Caicos Islands",
+        officialName: "The Turks and Caicos Islands",
         region: [
             WorldRegion.America,
             WorldRegion.SouthAmerica,
             WorldRegion.Caribbean
         ],
-        code: ISOCountryCode.TurksAndCaicosIslands,
-        code3: ISOCountryCode3.TurksAndCaicosIslands,
+        alpha2: ISOCountryCode.TurksAndCaicosIslands,
+        alpha3: ISOCountryCode3.TurksAndCaicosIslands,
         dialCode: "+1 649",
         languages: [
             ISOLanguageCode.English,
@@ -4447,17 +4447,17 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".tc"
         ],
-        sovereign: false,
+        isSovereign: false,
         territoryOf: ISOCountryCode.UnitedKingdom
     },
     {
         name: "Tuvalu",
-        nameFull: "Tuvalu",
+        officialName: "Tuvalu",
         region: [
             WorldRegion.Oceania
         ],
-        code: ISOCountryCode.Tuvalu,
-        code3: ISOCountryCode3.Tuvalu,
+        alpha2: ISOCountryCode.Tuvalu,
+        alpha3: ISOCountryCode3.Tuvalu,
         dialCode: "+688",
         languages: [
             ISOLanguageCode.Tuvalan,
@@ -4465,16 +4465,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".tv"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Uganda",
-        nameFull: "The Republic of Uganda",
+        officialName: "The Republic of Uganda",
         region: [
             WorldRegion.Africa
         ],
-        code: ISOCountryCode.Uganda,
-        code3: ISOCountryCode3.Uganda,
+        alpha2: ISOCountryCode.Uganda,
+        alpha3: ISOCountryCode3.Uganda,
         dialCode: "+256",
         languages: [
             ISOLanguageCode.English,
@@ -4483,17 +4483,17 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".ug"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Ukraine",
-        nameFull: "Ukraine",
+        officialName: "Ukraine",
         region: [
             WorldRegion.Europe,
             WorldRegion.EuropeEastern,
         ],
-        code: ISOCountryCode.Ukraine,
-        code3: ISOCountryCode3.Ukraine,
+        alpha2: ISOCountryCode.Ukraine,
+        alpha3: ISOCountryCode3.Ukraine,
         dialCode: "+380",
         languages: [
             ISOLanguageCode.Ukrainian,
@@ -4501,17 +4501,17 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".ua"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "United Arab Emirates",
-        nameFull: "The United Arab Emirates",
+        officialName: "The United Arab Emirates",
         region: [
             WorldRegion.Asia,
             WorldRegion.MiddleEast
         ],
-        code: ISOCountryCode.UnitedArabEmirates,
-        code3: ISOCountryCode3.UnitedArabEmirates,
+        alpha2: ISOCountryCode.UnitedArabEmirates,
+        alpha3: ISOCountryCode3.UnitedArabEmirates,
         dialCode: "+971",
         languages: [
             ISOLanguageCode.Arabic,
@@ -4520,17 +4520,17 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".ae"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "United Kingdom",
-        nameFull: "The United Kingdom of Great Britain and Northern Ireland",
+        officialName: "The United Kingdom of Great Britain and Northern Ireland",
         region: [
             WorldRegion.Europe,
             WorldRegion.EuropeNorthern,
         ],
-        code: ISOCountryCode.UnitedKingdom,
-        code3: ISOCountryCode3.UnitedKingdom,
+        alpha2: ISOCountryCode.UnitedKingdom,
+        alpha3: ISOCountryCode3.UnitedKingdom,
         dialCode: "+44",
         languages: [
             ISOLanguageCode.English,
@@ -4540,14 +4540,14 @@ export const countryInfo: CountryInfo[] = [
             ".gb",
             ".uk"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "United Nations",
-        nameFull: "United Nations",
+        officialName: "United Nations",
         region: [],
-        code: ISOCountryCode.UnitedNations,
-        code3: null,
+        alpha2: ISOCountryCode.UnitedNations,
+        alpha3: null,
         dialCode: null,
         languages: [
             ISOLanguageCode.English,
@@ -4560,16 +4560,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".un.org"
         ],
-        sovereign: false,
+        isSovereign: false,
     },
     {
         name: "United States Minor Outlying Islands",
-        nameFull: "Baker Island, Howland Island, Jarvis Island, Johnston Atoll, Kingman Reef, Midway Atoll, Navassa Island, Palmyra Atoll, and Wake Island",
+        officialName: "Baker Island, Howland Island, Jarvis Island, Johnston Atoll, Kingman Reef, Midway Atoll, Navassa Island, Palmyra Atoll, and Wake Island",
         region: [
             WorldRegion.Oceania
         ],
-        code: ISOCountryCode.UnitedStatesMinorOutlyingIslands,
-        code3: ISOCountryCode3.UnitedStatesMinorOutlyingIslands,
+        alpha2: ISOCountryCode.UnitedStatesMinorOutlyingIslands,
+        alpha3: ISOCountryCode3.UnitedStatesMinorOutlyingIslands,
         dialCode: "+1",
         languages: [
             ISOLanguageCode.English,
@@ -4578,18 +4578,18 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".us"
         ],
-        sovereign: false,
+        isSovereign: false,
         territoryOf: ISOCountryCode.UnitedStatesOfAmerica
     },
     {
         name: "United States of America",
-        nameFull: "The United States of America",
+        officialName: "The United States of America",
         region: [
             WorldRegion.America,
             WorldRegion.NorthAmerica
         ],
-        code: ISOCountryCode.UnitedStatesOfAmerica,
-        code3: ISOCountryCode3.UnitedStatesOfAmerica,
+        alpha2: ISOCountryCode.UnitedStatesOfAmerica,
+        alpha3: ISOCountryCode3.UnitedStatesOfAmerica,
         dialCode: "+1",
         languages: [
             ISOLanguageCode.English,
@@ -4598,17 +4598,17 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".us"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Uruguay",
-        nameFull: "The Oriental Republic of Uruguay",
+        officialName: "The Oriental Republic of Uruguay",
         region: [
             WorldRegion.America,
             WorldRegion.SouthAmerica
         ],
-        code: ISOCountryCode.Uruguay,
-        code3: ISOCountryCode3.Uruguay,
+        alpha2: ISOCountryCode.Uruguay,
+        alpha3: ISOCountryCode3.Uruguay,
         dialCode: "+598",
         languages: [
             ISOLanguageCode.Spanish,
@@ -4617,16 +4617,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".uy"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Uzbekistan",
-        nameFull: "The Republic of Uzbekistan",
+        officialName: "The Republic of Uzbekistan",
         region: [
             WorldRegion.Asia
         ],
-        code: ISOCountryCode.Uzbekistan,
-        code3: ISOCountryCode3.Uzbekistan,
+        alpha2: ISOCountryCode.Uzbekistan,
+        alpha3: ISOCountryCode3.Uzbekistan,
         dialCode: "+998",
         languages: [
             ISOLanguageCode.Uzbek,
@@ -4634,16 +4634,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".uz"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Vanuatu",
-        nameFull: "The Republic of Vanuatu",
+        officialName: "The Republic of Vanuatu",
         region: [
             WorldRegion.Oceania
         ],
-        code: ISOCountryCode.Vanuatu,
-        code3: ISOCountryCode3.Vanuatu,
+        alpha2: ISOCountryCode.Vanuatu,
+        alpha3: ISOCountryCode3.Vanuatu,
         dialCode: "+678",
         languages: [
             ISOLanguageCode.English,
@@ -4652,17 +4652,17 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".vu"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Vatican",
-        nameFull: "The Holy See",
+        officialName: "The Holy See",
         region: [
             WorldRegion.Europe,
             WorldRegion.EuropeSouthern,
         ],
-        code: ISOCountryCode.Vatican,
-        code3: ISOCountryCode3.Vatican,
+        alpha2: ISOCountryCode.Vatican,
+        alpha3: ISOCountryCode3.Vatican,
         dialCode: "+379",
         languages: [
             ISOLanguageCode.Latin,
@@ -4671,16 +4671,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".va"
         ],
-        sovereign: false
+        isSovereign: false
     },
     {
         name: "Venezuela",
-        nameFull: "The Bolivarian Republic of Venezuela",
+        officialName: "The Bolivarian Republic of Venezuela",
         region: [
             WorldRegion.Asia
         ],
-        code: ISOCountryCode.Venezuela,
-        code3: ISOCountryCode3.Venezuela,
+        alpha2: ISOCountryCode.Venezuela,
+        alpha3: ISOCountryCode3.Venezuela,
         dialCode: "+58",
         languages: [
             ISOLanguageCode.Spanish,
@@ -4689,16 +4689,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".ve"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Vietnam",
-        nameFull: "The Socialist Republic of Viet Nam",
+        officialName: "The Socialist Republic of Viet Nam",
         region: [
             WorldRegion.Asia
         ],
-        code: ISOCountryCode.Vietnam,
-        code3: ISOCountryCode3.Vietnam,
+        alpha2: ISOCountryCode.Vietnam,
+        alpha3: ISOCountryCode3.Vietnam,
         dialCode: "+84",
         languages: [
             ISOLanguageCode.Vietnamese,
@@ -4706,18 +4706,18 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".vn"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Virgin Islands (British)",
-        nameFull: "The Virgin Islands",
+        officialName: "The Virgin Islands",
         region: [
             WorldRegion.America,
             WorldRegion.SouthAmerica,
             WorldRegion.Caribbean
         ],
-        code: ISOCountryCode.VirginIslands,
-        code3: ISOCountryCode3.VirginIslands,
+        alpha2: ISOCountryCode.VirginIslands,
+        alpha3: ISOCountryCode3.VirginIslands,
         dialCode: "+1 284",
         languages: [
             ISOLanguageCode.English,
@@ -4726,19 +4726,19 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".vg"
         ],
-        sovereign: false,
+        isSovereign: false,
         territoryOf: ISOCountryCode.UnitedKingdom
     },
     {
         name: "Virgin Islands (U.S.)",
-        nameFull: "The Virgin Islands of the United States",
+        officialName: "The Virgin Islands of the United States",
         region: [
             WorldRegion.America,
             WorldRegion.SouthAmerica,
             WorldRegion.Caribbean
         ],
-        code: ISOCountryCode.VirginIslandsUS,
-        code3: ISOCountryCode3.VirginIslandsUS,
+        alpha2: ISOCountryCode.VirginIslandsUS,
+        alpha3: ISOCountryCode3.VirginIslandsUS,
         dialCode: "+1 340",
         languages: [
             ISOLanguageCode.English,
@@ -4747,19 +4747,19 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".vi"
         ],
-        sovereign: false,
+        isSovereign: false,
         territoryOf: ISOCountryCode.UnitedStatesOfAmerica
     },
     {
         name: "Wales",
-        nameFull: "Wales",
+        officialName: "Wales",
         region: [
             WorldRegion.Europe,
             WorldRegion.EuropeNorthern,
             WorldRegion.MainlandUnitedKingdom
         ],
-        code: ISOCountryCode.Wales,
-        code3: null,
+        alpha2: ISOCountryCode.Wales,
+        alpha3: null,
         dialCode: "+44",
         languages: [
             ISOLanguageCode.Welsh,
@@ -4772,17 +4772,17 @@ export const countryInfo: CountryInfo[] = [
             ".wales",
             ".cymru"
         ],
-        sovereign: false,
+        isSovereign: false,
         territoryOf: ISOCountryCode.UnitedKingdom,
     },
     {
         name: "Wallis and Futuna",
-        nameFull: "The Territory of the Wallis and Futuna Islands",
+        officialName: "The Territory of the Wallis and Futuna Islands",
         region: [
             WorldRegion.Oceania
         ],
-        code: ISOCountryCode.WallisAndFutuna,
-        code3: ISOCountryCode3.WallisAndFutuna,
+        alpha2: ISOCountryCode.WallisAndFutuna,
+        alpha3: ISOCountryCode3.WallisAndFutuna,
         dialCode: "+681",
         languages: [
             ISOLanguageCode.French,
@@ -4791,18 +4791,18 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".wf"
         ],
-        sovereign: false,
+        isSovereign: false,
         territoryOf: ISOCountryCode.France
     },
     {
         name: "Yemen",
-        nameFull: "The Republic of Yemen",
+        officialName: "The Republic of Yemen",
         region: [
             WorldRegion.Asia,
             WorldRegion.MiddleEast
         ],
-        code: ISOCountryCode.Yemen,
-        code3: ISOCountryCode3.Yemen,
+        alpha2: ISOCountryCode.Yemen,
+        alpha3: ISOCountryCode3.Yemen,
         dialCode: "+967",
         languages: [
             ISOLanguageCode.Arabic,
@@ -4811,16 +4811,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".ye"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Zambia",
-        nameFull: "The Republic of Zambia",
+        officialName: "The Republic of Zambia",
         region: [
             WorldRegion.Africa
         ],
-        code: ISOCountryCode.Zambia,
-        code3: ISOCountryCode3.Zambia,
+        alpha2: ISOCountryCode.Zambia,
+        alpha3: ISOCountryCode3.Zambia,
         dialCode: "+260",
         languages: [
             ISOLanguageCode.English,
@@ -4828,16 +4828,16 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".zm"
         ],
-        sovereign: true
+        isSovereign: true
     },
     {
         name: "Zimbabwe",
-        nameFull: "The Republic of Zimbabwe",
+        officialName: "The Republic of Zimbabwe",
         region: [
             WorldRegion.Africa
         ],
-        code: ISOCountryCode.Zimbabwe,
-        code3: ISOCountryCode3.Zimbabwe,
+        alpha2: ISOCountryCode.Zimbabwe,
+        alpha3: ISOCountryCode3.Zimbabwe,
         dialCode: "+263",
         languages: [
             ISOLanguageCode.EnglishZimbabwe,
@@ -4845,6 +4845,6 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".zw"
         ],
-        sovereign: true
+        isSovereign: true
     }
 ];
