@@ -166,3 +166,24 @@ export enum ISOCurrencyCode {
     ZimbabweDollar = "ZWL",
     Euro = "EUR",
 }
+
+export enum WorldRegion {
+    Asia = "Asia",
+    Europe = "Europe",
+    EuropeEastern = "Eastern Europe",
+    EuropeWestern = "Western Europe",
+    EuropeNorthern = "Northern Europe",
+    EuropeSouthern = "Southern Europe",
+    Africa = "Africa",
+    Oceania = "Oceania",
+    America = "America",
+    NorthAmerica = "North America",
+    SouthAmerica = "South America",
+    Australia = "Australia",
+    Antarctica = "Antarctica",
+    MiddleEast = "Middle East",
+    Caribbean = "Caribbean",
+    Scandinavia = "Scandinavia",
+    EuropeanUnion = "European Union",
+    MainlandUnitedKingdom = "Mainland United Kingdom",
+}
