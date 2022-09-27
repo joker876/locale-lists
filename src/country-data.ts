@@ -4,6 +4,7 @@ import {
     ISOCountryCode,
     ISOCountryCode3,
     ISOLanguageCode,
+    ISOCurrencyCode,
 } from "./types";
 
 export const countryInfo: CountryInfo[] = [
@@ -23,6 +24,7 @@ export const countryInfo: CountryInfo[] = [
             ".af"
         ],
         isSovereign: true,
+        currency: ISOCurrencyCode.Afghani
     },
     {
         name: "Åland Islands",
@@ -41,6 +43,7 @@ export const countryInfo: CountryInfo[] = [
         ],
         isSovereign: false,
         territoryOf: ISOCountryCode.Finland,
+        currency: ISOCurrencyCode.Euro
     },
     {
         name: "Albania",
@@ -58,7 +61,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".al"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.Lek
     },
     {
         name: "Algeria",
@@ -76,7 +80,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".dz"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.AlgerianDinar
     },
     {
         name: "American Samoa",
@@ -97,6 +102,7 @@ export const countryInfo: CountryInfo[] = [
         ],
         isSovereign: false,
         territoryOf: ISOCountryCode.UnitedStatesOfAmerica,
+        currency: ISOCurrencyCode.USDollar
     },
     {
         name: "Andorra",
@@ -114,7 +120,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".ad"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.Euro
     },
     {
         name: "Angola",
@@ -131,7 +138,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".ao"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.Kwanza
     },
     {
         name: "Anguilla",
@@ -152,7 +160,8 @@ export const countryInfo: CountryInfo[] = [
             ".ai"
         ],
         isSovereign: false,
-        territoryOf: ISOCountryCode.UnitedKingdom
+        territoryOf: ISOCountryCode.UnitedKingdom,
+        currency: ISOCurrencyCode.EastCaribbeanDollar
     },
     {
         name: "Antarctica",
@@ -167,7 +176,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".aq"
         ],
-        isSovereign: false
+        isSovereign: false,
+        currency: null
     },
     {
         name: "Antigua and Barbuda",
@@ -187,7 +197,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".ag"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.EastCaribbeanDollar
     },
     {
         name: "Argentina",
@@ -206,7 +217,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".ar"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.ArgentinePeso
     },
     {
         name: "Armenia",
@@ -223,7 +235,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".am"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.Dram
     },
     {
         name: "Aruba",
@@ -244,7 +257,8 @@ export const countryInfo: CountryInfo[] = [
             ".aw"
         ],
         isSovereign: false,
-        territoryOf: ISOCountryCode.Netherlands
+        territoryOf: ISOCountryCode.Netherlands,
+        currency: ISOCurrencyCode.ArubanGuilder
     },
     {
         name: "Australia",
@@ -263,7 +277,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".au"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.AustralianDollar
     },
     {
         name: "Austria",
@@ -283,7 +298,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".at"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.Euro
     },
     {
         name: "Azerbaijan",
@@ -300,7 +316,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".az"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.AzerbaijaniManat
     },
     {
         name: "Bahamas",
@@ -321,7 +338,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".bs"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.BahamianDollar
     },
     {
         name: "Bahrain",
@@ -340,7 +358,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".bh"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.BahrainDinar
     },
     {
         name: "Bangladesh",
@@ -357,7 +376,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".bd"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.Taka
     },
     {
         name: "Barbados",
@@ -377,7 +397,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".bb"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.BarbadianDollar
     },
     {
         name: "Belarus",
@@ -396,7 +417,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".by"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.BelarusRubel
     },
     {
         name: "Belgium",
@@ -418,7 +440,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".be"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.Euro
     },
     {
         name: "Belize",
@@ -437,7 +460,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".bz"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.BelizeDollar
     },
     {
         name: "Benin",
@@ -454,7 +478,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".bj"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.WestAfricanFranc
     },
     {
         name: "Bermuda",
@@ -474,7 +499,8 @@ export const countryInfo: CountryInfo[] = [
             ".bm"
         ],
         isSovereign: false,
-        territoryOf: ISOCountryCode.UnitedKingdom
+        territoryOf: ISOCountryCode.UnitedKingdom,
+        currency: ISOCurrencyCode.BermudianDollar
     },
     {
         name: "Bhutan",
@@ -491,7 +517,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".bt"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.Ngultrum
     },
     {
         name: "Bolivia",
@@ -512,7 +539,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".bo"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.Boliviano
     },
     {
         name: "Bonaire, Sint Eustatius, Saba",
@@ -534,7 +562,8 @@ export const countryInfo: CountryInfo[] = [
             ".nl"
         ],
         isSovereign: false,
-        territoryOf: ISOCountryCode.Netherlands
+        territoryOf: ISOCountryCode.Netherlands,
+        currency: ISOCurrencyCode.USDollar
     },
     {
         name: "Bosnia and Herzegovina",
@@ -554,7 +583,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".ba"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.ConvertibleMark
     },
     {
         name: "Botswana",
@@ -572,7 +602,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".bw"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.Pula
     },
     {
         name: "Bouvet Island",
@@ -592,7 +623,8 @@ export const countryInfo: CountryInfo[] = [
             ".bv"
         ],
         isSovereign: false,
-        territoryOf: ISOCountryCode.Norway
+        territoryOf: ISOCountryCode.Norway,
+        currency: ISOCurrencyCode.NorwegianKrone
     },
     {
         name: "Brazil",
@@ -611,7 +643,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".br"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.BrazilianReal
     },
     {
         name: "British Indian Ocean Territory",
@@ -630,7 +663,8 @@ export const countryInfo: CountryInfo[] = [
             ".io"
         ],
         isSovereign: false,
-        territoryOf: ISOCountryCode.UnitedKingdom
+        territoryOf: ISOCountryCode.UnitedKingdom,
+        currency: ISOCurrencyCode.USDollar
     },
     {
         name: "Brunei Darussalam",
@@ -649,7 +683,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".bn"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.BruneiDollar
     },
     {
         name: "Bulgaria",
@@ -668,7 +703,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".bg"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.BulgarianLev
     },
     {
         name: "Burkina Faso",
@@ -685,7 +721,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".bf"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.WestAfricanFranc
     },
     {
         name: "Burundi",
@@ -704,7 +741,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".bi"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.BurundiFranc
     },
     {
         name: "Cambodia",
@@ -721,7 +759,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".kh"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.CambodianRiel
     },
     {
         name: "Cameroon",
@@ -740,7 +779,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".cm"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.CentralAfricanFranc
     },
     {
         name: "Canada",
@@ -761,7 +801,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".ca"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.CanadianDollar
     },
     {
         name: "Canary Islands",
@@ -781,6 +822,7 @@ export const countryInfo: CountryInfo[] = [
         ],
         isSovereign: false,
         territoryOf: ISOCountryCode.Spain,
+        currency: ISOCurrencyCode.Euro
     },
     {
         name: "Cape Verde",
@@ -788,8 +830,8 @@ export const countryInfo: CountryInfo[] = [
         region: [
             WorldRegion.Africa
         ],
-        alpha2: ISOCountryCode.CaboVerde,
-        alpha3: ISOCountryCode3.CaboVerde,
+        alpha2: ISOCountryCode.CapeVerde,
+        alpha3: ISOCountryCode3.CapeVerde,
         dialCode: "+238",
         languages: [
             ISOLanguageCode.Portuguese,
@@ -797,7 +839,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".cv"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.CapeVerdeanEscudo
     },
     {
         name: "Catalonia",
@@ -820,6 +863,7 @@ export const countryInfo: CountryInfo[] = [
         ],
         isSovereign: false,
         territoryOf: ISOCountryCode.Spain,
+        currency: ISOCurrencyCode.Euro
     },
     {
         name: "Cayman Islands",
@@ -840,7 +884,8 @@ export const countryInfo: CountryInfo[] = [
             ".ky"
         ],
         isSovereign: false,
-        territoryOf: ISOCountryCode.UnitedKingdom
+        territoryOf: ISOCountryCode.UnitedKingdom,
+        currency: ISOCurrencyCode.CaymanDollar
     },
     {
         name: "Central African Republic",
@@ -857,7 +902,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".cf"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.CentralAfricanFranc
     },
     {
         name: "Chad",
@@ -875,7 +921,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".td"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.CentralAfricanFranc
     },
     {
         name: "Chile",
@@ -894,7 +941,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".cl"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.ChileanPeso
     },
     {
         name: "China",
@@ -912,7 +960,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".cn"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.RenminbiYuan
     },
     {
         name: "Christmas Island",
@@ -933,7 +982,8 @@ export const countryInfo: CountryInfo[] = [
             ".cx"
         ],
         isSovereign: false,
-        territoryOf: ISOCountryCode.Australia
+        territoryOf: ISOCountryCode.Australia,
+        currency: ISOCurrencyCode.AustralianDollar
     },
     {
         name: "Cocos (Keeling) Islands",
@@ -953,7 +1003,8 @@ export const countryInfo: CountryInfo[] = [
             ".cc"
         ],
         isSovereign: false,
-        territoryOf: ISOCountryCode.Australia
+        territoryOf: ISOCountryCode.Australia,
+        currency: ISOCurrencyCode.AustralianDollar
     },
     {
         name: "Colombia",
@@ -972,7 +1023,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".co"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.ColombianPeso
     },
     {
         name: "Comoros",
@@ -990,7 +1042,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".km"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.ComorianFranc
     },
     {
         name: "Cook Islands",
@@ -1010,7 +1063,8 @@ export const countryInfo: CountryInfo[] = [
             ".ck"
         ],
         isSovereign: false,
-        territoryOf: ISOCountryCode.NewZealand
+        territoryOf: ISOCountryCode.NewZealand,
+        currency: ISOCurrencyCode.NewZealandDollar
     },
     {
         name: "Costa Rica",
@@ -1029,7 +1083,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".cr"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.Colon
     },
     {
         name: "Croatia",
@@ -1048,7 +1103,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".hr"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.Kuna
     },
     {
         name: "Cuba",
@@ -1067,7 +1123,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".cu"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.CubanPeso
     },
     {
         name: "Curaçao",
@@ -1088,7 +1145,8 @@ export const countryInfo: CountryInfo[] = [
             ".cw"
         ],
         isSovereign: false,
-        territoryOf: ISOCountryCode.Netherlands
+        territoryOf: ISOCountryCode.Netherlands,
+        currency: ISOCurrencyCode.NetherlandsAntilleanGuilder
     },
     {
         name: "Cyprus",
@@ -1109,7 +1167,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".cy"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.Euro
     },
     {
         name: "Czechia",
@@ -1129,7 +1188,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".cz"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.CzechKrone
     },
     {
         name: "Democratic Republic of Congo",
@@ -1147,7 +1207,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".cd"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.CongoleseFranc
     },
     {
         name: "Denmark",
@@ -1166,7 +1227,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".dk"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.DanishKrone
     },
     {
         name: "Djibouti",
@@ -1184,7 +1246,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".dj"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.DjiboutiFranc
     },
     {
         name: "Dominica",
@@ -1204,7 +1267,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".dm"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.EastCaribbeanDollar
     },
     {
         name: "Dominican Republic",
@@ -1224,7 +1288,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".do"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.DominicanPeso
     },
     {
         name: "Ecuador",
@@ -1243,7 +1308,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".ec"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.USDollar
     },
     {
         name: "Egypt",
@@ -1262,7 +1328,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".eg"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.EgyptianPound
     },
     {
         name: "El Salvador",
@@ -1280,7 +1347,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".sv"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.USDollar
     },
     {
         name: "England",
@@ -1303,6 +1371,7 @@ export const countryInfo: CountryInfo[] = [
         ],
         isSovereign: false,
         territoryOf: ISOCountryCode.UnitedKingdom,
+        currency: ISOCurrencyCode.SterlingPound
     },
     {
         name: "Equatorial Guinea",
@@ -1321,7 +1390,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".gq"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.CentralAfricanFranc
     },
     {
         name: "Eritrea",
@@ -1338,7 +1408,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".er"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.Nakfa
     },
     {
         name: "Estonia",
@@ -1357,7 +1428,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".ee"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.Euro
     },
     {
         name: "Eswatini",
@@ -1376,7 +1448,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".sz"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.SwaziLilangeni
     },
     {
         name: "Ethiopia",
@@ -1395,7 +1468,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".et"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.Birr
     },
     {
         name: "European Union",
@@ -1415,6 +1489,7 @@ export const countryInfo: CountryInfo[] = [
             ".eu"
         ],
         isSovereign: false,
+        currency: ISOCurrencyCode.Euro
     },
     {
         name: "Falkland Islands",
@@ -1433,7 +1508,8 @@ export const countryInfo: CountryInfo[] = [
             ".fk"
         ],
         isSovereign: false,
-        territoryOf: ISOCountryCode.UnitedKingdom
+        territoryOf: ISOCountryCode.UnitedKingdom,
+        currency: ISOCurrencyCode.FalklandsPound
     },
     {
         name: "Faroe Islands",
@@ -1451,7 +1527,8 @@ export const countryInfo: CountryInfo[] = [
             ".fo"
         ],
         isSovereign: false,
-        territoryOf: ISOCountryCode.Denmark
+        territoryOf: ISOCountryCode.Denmark,
+        currency: ISOCurrencyCode.FaroeseKrona
     },
     {
         name: "Fiji",
@@ -1469,7 +1546,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".fj"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.FijianDollar
     },
     {
         name: "Finland",
@@ -1491,7 +1569,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".fi"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.Euro
     },
     {
         name: "France",
@@ -1511,7 +1590,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".fr"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.Euro
     },
     {
         name: "French Guiana",
@@ -1529,7 +1609,8 @@ export const countryInfo: CountryInfo[] = [
             ".gf"
         ],
         isSovereign: false,
-        territoryOf: ISOCountryCode.France
+        territoryOf: ISOCountryCode.France,
+        currency: ISOCurrencyCode.Euro
     },
     {
         name: "French Polynesia",
@@ -1548,7 +1629,8 @@ export const countryInfo: CountryInfo[] = [
             ".pf"
         ],
         isSovereign: false,
-        territoryOf: ISOCountryCode.France
+        territoryOf: ISOCountryCode.France,
+        currency: ISOCurrencyCode.Euro
     },
     {
         name: "French Southern Territories",
@@ -1566,7 +1648,8 @@ export const countryInfo: CountryInfo[] = [
             ".tf"
         ],
         isSovereign: false,
-        territoryOf: ISOCountryCode.France
+        territoryOf: ISOCountryCode.France,
+        currency: ISOCurrencyCode.Euro
     },
     {
         name: "Gabon",
@@ -1583,7 +1666,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".ga"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.CentralAfricanFranc
     },
     {
         name: "Gambia",
@@ -1601,7 +1685,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".gm"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.Dalasi
     },
     {
         name: "Georgia",
@@ -1619,7 +1704,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".ge"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.GeorgianLari
     },
     {
         name: "Germany",
@@ -1639,7 +1725,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".de"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.Euro
     },
     {
         name: "Ghana",
@@ -1657,7 +1744,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".gh"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.GhanaCedi
     },
     {
         name: "Gibraltar",
@@ -1676,7 +1764,8 @@ export const countryInfo: CountryInfo[] = [
             ".gi"
         ],
         isSovereign: false,
-        territoryOf: ISOCountryCode.UnitedKingdom
+        territoryOf: ISOCountryCode.UnitedKingdom,
+        currency: ISOCurrencyCode.GibraltarPound
     },
     {
         name: "Greece",
@@ -1695,7 +1784,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".gr"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.Euro
     },
     {
         name: "Greenland",
@@ -1714,7 +1804,8 @@ export const countryInfo: CountryInfo[] = [
             ".gl"
         ],
         isSovereign: false,
-        territoryOf: ISOCountryCode.Denmark
+        territoryOf: ISOCountryCode.Denmark,
+        currency: ISOCurrencyCode.DanishKrone
     },
     {
         name: "Grenada",
@@ -1733,7 +1824,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".gd"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.EastCaribbeanDollar
     },
     {
         name: "Guadeloupe",
@@ -1754,7 +1846,8 @@ export const countryInfo: CountryInfo[] = [
             ".gp"
         ],
         isSovereign: false,
-        territoryOf: ISOCountryCode.France
+        territoryOf: ISOCountryCode.France,
+        currency: ISOCurrencyCode.Euro
     },
     {
         name: "Guam",
@@ -1774,6 +1867,7 @@ export const countryInfo: CountryInfo[] = [
         ],
         isSovereign: false,
         territoryOf: ISOCountryCode.UnitedStatesOfAmerica,
+        currency: ISOCurrencyCode.USDollar
     },
     {
         name: "Guatemala",
@@ -1792,7 +1886,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".gt"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.Quetzal
     },
     {
         name: "Guernsey",
@@ -1810,6 +1905,7 @@ export const countryInfo: CountryInfo[] = [
             ".gg"
         ],
         isSovereign: false,
+        currency: ISOCurrencyCode.GuernseyPound
     },
     {
         name: "Guinea",
@@ -1826,7 +1922,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".gn"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.GuineaFranc
     },
     {
         name: "Guinea-Bissau",
@@ -1843,7 +1940,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".gw"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.WestAfricanFranc
     },
     {
         name: "Guyana",
@@ -1862,7 +1960,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".gy"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.GuyanaDollar
     },
     {
         name: "Haiti",
@@ -1881,7 +1980,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".ht"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.Gourde
     },
     {
         name: "Heard Island and McDonald Islands",
@@ -1897,7 +1997,8 @@ export const countryInfo: CountryInfo[] = [
             ".hm"
         ],
         isSovereign: false,
-        territoryOf: ISOCountryCode.Australia
+        territoryOf: ISOCountryCode.Australia,
+        currency: ISOCurrencyCode.AustralianDollar
     },
     {
         name: "Honduras",
@@ -1916,7 +2017,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".hn"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.Lempira
     },
     {
         name: "Hong Kong",
@@ -1935,7 +2037,8 @@ export const countryInfo: CountryInfo[] = [
             ".hk"
         ],
         isSovereign: false,
-        territoryOf: ISOCountryCode.China
+        territoryOf: ISOCountryCode.China,
+        currency: ISOCurrencyCode.HongKongDollar
     },
     {
         name: "Hungary",
@@ -1954,7 +2057,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".hu"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.HungarianForint
     },
     {
         name: "Iceland",
@@ -1972,7 +2076,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".is"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.IcelandicKrone
     },
     {
         name: "India",
@@ -2000,7 +2105,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".in"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.IndianRupee
     },
     {
         name: "Indonesia",
@@ -2017,7 +2123,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".id"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.IndonesianRupiah
     },
     {
         name: "Iran",
@@ -2035,7 +2142,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".ir"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.IranianRial
     },
     {
         name: "Iraq",
@@ -2054,7 +2162,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".iq"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.IraqiDinar
     },
     {
         name: "Ireland",
@@ -2076,7 +2185,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".ie"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.Euro
     },
     {
         name: "Isle of Man",
@@ -2095,6 +2205,7 @@ export const countryInfo: CountryInfo[] = [
             ".im"
         ],
         isSovereign: false,
+        currency: ISOCurrencyCode.ManxPound
     },
     {
         name: "Israel",
@@ -2112,7 +2223,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".il"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.IsraeliShekel
     },
     {
         name: "Italy",
@@ -2132,7 +2244,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".it"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.Euro
     },
     {
         name: "Ivory Coast",
@@ -2150,7 +2263,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".ci"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.WestAfricanFranc
     },
     {
         name: "Jamaica",
@@ -2170,7 +2284,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".jm"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.JamaicaDollar
     },
     {
         name: "Japan",
@@ -2187,7 +2302,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".jp"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.JapaneseYen
     },
     {
         name: "Jersey",
@@ -2205,6 +2321,7 @@ export const countryInfo: CountryInfo[] = [
             ".je"
         ],
         isSovereign: false,
+        currency: ISOCurrencyCode.JerseySterlingPound
     },
     {
         name: "Jordan",
@@ -2223,7 +2340,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".jo"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.JordanianDinar
     },
     {
         name: "Kazakhstan",
@@ -2241,7 +2359,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".kz"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.Tenge
     },
     {
         name: "Kenya",
@@ -2260,7 +2379,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".ke"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.KenianSchilling
     },
     {
         name: "Kiribati",
@@ -2277,7 +2397,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".ki"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.KiribatiDollar
     },
     {
         name: "Kosovo",
@@ -2296,7 +2417,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".xk"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.Euro
     },
     {
         name: "Kuwait",
@@ -2315,7 +2437,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".kw"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.KuwaitiDinar
     },
     {
         name: "Kyrgyzstan",
@@ -2333,7 +2456,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".kg"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.Som
     },
     {
         name: "Laos",
@@ -2350,7 +2474,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".la"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.Kip
     },
     {
         name: "Latvia",
@@ -2369,7 +2494,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".lv"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.Euro
     },
     {
         name: "Lebanon",
@@ -2388,7 +2514,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".lb"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.LebanesePound
     },
     {
         name: "Lesotho",
@@ -2406,7 +2533,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".ls"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.LesothoLoti
     },
     {
         name: "Liberia",
@@ -2423,7 +2551,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".lr"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.LiberianDollar
     },
     {
         name: "Libya",
@@ -2441,7 +2570,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".ly"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.LibyanDinar
     },
     {
         name: "Liechtenstein",
@@ -2460,7 +2590,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".li"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.SwissFranc
     },
     {
         name: "Lithuania",
@@ -2478,7 +2609,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".lt"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.Euro
     },
     {
         name: "Luxembourg",
@@ -2501,7 +2633,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".lu"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.Euro
     },
     {
         name: "Macau",
@@ -2521,7 +2654,8 @@ export const countryInfo: CountryInfo[] = [
             ".mo"
         ],
         isSovereign: false,
-        territoryOf: ISOCountryCode.China
+        territoryOf: ISOCountryCode.China,
+        currency: ISOCurrencyCode.MacanesePataca
     },
     {
         name: "Madagascar",
@@ -2538,7 +2672,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".mg"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.MalagasyAriary
     },
     {
         name: "Malawi",
@@ -2555,7 +2690,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".mw"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.Kwacha
     },
     {
         name: "Malaysia",
@@ -2573,7 +2709,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".my"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.Ringgit
     },
     {
         name: "Maldives",
@@ -2590,7 +2727,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".mv"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.MaldivianRufiyaa
     },
     {
         name: "Mali",
@@ -2608,7 +2746,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".ml"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.WestAfricanFranc
     },
     {
         name: "Malta",
@@ -2628,7 +2767,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".mt"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.Euro
     },
     {
         name: "Marshall Islands",
@@ -2645,7 +2785,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".mh"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.USDollar
     },
     {
         name: "Martinique",
@@ -2666,7 +2807,8 @@ export const countryInfo: CountryInfo[] = [
             ".mq"
         ],
         isSovereign: false,
-        territoryOf: ISOCountryCode.France
+        territoryOf: ISOCountryCode.France,
+        currency: ISOCurrencyCode.Euro
     },
     {
         name: "Mauritania",
@@ -2683,7 +2825,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".mr"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.Ouguiya
     },
     {
         name: "Mauritius",
@@ -2700,7 +2843,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".mu"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.MauritianRupee
     },
     {
         name: "Mayotte",
@@ -2719,7 +2863,8 @@ export const countryInfo: CountryInfo[] = [
             ".yt"
         ],
         isSovereign: false,
-        territoryOf: ISOCountryCode.France
+        territoryOf: ISOCountryCode.France,
+        currency: ISOCurrencyCode.Euro
     },
     {
         name: "Mexico",
@@ -2738,7 +2883,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".mx"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.MexicanPeso
     },
     {
         name: "Micronesia",
@@ -2755,7 +2901,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".fm"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.USDollar
     },
     {
         name: "Moldova",
@@ -2776,7 +2923,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".md"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.MoldavianLeu
     },
     {
         name: "Monaco",
@@ -2795,7 +2943,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".mc"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.Euro
     },
     {
         name: "Mongolia",
@@ -2812,7 +2961,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".mn"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.Tugrik
     },
     {
         name: "Montenegro",
@@ -2830,7 +2980,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".me"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.Euro
     },
     {
         name: "Montserrat",
@@ -2852,7 +3003,8 @@ export const countryInfo: CountryInfo[] = [
             ".ms"
         ],
         isSovereign: false,
-        territoryOf: ISOCountryCode.UnitedKingdom
+        territoryOf: ISOCountryCode.UnitedKingdom,
+        currency: ISOCurrencyCode.EastCaribbeanDollar
     },
     {
         name: "Morocco",
@@ -2870,7 +3022,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".ma"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.MoroccanDirham
     },
     {
         name: "Mozambique",
@@ -2887,7 +3040,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".mz"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.Metical
     },
     {
         name: "Myanmar",
@@ -2904,7 +3058,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".mm"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.Kyat
     },
     {
         name: "Namibia",
@@ -2921,7 +3076,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".na"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.NamibianDollar
     },
     {
         name: "Nauru",
@@ -2938,7 +3094,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".nr"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.AustralianDollar
     },
     {
         name: "Nepal",
@@ -2955,7 +3112,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".np"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.NepaleseRupee
     },
     {
         name: "Netherlands",
@@ -2975,7 +3133,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".nl"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.Euro
     },
     {
         name: "New Caledonia",
@@ -2994,7 +3153,8 @@ export const countryInfo: CountryInfo[] = [
             ".nc"
         ],
         isSovereign: false,
-        territoryOf: ISOCountryCode.France
+        territoryOf: ISOCountryCode.France,
+        currency: ISOCurrencyCode.Euro
     },
     {
         name: "New Zealand",
@@ -3014,7 +3174,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".nz"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.NewZealandDollar
     },
     {
         name: "Nicaragua",
@@ -3033,7 +3194,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".ni"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.CordobaOro
     },
     {
         name: "Niger",
@@ -3050,7 +3212,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".ne"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.WestAfricanFranc
     },
     {
         name: "Nigeria",
@@ -3068,7 +3231,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".ng"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.Naira
     },
     {
         name: "Niue",
@@ -3087,7 +3251,8 @@ export const countryInfo: CountryInfo[] = [
             ".nu"
         ],
         isSovereign: false,
-        territoryOf: ISOCountryCode.NewZealand
+        territoryOf: ISOCountryCode.NewZealand,
+        currency: ISOCurrencyCode.NewZealandDollar
     },
     {
         name: "Norfolk Island",
@@ -3106,7 +3271,8 @@ export const countryInfo: CountryInfo[] = [
             ".nf"
         ],
         isSovereign: false,
-        territoryOf: ISOCountryCode.Australia
+        territoryOf: ISOCountryCode.Australia,
+        currency: ISOCurrencyCode.AustralianDollar
     },
     {
         name: "North Korea",
@@ -3123,7 +3289,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".kp"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.NorthKoreanWon
     },
     {
         name: "North Macedonia",
@@ -3142,7 +3309,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".mk"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.MacedonianDenar
     },
     {
         name: "Northern Ireland",
@@ -3166,6 +3334,7 @@ export const countryInfo: CountryInfo[] = [
         ],
         isSovereign: false,
         territoryOf: ISOCountryCode.UnitedKingdom,
+        currency: ISOCurrencyCode.SterlingPound
     },
     {
         name: "Northern Mariana Islands",
@@ -3184,7 +3353,8 @@ export const countryInfo: CountryInfo[] = [
             ".mp"
         ],
         isSovereign: false,
-        territoryOf: ISOCountryCode.UnitedStatesOfAmerica
+        territoryOf: ISOCountryCode.UnitedStatesOfAmerica,
+        currency: ISOCurrencyCode.USDollar
     },
     {
         name: "Norway",
@@ -3203,7 +3373,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".no"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.NorwegianKrone
     },
     {
         name: "Oman",
@@ -3222,7 +3393,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".om"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.OmaniRial
     },
     {
         name: "Pakistan",
@@ -3241,7 +3413,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".pk"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.PakistanianRupee
     },
     {
         name: "Palau",
@@ -3258,7 +3431,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".pw"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.USDollar
     },
     {
         name: "Palestine",
@@ -3276,7 +3450,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".ps"
         ],
-        isSovereign: false
+        isSovereign: false,
+        currency: ISOCurrencyCode.EgyptianPound
     },
     {
         name: "Panama",
@@ -3295,7 +3470,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".pa"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.PanamanianBalboa
     },
     {
         name: "Papua New Guinea",
@@ -3312,7 +3488,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".pg"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.Kina
     },
     {
         name: "Paraguay",
@@ -3331,7 +3508,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".py"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.Guarani
     },
     {
         name: "Peru",
@@ -3350,7 +3528,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".pe"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.Sol
     },
     {
         name: "Philippines",
@@ -3368,7 +3547,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".ph"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.PhilippinePeso
     },
     {
         name: "Pitcairn",
@@ -3387,7 +3567,8 @@ export const countryInfo: CountryInfo[] = [
             ".pn"
         ],
         isSovereign: false,
-        territoryOf: ISOCountryCode.UnitedKingdom
+        territoryOf: ISOCountryCode.UnitedKingdom,
+        currency: ISOCurrencyCode.NewZealandDollar
     },
     {
         name: "Poland",
@@ -3406,7 +3587,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".pl"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.Zloty
     },
     {
         name: "Portugal",
@@ -3426,7 +3608,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".pt"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.Euro
     },
     {
         name: "Puerto Rico",
@@ -3447,7 +3630,8 @@ export const countryInfo: CountryInfo[] = [
             ".pr"
         ],
         isSovereign: false,
-        territoryOf: ISOCountryCode.UnitedStatesOfAmerica
+        territoryOf: ISOCountryCode.UnitedStatesOfAmerica,
+        currency: ISOCurrencyCode.USDollar
     },
     {
         name: "Qatar",
@@ -3466,7 +3650,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".qa"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.QatariRial
     },
     {
         name: "Republic of Congo",
@@ -3484,7 +3669,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".cg"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.CentralAfricanFranc
     },
     {
         name: "Romania",
@@ -3503,7 +3689,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".ro"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.RomanianLeu
     },
     {
         name: "Russian Federation",
@@ -3522,7 +3709,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".ru"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.RussianRubel
     },
     {
         name: "Rwanda",
@@ -3541,7 +3729,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".rw"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.RwandanFranc
     },
     {
         name: "Réunion",
@@ -3560,7 +3749,8 @@ export const countryInfo: CountryInfo[] = [
             ".re"
         ],
         isSovereign: false,
-        territoryOf: ISOCountryCode.France
+        territoryOf: ISOCountryCode.France,
+        currency: ISOCurrencyCode.Euro
     },
     {
         name: "Saint Barthélemy",
@@ -3581,7 +3771,8 @@ export const countryInfo: CountryInfo[] = [
             ".bl"
         ],
         isSovereign: false,
-        territoryOf: ISOCountryCode.France
+        territoryOf: ISOCountryCode.France,
+        currency: ISOCurrencyCode.Euro
     },
     {
         name: "Saint Helena, Ascension Island, Tristan da Cunha",
@@ -3600,7 +3791,8 @@ export const countryInfo: CountryInfo[] = [
             ".sh"
         ],
         isSovereign: false,
-        territoryOf: ISOCountryCode.UnitedKingdom
+        territoryOf: ISOCountryCode.UnitedKingdom,
+        currency: ISOCurrencyCode.SaintHelenaPound
     },
     {
         name: "Saint Kitts and Nevis",
@@ -3620,7 +3812,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".kn"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.EastCaribbeanDollar
     },
     {
         name: "Saint Lucia",
@@ -3640,7 +3833,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".lc"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.EastCaribbeanDollar
     },
     {
         name: "Saint Martin",
@@ -3661,7 +3855,8 @@ export const countryInfo: CountryInfo[] = [
             ".mf"
         ],
         isSovereign: false,
-        territoryOf: ISOCountryCode.France
+        territoryOf: ISOCountryCode.France,
+        currency: ISOCurrencyCode.Euro
     },
     {
         name: "Saint Pierre and Miquelon",
@@ -3681,7 +3876,8 @@ export const countryInfo: CountryInfo[] = [
             ".pm"
         ],
         isSovereign: false,
-        territoryOf: ISOCountryCode.France
+        territoryOf: ISOCountryCode.France,
+        currency: ISOCurrencyCode.Euro
     },
     {
         name: "Saint Vincent and the Grenadines",
@@ -3701,7 +3897,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".vc"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.EastCaribbeanDollar
     },
     {
         name: "Samoa",
@@ -3719,7 +3916,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".ws"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.Tala
     },
     {
         name: "San Marino",
@@ -3737,7 +3935,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".sm"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.Euro
     },
     {
         name: "Sao Tome and Principe",
@@ -3754,7 +3953,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".st"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.Dobra
     },
     {
         name: "Saudi Arabia",
@@ -3773,7 +3973,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".sa"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.SaudiRial
     },
     {
         name: "Scotland",
@@ -3798,6 +3999,7 @@ export const countryInfo: CountryInfo[] = [
         ],
         isSovereign: false,
         territoryOf: ISOCountryCode.UnitedKingdom,
+        currency: ISOCurrencyCode.SterlingPound
     },
     {
         name: "Senegal",
@@ -3815,7 +4017,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".sn"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.WestAfricanFranc
     },
     {
         name: "Serbia",
@@ -3833,7 +4036,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".rs"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.SerbianDinar
     },
     {
         name: "Seychelles",
@@ -3851,7 +4055,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".sc"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.SeychellesRupee
     },
     {
         name: "Sierra Leone",
@@ -3868,7 +4073,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".sl"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.Leone
     },
     {
         name: "Singapore",
@@ -3888,7 +4094,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".sg"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.SingaporeDollar
     },
     {
         name: "Sint Maarten",
@@ -3909,7 +4116,8 @@ export const countryInfo: CountryInfo[] = [
             ".sx"
         ],
         isSovereign: false,
-        territoryOf: ISOCountryCode.Netherlands
+        territoryOf: ISOCountryCode.Netherlands,
+        currency: ISOCurrencyCode.Euro
     },
     {
         name: "Slovakia",
@@ -3928,7 +4136,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".sk"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.Euro
     },
     {
         name: "Slovenia",
@@ -3947,7 +4156,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".si"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.Euro
     },
     {
         name: "Solomon Islands",
@@ -3964,7 +4174,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".sb"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.SalomonDollar
     },
     {
         name: "Somalia",
@@ -3981,7 +4192,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".so"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.SomalianShilling
     },
     {
         name: "South Africa",
@@ -4004,7 +4216,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".za"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.SouthAfricanRand
     },
     {
         name: "South Georgia and the South Sandwich Islands",
@@ -4024,7 +4237,8 @@ export const countryInfo: CountryInfo[] = [
             ".gs"
         ],
         isSovereign: false,
-        territoryOf: ISOCountryCode.UnitedKingdom
+        territoryOf: ISOCountryCode.UnitedKingdom,
+        currency: ISOCurrencyCode.FalklandsPound
     },
     {
         name: "South Korea",
@@ -4041,7 +4255,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".kr"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.SouthKoreanWon
     },
     {
         name: "South Sudan",
@@ -4058,7 +4273,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".ss"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.SouthSudanesePound
     },
     {
         name: "Spain",
@@ -4078,7 +4294,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".es"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.Euro
     },
     {
         name: "Sri Lanka",
@@ -4096,7 +4313,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".lk"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.SriLankaRupee
     },
     {
         name: "Sudan",
@@ -4113,7 +4331,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".sd"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.SudanesePound
     },
     {
         name: "Suriname",
@@ -4131,7 +4350,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".sr"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.SurinameseDollar
     },
     {
         name: "Svalbard, Jan Mayen",
@@ -4150,7 +4370,8 @@ export const countryInfo: CountryInfo[] = [
             ".sj"
         ],
         isSovereign: false,
-        territoryOf: ISOCountryCode.Norway
+        territoryOf: ISOCountryCode.Norway,
+        currency: ISOCurrencyCode.NorwegianKrone
     },
     {
         name: "Sweden",
@@ -4171,7 +4392,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".se"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.SwedishKrone
     },
     {
         name: "Switzerland",
@@ -4194,7 +4416,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".ch"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.SwissFranc
     },
     {
         name: "Syria",
@@ -4214,7 +4437,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".sy"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.SyrianPound
     },
     {
         name: "Taiwan",
@@ -4233,7 +4457,8 @@ export const countryInfo: CountryInfo[] = [
             ".tw"
         ],
         isSovereign: false,
-        territoryOf: ISOCountryCode.China
+        territoryOf: ISOCountryCode.China,
+        currency: ISOCurrencyCode.NewTaiwanDollar
     },
     {
         name: "Tajikistan",
@@ -4250,7 +4475,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".tj"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.Somoni
     },
     {
         name: "Tanzania",
@@ -4267,7 +4493,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".tz"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.TansanianShilling
     },
     {
         name: "Thailand",
@@ -4284,7 +4511,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".th"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.ThaiBaht
     },
     {
         name: "Timor-Leste",
@@ -4301,7 +4529,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".tl"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.USDollar
     },
     {
         name: "Togo",
@@ -4318,7 +4547,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".tg"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.WestAfricanFranc
     },
     {
         name: "Tokelau",
@@ -4336,7 +4566,8 @@ export const countryInfo: CountryInfo[] = [
             ".tk"
         ],
         isSovereign: false,
-        territoryOf: ISOCountryCode.NewZealand
+        territoryOf: ISOCountryCode.NewZealand,
+        currency: ISOCurrencyCode.NewZealandDollar
     },
     {
         name: "Tonga",
@@ -4353,7 +4584,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".to"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.Paanga
     },
     {
         name: "Trinidad and Tobago",
@@ -4373,7 +4605,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".tt"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.TrinidadandTobagoDollar
     },
     {
         name: "Tunisia",
@@ -4391,7 +4624,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".tn"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.TunesianDinar
     },
     {
         name: "Turkey",
@@ -4409,7 +4643,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".tr"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.TurkishLira
     },
     {
         name: "Turkmenistan",
@@ -4426,7 +4661,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".tm"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.TurkmenistaniManat
     },
     {
         name: "Turks and Caicos Islands",
@@ -4448,7 +4684,8 @@ export const countryInfo: CountryInfo[] = [
             ".tc"
         ],
         isSovereign: false,
-        territoryOf: ISOCountryCode.UnitedKingdom
+        territoryOf: ISOCountryCode.UnitedKingdom,
+        currency: ISOCurrencyCode.USDollar
     },
     {
         name: "Tuvalu",
@@ -4465,7 +4702,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".tv"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.TuvaluanDollar
     },
     {
         name: "Uganda",
@@ -4483,7 +4721,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".ug"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.UgandanSchilling
     },
     {
         name: "Ukraine",
@@ -4501,7 +4740,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".ua"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.Hrywnja
     },
     {
         name: "United Arab Emirates",
@@ -4520,7 +4760,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".ae"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.UnitedArabEmiratesDirham
     },
     {
         name: "United Kingdom",
@@ -4540,7 +4781,8 @@ export const countryInfo: CountryInfo[] = [
             ".gb",
             ".uk"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.SterlingPound
     },
     {
         name: "United Nations",
@@ -4561,6 +4803,7 @@ export const countryInfo: CountryInfo[] = [
             ".un.org"
         ],
         isSovereign: false,
+        currency: null
     },
     {
         name: "United States Minor Outlying Islands",
@@ -4579,7 +4822,8 @@ export const countryInfo: CountryInfo[] = [
             ".us"
         ],
         isSovereign: false,
-        territoryOf: ISOCountryCode.UnitedStatesOfAmerica
+        territoryOf: ISOCountryCode.UnitedStatesOfAmerica,
+        currency: ISOCurrencyCode.USDollar
     },
     {
         name: "United States of America",
@@ -4598,7 +4842,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".us"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.USDollar
     },
     {
         name: "Uruguay",
@@ -4617,7 +4862,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".uy"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.UruguayPeso
     },
     {
         name: "Uzbekistan",
@@ -4634,7 +4880,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".uz"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.UzbekistaniSoum
     },
     {
         name: "Vanuatu",
@@ -4652,7 +4899,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".vu"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.Vatu
     },
     {
         name: "Vatican",
@@ -4671,7 +4919,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".va"
         ],
-        isSovereign: false
+        isSovereign: false,
+        currency: ISOCurrencyCode.Euro
     },
     {
         name: "Venezuela",
@@ -4689,7 +4938,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".ve"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.VenezuelanBolivar
     },
     {
         name: "Vietnam",
@@ -4706,7 +4956,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".vn"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.Dong
     },
     {
         name: "Virgin Islands (British)",
@@ -4727,7 +4978,8 @@ export const countryInfo: CountryInfo[] = [
             ".vg"
         ],
         isSovereign: false,
-        territoryOf: ISOCountryCode.UnitedKingdom
+        territoryOf: ISOCountryCode.UnitedKingdom,
+        currency: ISOCurrencyCode.USDollar
     },
     {
         name: "Virgin Islands (U.S.)",
@@ -4748,7 +5000,8 @@ export const countryInfo: CountryInfo[] = [
             ".vi"
         ],
         isSovereign: false,
-        territoryOf: ISOCountryCode.UnitedStatesOfAmerica
+        territoryOf: ISOCountryCode.UnitedStatesOfAmerica,
+        currency: ISOCurrencyCode.USDollar
     },
     {
         name: "Wales",
@@ -4774,6 +5027,7 @@ export const countryInfo: CountryInfo[] = [
         ],
         isSovereign: false,
         territoryOf: ISOCountryCode.UnitedKingdom,
+        currency: ISOCurrencyCode.SterlingPound
     },
     {
         name: "Wallis and Futuna",
@@ -4792,7 +5046,8 @@ export const countryInfo: CountryInfo[] = [
             ".wf"
         ],
         isSovereign: false,
-        territoryOf: ISOCountryCode.France
+        territoryOf: ISOCountryCode.France,
+        currency: ISOCurrencyCode.PacificFranc
     },
     {
         name: "Yemen",
@@ -4811,7 +5066,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".ye"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.YemeniRial
     },
     {
         name: "Zambia",
@@ -4828,7 +5084,8 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".zm"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.ZambianKwacha
     },
     {
         name: "Zimbabwe",
@@ -4845,6 +5102,7 @@ export const countryInfo: CountryInfo[] = [
         domains: [
             ".zw"
         ],
-        isSovereign: true
+        isSovereign: true,
+        currency: ISOCurrencyCode.ZimbabweDollar
     }
 ];

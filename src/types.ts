@@ -9,6 +9,7 @@ export type CountryInfo = {
     languages: ISOLanguageCode[];
     region: WorldRegion[];
     territoryOf?: ISOCountryCode;
+    currency: ISOCurrencyCode | null;
 }
 export type LanguageInfo = {
     name: string;
@@ -63,7 +64,7 @@ export enum ISOCountryCode {
     Bulgaria = "BG",
     BurkinaFaso = "BF",
     Burundi = "BI",
-    CaboVerde = "CV",
+    CapeVerde = "CV",
     Cambodia = "KH",
     Cameroon = "CM",
     Canada = "CA",
@@ -322,7 +323,7 @@ export enum ISOCountryCode3 {
     Bulgaria = "BGR",
     BurkinaFaso = "BFA",
     Burundi = "BDI",
-    CaboVerde = "CPV",
+    CapeVerde = "CPV",
     Cambodia = "KHM",
     Cameroon = "CMR",
     Canada = "CAN",
