@@ -13,11 +13,10 @@ export type CountryInfo = {
 export type LanguageInfo = {
     name: string;
     code: ISOLanguageCode;
+    countryCode?: ISOCountryCode | WorldRegion;
     general?: boolean;
-    regionCode?: ISOCountryCode | WorldRegion;
     popular?: true;
-    flag: ISOCountryCode | null;
-    customFlagUrl?: string;
+    flag: ISOCountryCode | string;
 }
 
 export type CurrencyInfo = {
