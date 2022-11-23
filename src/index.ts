@@ -4,15 +4,22 @@ import { languageInfo } from "./language-data";
 import { CountryInfo, CurrencyInfo, ISOCountryCode, ISOCountryCode3, ISOCurrencyCode, ISOLanguageCode, LanguageInfo, WorldRegion } from "./types";
 
 export class Country {
+    private static getMemo: Map<string, CountryInfo | null> = new Map();
+
     static get(code: ISOCountryCode | ISOCountryCode3): CountryInfo
     static get(code: string): CountryInfo | null {
+        if (Country.getMemo.has(code)) return Country.getMemo.get(code) ?? null;
+
         if (code.match(/[A-Z]{3}/)) {
             let foundCountry = countryInfo.find(item => item.alpha3 === code);
-            if (foundCountry) return foundCountry;
+            if (foundCountry) {
+                Country.getMemo.set(code, foundCountry);
+                return foundCountry;
+            }
         }
         let foundCountry = countryInfo.find(item => item.alpha2 === code);
-        if (foundCountry) return foundCountry;
-        return null;
+        Country.getMemo.set(code, foundCountry ?? null);
+        return foundCountry ?? null;
     }
     static getAll() {
         return [...countryInfo];
@@ -26,14 +33,21 @@ export class Country {
 }
 
 export class Language {
+    private static getMemo: Map<string, LanguageInfo | null> = new Map();
+
     static get(code: ISOLanguageCode): LanguageInfo
     static get(code: string): LanguageInfo | null {
+        if (Language.getMemo.has(code)) return Language.getMemo.get(code) ?? null;
+
         let foundLang = languageInfo.find(item => item.code === code);
-        if (foundLang) return foundLang;
+        if (foundLang) {
+            Language.getMemo.set(code, foundLang);
+            return foundLang;
+        }
 
         foundLang = languageInfo.find(item => item.code.split('-')[0] === code);
-        if (foundLang) return foundLang;
-        return null;
+        Language.getMemo.set(code, foundLang ?? null);
+        return foundLang ?? null;
     }
     static getAll(): LanguageInfo[]
     static getAll(code?: ISOLanguageCode): LanguageInfo[]
@@ -64,9 +78,15 @@ export class Language {
 }
 
 export class Currency {
+    private static getMemo: Map<string, CurrencyInfo | null> = new Map();
+
     static get(code: ISOCurrencyCode): CurrencyInfo;
     static get(code: string): CurrencyInfo | null {
-        return currencyInfo.find(item => item.code === code) ?? null;
+        if (Currency.getMemo.has(code)) return Currency.getMemo.get(code) ?? null;
+
+        let foundCurrency = currencyInfo.find(item => item.code === code);
+        Currency.getMemo.set(code, foundCurrency ?? null);
+        return foundCurrency ?? null;
     }
     static getAll(): CurrencyInfo[] {
         return [...currencyInfo];
