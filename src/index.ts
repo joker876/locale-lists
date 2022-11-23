@@ -1,6 +1,7 @@
 import { countryInfo } from "./country-data";
+import { currencyInfo } from "./currency-data";
 import { languageInfo } from "./language-data";
-import { CountryInfo, ISOCountryCode, ISOCountryCode3, ISOLanguageCode, LanguageInfo, WorldRegion } from "./types";
+import { CountryInfo, CurrencyInfo, ISOCountryCode, ISOCountryCode3, ISOCurrencyCode, ISOLanguageCode, LanguageInfo, WorldRegion } from "./types";
 
 export class Country {
     static get(code: ISOCountryCode | ISOCountryCode3): CountryInfo
@@ -59,5 +60,15 @@ export class Language {
             return true;
         }).map(([code]) => code);
         return filteredCodes.map(code => Language.get(code));
+    }
+}
+
+export class Currency {
+    static get(code: ISOCurrencyCode): CurrencyInfo;
+    static get(code: string): CurrencyInfo | null {
+        return currencyInfo.find(item => item.code === code) ?? null;
+    }
+    static getAll(): CurrencyInfo[] {
+        return [...currencyInfo];
     }
 }
