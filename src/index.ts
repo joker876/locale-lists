@@ -6,10 +6,10 @@ export class Country {
     static get(code: ISOCountryCode | ISOCountryCode3): CountryInfo
     static get(code: string): CountryInfo | null {
         if (code.match(/[A-Z]{3}/)) {
-            let foundCountry = countryInfo.find(item => item.code3 === code);
+            let foundCountry = countryInfo.find(item => item.alpha3 === code);
             if (foundCountry) return foundCountry;
         }
-        let foundCountry = countryInfo.find(item => item.code === code);
+        let foundCountry = countryInfo.find(item => item.alpha2 === code);
         if (foundCountry) return foundCountry;
         return null;
     }
@@ -20,7 +20,7 @@ export class Country {
         return countryInfo.filter(item => item.region.includes(region));
     }
     static getAllSovereign() {
-        return countryInfo.filter(item => item.sovereign);
+        return countryInfo.filter(item => item.isSovereign);
     }
 }
 
