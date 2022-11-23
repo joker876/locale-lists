@@ -1,6 +1,6 @@
 {
   "name": "locale-lists",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "Lookup locale-related information, such as language, currency, hour format",
   "main": "dist/index.js",
   "keywords": [
