@@ -1,1211 +1,1025 @@
 import { ISOCountryCode, ISOLanguageCode, LanguageInfo, WorldRegion } from "./types";
 
 export const languageInfo: LanguageInfo[] = [
-    {
-        name: "Afrikaans",
+    {   name: "Afrikaans",
         general: true,
         code: ISOLanguageCode.Afrikaans,
         popular: true,
         flag: ISOCountryCode.SouthAfrica
     },
-    {
-        name: "Albanian",
+    {   name: "Albanian",
         general: true,
         code: ISOLanguageCode.Albanian,
         popular: true,
         flag: ISOCountryCode.Albania
     },
-    {
-        name: "Amharic",
+    {   name: "Amharic",
         general: true,
         code: ISOLanguageCode.Amharic,
         flag: ISOCountryCode.Ethiopia
     },
-    {
-        name: "Arabic",
+    {   name: "Arabic",
         general: true,
         code: ISOLanguageCode.Arabic,
         popular: true,
         flag: ISOCountryCode.SaudiArabia
     },
-    {
-        name: "Arabic",
+    {   name: "Arabic",
         countryCode: ISOCountryCode.Algeria,
         code: ISOLanguageCode.ArabicAlgeria,
         flag: ISOCountryCode.Algeria
     },
-    {
-        name: "Arabic",
+    {   name: "Arabic",
         countryCode: ISOCountryCode.Bahrain,
         code: ISOLanguageCode.ArabicBahrain,
         flag: ISOCountryCode.Bahrain
     },
-    {
-        name: "Arabic",
+    {   name: "Arabic",
         countryCode: ISOCountryCode.Egypt,
         code: ISOLanguageCode.ArabicEgypt,
         flag: ISOCountryCode.Egypt
     },
-    {
-        name: "Arabic",
+    {   name: "Arabic",
         countryCode: ISOCountryCode.Iraq,
         code: ISOLanguageCode.ArabicIraq,
         flag: ISOCountryCode.Iraq
     },
-    {
-        name: "Arabic",
+    {   name: "Arabic",
         countryCode: ISOCountryCode.Jordan,
         code: ISOLanguageCode.ArabicJordan,
         flag: ISOCountryCode.Jordan
     },
-    {
-        name: "Arabic",
+    {   name: "Arabic",
         countryCode: ISOCountryCode.Kuwait,
         code: ISOLanguageCode.ArabicKuwait,
         flag: ISOCountryCode.Kuwait
     },
-    {
-        name: "Arabic",
+    {   name: "Arabic",
         countryCode: ISOCountryCode.Lebanon,
         code: ISOLanguageCode.ArabicLebanon,
         flag: ISOCountryCode.Lebanon
     },
-    {
-        name: "Arabic",
+    {   name: "Arabic",
         countryCode: ISOCountryCode.Libya,
         code: ISOLanguageCode.ArabicLibya,
         flag: ISOCountryCode.Libya
     },
-    {
-        name: "Arabic",
+    {   name: "Arabic",
         countryCode: ISOCountryCode.Morocco,
         code: ISOLanguageCode.ArabicMorocco,
         flag: ISOCountryCode.Morocco
     },
-    {
-        name: "Arabic",
+    {   name: "Arabic",
         countryCode: ISOCountryCode.Oman,
         code: ISOLanguageCode.ArabicOman,
         flag: ISOCountryCode.Oman
     },
-    {
-        name: "Arabic",
+    {   name: "Arabic",
         countryCode: ISOCountryCode.Qatar,
         code: ISOLanguageCode.ArabicQatar,
         flag: ISOCountryCode.Qatar
     },
-    {
-        name: "Arabic",
+    {   name: "Arabic",
         countryCode: ISOCountryCode.SaudiArabia,
         code: ISOLanguageCode.ArabicSaudiArabia,
         flag: ISOCountryCode.SaudiArabia
     },
-    {
-        name: "Arabic",
+    {   name: "Arabic",
         countryCode: ISOCountryCode.Syria,
         code: ISOLanguageCode.ArabicSyria,
         flag: ISOCountryCode.Syria
     },
-    {
-        name: "Arabic",
+    {   name: "Arabic",
         countryCode: ISOCountryCode.Tunisia,
         code: ISOLanguageCode.ArabicTunisia,
         flag: ISOCountryCode.Tunisia
     },
-    {
-        name: "Arabic",
+    {   name: "Arabic",
         countryCode: ISOCountryCode.UnitedArabEmirates,
         code: ISOLanguageCode.ArabicUnitedArabEmirates,
         flag: ISOCountryCode.UnitedArabEmirates
     },
-    {
-        name: "Arabic",
+    {   name: "Arabic",
         countryCode: ISOCountryCode.Yemen,
         code: ISOLanguageCode.ArabicYemen,
         flag: ISOCountryCode.Yemen
     },
-    {
-        name: "Armenian",
+    {   name: "Armenian",
         general: true,
         code: ISOLanguageCode.Armenian,
         popular: true,
         flag: ISOCountryCode.Armenia
     },
-    {
-        name: "Assamese",
+    {   name: "Assamese",
         general: true,
         code: ISOLanguageCode.Assamese,
         flag: ISOCountryCode.India
     },
-    {
-        name: "Azeri",
+    {   name: "Azeri",
         general: true,
         code: ISOLanguageCode.Azeri,
         flag: ISOCountryCode.Azerbaijan
     },
-    {
-        name: "Basque",
+    {   name: "Basque",
         general: true,
         code: ISOLanguageCode.Basque,
         flag: ISOCountryCode.Spain
     },
-    {
-        name: "Belarusian",
+    {   name: "Belarusian",
         general: true,
         code: ISOLanguageCode.Belarusian,
         popular: true,
         flag: ISOCountryCode.Belarus
     },
-    {
-        name: "Bengali",
+    {   name: "Bengali",
         general: true,
         code: ISOLanguageCode.Bengali,
         popular: true,
         flag: ISOCountryCode.Bangladesh
     },
-    {
-        name: "Bosnian",
+    {   name: "Bosnian",
         general: true,
         code: ISOLanguageCode.Bosnian,
         popular: true,
         flag: ISOCountryCode.BosniaAndHerzegovina
     },
-    {
-        name: "Bulgarian",
+    {   name: "Bulgarian",
         general: true,
         code: ISOLanguageCode.Bulgarian,
         popular: true,
         flag: ISOCountryCode.Bulgaria
     },
-    {
-        name: "Burmese",
+    {   name: "Burmese",
         general: true,
         code: ISOLanguageCode.Burmese,
         flag: ISOCountryCode.Myanmar
     },
-    {
-        name: "Catalan",
+    {   name: "Catalan",
         general: true,
         code: ISOLanguageCode.Catalan,
         flag: ISOCountryCode.Catalonia
     },
-    {
-        name: "Chinese",
+    {   name: "Chinese",
         general: true,
         code: ISOLanguageCode.Chinese,
         popular: true,
         flag: ISOCountryCode.China
     },
-    {
-        name: "Chinese",
+    {   name: "Chinese",
         countryCode: ISOCountryCode.China,
         code: ISOLanguageCode.ChineseChina,
         popular: true,
         flag: ISOCountryCode.China
     },
-    {
-        name: "Chinese",
+    {   name: "Chinese",
         countryCode: ISOCountryCode.HongKong,
         code: ISOLanguageCode.ChineseHongKong,
         popular: true,
         flag: ISOCountryCode.HongKong
     },
-    {
-        name: "Chinese",
+    {   name: "Chinese",
         countryCode: ISOCountryCode.Macau,
         code: ISOLanguageCode.ChineseMacau,
         popular: true,
         flag: ISOCountryCode.Macau
     },
-    {
-        name: "Chinese",
+    {   name: "Chinese",
         countryCode: ISOCountryCode.Singapore,
         code: ISOLanguageCode.ChineseSingapore,
         popular: true,
         flag: ISOCountryCode.Singapore
     },
-    {
-        name: "Chinese",
+    {   name: "Chinese",
         countryCode: ISOCountryCode.Taiwan,
         code: ISOLanguageCode.ChineseTaiwan,
         popular: true,
         flag: ISOCountryCode.Taiwan
     },
-    {
-        name: "Croatian",
+    {   name: "Croatian",
         general: true,
         code: ISOLanguageCode.Croatian,
         popular: true,
         flag: ISOCountryCode.Croatia
     },
-    {
-        name: "Czech",
+    {   name: "Czech",
         general: true,
         code: ISOLanguageCode.Czech,
         popular: true,
         flag: ISOCountryCode.Czechia
     },
-    {
-        name: "Danish",
+    {   name: "Danish",
         general: true,
         code: ISOLanguageCode.Danish,
         popular: true,
         flag: ISOCountryCode.Denmark
     },
-    {
-        name: "Dutch",
+    {   name: "Dutch",
         general: true,
         code: ISOLanguageCode.Dutch,
         popular: true,
         flag: ISOCountryCode.Netherlands
     },
-    {
-        name: "Dutch",
+    {   name: "Dutch",
         countryCode: ISOCountryCode.Belgium,
         code: ISOLanguageCode.DutchBelgium,
         flag: ISOCountryCode.Belgium
     },
-    {
-        name: "Dutch",
+    {   name: "Dutch",
         countryCode: ISOCountryCode.Netherlands,
         code: ISOLanguageCode.DutchNetherlands,
         flag: ISOCountryCode.Netherlands
     },
-    {
-        name: "Dzongkha",
+    {   name: "Dzongkha",
         general: true,
         code: ISOLanguageCode.Dzongkha,
         flag: ISOCountryCode.Bhutan
     },
-    {
-        name: "English",
+    {   name: "English",
         general: true,
         code: ISOLanguageCode.English,
         popular: true,
         flag: ISOCountryCode.UnitedKingdom
     },
-    {
-        name: "English",
+    {   name: "English",
         countryCode: ISOCountryCode.Australia,
         code: ISOLanguageCode.EnglishAustralia,
         popular: true,
         flag: ISOCountryCode.Australia
     },
-    {
-        name: "English",
+    {   name: "English",
         countryCode: ISOCountryCode.Belize,
         code: ISOLanguageCode.EnglishBelize,
         flag: ISOCountryCode.Belize
     },
-    {
-        name: "English",
+    {   name: "English",
         countryCode: ISOCountryCode.Canada,
         code: ISOLanguageCode.EnglishCanada,
         popular: true,
         flag: ISOCountryCode.Canada
     },
-    {
-        name: "English",
+    {   name: "English",
         countryCode: ISOCountryCode.India,
         code: ISOLanguageCode.EnglishIndia,
         popular: true,
         flag: ISOCountryCode.India
     },
-    {
-        name: "English",
+    {   name: "English",
         countryCode: ISOCountryCode.Ireland,
         code: ISOLanguageCode.EnglishIreland,
         popular: true,
         flag: ISOCountryCode.Ireland
     },
-    {
-        name: "English",
+    {   name: "English",
         countryCode: ISOCountryCode.Jamaica,
         code: ISOLanguageCode.EnglishJamaica,
         popular: true,
         flag: ISOCountryCode.Jamaica
     },
-    {
-        name: "English",
+    {   name: "English",
         countryCode: ISOCountryCode.NewZealand,
         code: ISOLanguageCode.EnglishNewZealand,
         popular: true,
         flag: ISOCountryCode.NewZealand
     },
-    {
-        name: "English",
+    {   name: "English",
         countryCode: ISOCountryCode.Philippines,
         code: ISOLanguageCode.EnglishPhilippines,
         popular: true,
         flag: ISOCountryCode.Philippines
     },
-    {
-        name: "English",
+    {   name: "English",
         countryCode: ISOCountryCode.SouthAfrica,
         code: ISOLanguageCode.EnglishAfrica,
         popular: true,
         flag: ISOCountryCode.SouthAfrica
     },
-    {
-        name: "English",
+    {   name: "English",
         countryCode: ISOCountryCode.TrinidadAndTobago,
         code: ISOLanguageCode.EnglishTrinidadAndTobago,
         flag: ISOCountryCode.TrinidadAndTobago
     },
-    {
-        name: "English",
+    {   name: "English",
         countryCode: ISOCountryCode.UnitedKingdom,
         code: ISOLanguageCode.EnglishGreatBritain,
         popular: true,
         flag: ISOCountryCode.UnitedKingdom
     },
-    {
-        name: "English",
+    {   name: "English",
         countryCode: ISOCountryCode.UnitedStatesOfAmerica,
         code: ISOLanguageCode.EnglishUnitedStatesOfAmerica,
         popular: true,
         flag: ISOCountryCode.UnitedStatesOfAmerica
     },
-    {
-        name: "English",
+    {   name: "English",
         countryCode: ISOCountryCode.Zimbabwe,
         code: ISOLanguageCode.EnglishZimbabwe,
         popular: true,
         flag: ISOCountryCode.Zimbabwe
     },
-    {
-        name: "English",
+    {   name: "English",
         countryCode: WorldRegion.Caribbean,
         code: ISOLanguageCode.EnglishCaribbean,
         popular: true,
         flag: ISOCountryCode.Anguilla
     },
-    {
-        name: "Estonian",
+    {   name: "Estonian",
         general: true,
         code: ISOLanguageCode.Estonian,
         popular: true,
         flag: ISOCountryCode.Estonia
     },
-    {
-        name: "Faroese",
+    {   name: "Faroese",
         general: true,
         code: ISOLanguageCode.Faroese,
         flag: ISOCountryCode.FaroeIslands
     },
-    {
-        name: "Farsi",
+    {   name: "Farsi",
         general: true,
         code: ISOLanguageCode.Persian,
         flag: ISOCountryCode.Iran
     },
-    {
-        name: "Finnish",
+    {   name: "Finnish",
         general: true,
         code: ISOLanguageCode.Finnish,
         popular: true,
         flag: ISOCountryCode.Finland
     },
-    {
-        name: "French",
+    {   name: "French",
         general: true,
         code: ISOLanguageCode.French,
         popular: true,
         flag: ISOCountryCode.France
     },
-    {
-        name: "French",
+    {   name: "French",
         countryCode: ISOCountryCode.Belgium,
         code: ISOLanguageCode.FrenchBelgium,
         popular: true,
         flag: ISOCountryCode.Belgium
     },
-    {
-        name: "French",
+    {   name: "French",
         countryCode: ISOCountryCode.Canada,
         code: ISOLanguageCode.FrenchCanada,
         popular: true,
         flag: ISOCountryCode.Canada
     },
-    {
-        name: "French",
+    {   name: "French",
         countryCode: ISOCountryCode.France,
         code: ISOLanguageCode.FrenchFrance,
         popular: true,
         flag: ISOCountryCode.France
     },
-    {
-        name: "French",
+    {   name: "French",
         countryCode: ISOCountryCode.India,
         code: ISOLanguageCode.FrenchIndia,
         popular: true,
         flag: ISOCountryCode.India
     },
-    {
-        name: "French",
+    {   name: "French",
         countryCode: ISOCountryCode.IvoryCoast,
         code: ISOLanguageCode.FrenchIvoryCoast,
         flag: ISOCountryCode.IvoryCoast
     },
-    {
-        name: "French",
+    {   name: "French",
         countryCode: ISOCountryCode.Luxembourg,
         code: ISOLanguageCode.FrenchLuxembourg,
         popular: true,
         flag: ISOCountryCode.Luxembourg
     },
-    {
-        name: "French",
+    {   name: "French",
         countryCode: ISOCountryCode.Mali,
         code: ISOLanguageCode.FrenchMali,
         flag: ISOCountryCode.Mali
     },
-    {
-        name: "French",
+    {   name: "French",
         countryCode: ISOCountryCode.Monaco,
         code: ISOLanguageCode.FrenchMonaco,
         popular: true,
         flag: ISOCountryCode.Monaco
     },
-    {
-        name: "French",
+    {   name: "French",
         countryCode: ISOCountryCode.Morocco,
         code: ISOLanguageCode.FrenchMorocco,
         popular: true,
         flag: ISOCountryCode.Morocco
     },
-    {
-        name: "French",
+    {   name: "French",
         countryCode: ISOCountryCode.RepublicOfCongo,
         code: ISOLanguageCode.FrenchRepublicOfCongo,
         flag: ISOCountryCode.RepublicOfCongo
     },
-    {
-        name: "French",
+    {   name: "French",
         countryCode: ISOCountryCode.Senegal,
         code: ISOLanguageCode.FrenchSenegal,
         flag: ISOCountryCode.Senegal
     },
-    {
-        name: "French",
+    {   name: "French",
         countryCode: ISOCountryCode.Switzerland,
         code: ISOLanguageCode.FrenchSwitzerland,
         popular: true,
         flag: ISOCountryCode.Switzerland
     },
-    {
-        name: "Gaelic",
+    {   name: "Gaelic",
         countryCode: ISOCountryCode.Ireland,
         code: ISOLanguageCode.GaelicIreland,
         flag: ISOCountryCode.Ireland
     },
-    {
-        name: "Gaelic",
+    {   name: "Gaelic",
         countryCode: ISOCountryCode.UnitedKingdom,
         code: ISOLanguageCode.GaelicScotland,
         flag: ISOCountryCode.Scotland
     },
-    {
-        name: "Galician",
+    {   name: "Galician",
         general: true,
         code: ISOLanguageCode.Galician,
         flag: ISOCountryCode.Spain
     },
-    {
-        name: "Georgian",
+    {   name: "Georgian",
         general: true,
         code: ISOLanguageCode.Georgian,
         popular: true,
         flag: ISOCountryCode.Georgia
     },
-    {
-        name: "German",
+    {   name: "German",
         general: true,
         code: ISOLanguageCode.German,
         popular: true,
         flag: ISOCountryCode.Germany
     },
-    {
-        name: "German",
+    {   name: "German",
         countryCode: ISOCountryCode.Austria,
         code: ISOLanguageCode.GermanAustria,
         popular: true,
         flag: ISOCountryCode.Austria
     },
-    {
-        name: "German",
+    {   name: "German",
         countryCode: ISOCountryCode.Germany,
         code: ISOLanguageCode.GermanGermany,
         popular: true,
         flag: ISOCountryCode.Germany
     },
-    {
-        name: "German",
+    {   name: "German",
         countryCode: ISOCountryCode.Liechtenstein,
         code: ISOLanguageCode.GermanLiechtenstein,
         flag: ISOCountryCode.Liechtenstein
     },
-    {
-        name: "German",
+    {   name: "German",
         countryCode: ISOCountryCode.Luxembourg,
         code: ISOLanguageCode.GermanLuxembourg,
         flag: ISOCountryCode.Luxembourg
     },
-    {
-        name: "German",
+    {   name: "German",
         countryCode: ISOCountryCode.Switzerland,
         code: ISOLanguageCode.GermanSwitzerland,
         popular: true,
         flag: ISOCountryCode.Switzerland
     },
-    {
-        name: "Greek",
+    {   name: "Greek",
         general: true,
         code: ISOLanguageCode.Greek,
         popular: true,
         flag: ISOCountryCode.Greece
     },
-    {
-        name: "Greenlandic",
+    {   name: "Greenlandic",
         general: true,
         code: ISOLanguageCode.Greenlandic,
         flag: ISOCountryCode.Greenland
     },
-    {
-        name: "Guarani",
+    {   name: "Guarani",
         code: ISOLanguageCode.Guarani,
         popular: true,
         flag: ISOCountryCode.Paraguay
     },
-    {
-        name: "Gujarati",
+    {   name: "Gujarati",
         general: true,
         code: ISOLanguageCode.Gujarati,
         flag: ISOCountryCode.India
     },
-    {
-        name: "Hebrew",
+    {   name: "Hebrew",
         general: true,
         code: ISOLanguageCode.Hebrew,
         popular: true,
         flag: ISOCountryCode.Israel
     },
-    {
-        name: "Hindi",
+    {   name: "Hindi",
         general: true,
         code: ISOLanguageCode.Hindi,
         popular: true,
         flag: ISOCountryCode.India
     },
-    {
-        name: "Hungarian",
+    {   name: "Hungarian",
         general: true,
         code: ISOLanguageCode.Hungarian,
         popular: true,
         flag: ISOCountryCode.Hungary
     },
-    {
-        name: "Icelandic",
+    {   name: "Icelandic",
         general: true,
         code: ISOLanguageCode.Icelandic,
         popular: true,
         flag: ISOCountryCode.Iceland
     },
-    {
-        name: "Igbo",
+    {   name: "Igbo",
         general: true,
         code: ISOLanguageCode.Igbo,
         flag: ISOCountryCode.Nigeria
     },
-    {
-        name: "Indonesian",
+    {   name: "Indonesian",
         general: true,
         code: ISOLanguageCode.Indonesian,
         popular: true,
         flag: ISOCountryCode.Indonesia
     },
-    {
-        name: "Irish",
+    {   name: "Irish",
         general: true,
         code: ISOLanguageCode.Irish,
         popular: true,
         flag: ISOCountryCode.Ireland
     },
-    {
-        name: "Italian",
+    {   name: "Italian",
         general: true,
         code: ISOLanguageCode.Italian,
         popular: true,
         flag: ISOCountryCode.Italy
     },
-    {
-        name: "Italian",
+    {   name: "Italian",
         countryCode: ISOCountryCode.Italy,
         code: ISOLanguageCode.ItalianItaly,
         flag: ISOCountryCode.Italy
     },
-    {
-        name: "Italian",
+    {   name: "Italian",
         countryCode: ISOCountryCode.Switzerland,
         code: ISOLanguageCode.ItalianSwitzerland,
         flag: ISOCountryCode.Switzerland
     },
-    {
-        name: "Japanese",
+    {   name: "Japanese",
         general: true,
         code: ISOLanguageCode.Japanese,
         popular: true,
         flag: ISOCountryCode.Japan
     },
-    {
-        name: "Kannada",
+    {   name: "Kannada",
         general: true,
         code: ISOLanguageCode.Kannada,
         flag: ISOCountryCode.India
     },
-    {
-        name: "Kazakh",
+    {   name: "Kazakh",
         general: true,
         code: ISOLanguageCode.Kazakh,
         popular: true,
         flag: ISOCountryCode.Kazakhstan
     },
-    {
-        name: "Khmer",
+    {   name: "Khmer",
         general: true,
         code: ISOLanguageCode.Khmer,
         flag: ISOCountryCode.Cambodia
     },
-    {
-        name: "Korean",
+    {   name: "Korean",
         general: true,
         code: ISOLanguageCode.Korean,
         popular: true,
         flag: ISOCountryCode.SouthKorea
     },
-    {
-        name: "Kyrgyz",
+    {   name: "Kyrgyz",
         general: true,
         code: ISOLanguageCode.Kyrgyz,
         popular: true,
         flag: ISOCountryCode.Kyrgyzstan
     },
-    {
-        name: "Lao",
+    {   name: "Lao",
         general: true,
         code: ISOLanguageCode.Lao,
         popular: true,
         flag: ISOCountryCode.Laos
     },
-    {
-        name: "Latin",
+    {   name: "Latin",
         general: true,
         code: ISOLanguageCode.Latin,
         popular: true,
         flag: ISOCountryCode.Vatican
     },
-    {
-        name: "Latvian",
+    {   name: "Latvian",
         general: true,
         code: ISOLanguageCode.Latvian,
         popular: true,
         flag: ISOCountryCode.Latvia
     },
-    {
-        name: "Lithuanian",
+    {   name: "Lithuanian",
         general: true,
         code: ISOLanguageCode.Lithuanian,
         popular: true,
         flag: ISOCountryCode.Lithuania
     },
-    {
-        name: "Luxembourgish",
+    {   name: "Luxembourgish",
         general: true,
         code: ISOLanguageCode.Luxembourgish,
         popular: true,
         flag: ISOCountryCode.Luxembourg
     },
-    {
-        name: "Macedonian",
+    {   name: "Macedonian",
         general: true,
         code: ISOLanguageCode.Macedonian,
         popular: true,
         flag: ISOCountryCode.NorthMacedonia
     },
-    {
-        name: "Malay",
+    {   name: "Malay",
         general: true,
         code: ISOLanguageCode.Malay,
         flag: ISOCountryCode.Malaysia
     },
-    {
-        name: "Malay",
+    {   name: "Malay",
         countryCode: ISOCountryCode.BruneiDarussalam,
         code: ISOLanguageCode.MalayBrunei,
         flag: ISOCountryCode.BruneiDarussalam
     },
-    {
-        name: "Malay",
+    {   name: "Malay",
         countryCode: ISOCountryCode.Malaysia,
         code: ISOLanguageCode.MalayMalaysia,
         flag: ISOCountryCode.Malaysia
     },
-    {
-        name: "Malayalam",
+    {   name: "Malayalam",
         general: true,
         code: ISOLanguageCode.Malayalam,
         flag: ISOCountryCode.India
     },
-    {
-        name: "Maldivian",
+    {   name: "Maldivian",
         general: true,
         code: ISOLanguageCode.Maldivian,
         popular: true,
         flag: ISOCountryCode.Maldives
     },
-    {
-        name: "Maltese",
+    {   name: "Maltese",
         general: true,
         code: ISOLanguageCode.Maltese,
         popular: true,
         flag: ISOCountryCode.Malta
     },
-    {
-        name: "Maori",
+    {   name: "Maori",
         general: true,
         code: ISOLanguageCode.Maori,
         flag: ISOCountryCode.NewZealand
     },
-    {
-        name: "Marathi",
+    {   name: "Marathi",
         general: true,
         code: ISOLanguageCode.Marathi,
         flag: ISOCountryCode.India
     },
-    {
-        name: "Mongolian",
+    {   name: "Mongolian",
         general: true,
         code: ISOLanguageCode.Mongolian,
         popular: true,
         flag: ISOCountryCode.Mongolia
     },
-    {
-        name: "Nepali",
+    {   name: "Nepali",
         general: true,
         code: ISOLanguageCode.Nepali,
         popular: true,
         flag: ISOCountryCode.Nepal
     },
-    {
-        name: "Norwegian",
+    {   name: "Norwegian",
         general: true,
         code: ISOLanguageCode.Norwegian,
         popular: true,
         flag: ISOCountryCode.Norway
     },
-    {
-        name: "Oriya",
+    {   name: "Oriya",
         general: true,
         code: ISOLanguageCode.Oriya,
         flag: ISOCountryCode.India,
     },
-    {
-        name: "Pashto",
+    {   name: "Pashto",
         general: true,
         code: ISOLanguageCode.Pashto,
         flag: ISOCountryCode.Afghanistan
     },
-    {
-        name: "Polish",
+    {   name: "Polish",
         general: true,
         code: ISOLanguageCode.Polish,
         popular: true,
         flag: ISOCountryCode.Poland
     },
-    {
-        name: "Portuguese",
+    {   name: "Portuguese",
         general: true,
         code: ISOLanguageCode.Portuguese,
         popular: true,
         flag: ISOCountryCode.Portugal
     },
-    {
-        name: "Portuguese",
+    {   name: "Portuguese",
         countryCode: ISOCountryCode.Brazil,
         code: ISOLanguageCode.PortugueseBrazil,
         popular: true,
         flag: ISOCountryCode.Brazil
     },
-    {
-        name: "Portuguese",
+    {   name: "Portuguese",
         countryCode: ISOCountryCode.Portugal,
         code: ISOLanguageCode.PortuguesePortugal,
         flag: ISOCountryCode.Portugal
     },
-    {
-        name: "Punjabi",
+    {   name: "Punjabi",
         general: true,
         code: ISOLanguageCode.Punjabi,
         flag: ISOCountryCode.India
     },
-    {
-        name: "Romanian",
+    {   name: "Romanian",
         general: true,
         code: ISOLanguageCode.Romanian,
         popular: true,
         flag: ISOCountryCode.Romania
     },
-    {
-        name: "Romanian",
+    {   name: "Romanian",
         countryCode: ISOCountryCode.Moldova,
         code: ISOLanguageCode.RomanianMoldova,
         flag: ISOCountryCode.Moldova
     },
-    {
-        name: "Russian",
+    {   name: "Russian",
         general: true,
         code: ISOLanguageCode.Russian,
         popular: true,
         flag: ISOCountryCode.RussianFederation
     },
-    {
-        name: "Russian",
+    {   name: "Russian",
         countryCode: ISOCountryCode.Moldova,
         code: ISOLanguageCode.RussianMoldova,
         flag: ISOCountryCode.Moldova
     },
-    {
-        name: "Samoan",
+    {   name: "Samoan",
         general: true,
         code: ISOLanguageCode.Samoan,
         flag: ISOCountryCode.Samoa
     },
-    {
-        name: "Serbian",
+    {   name: "Serbian",
         general: true,
         code: ISOLanguageCode.Serbian,
         popular: true,
         flag: ISOCountryCode.Serbia
     },
-    {
-        name: "Sindhi",
+    {   name: "Sindhi",
         general: true,
         code: ISOLanguageCode.Sindhi,
         flag: ISOCountryCode.India
     },
-    {
-        name: "Sinhalese",
+    {   name: "Sinhalese",
         general: true,
         code: ISOLanguageCode.Sinhalese,
         flag: ISOCountryCode.SriLanka
     },
-    {
-        name: "Slovak",
+    {   name: "Slovak",
         general: true,
         code: ISOLanguageCode.Slovak,
         popular: true,
         flag: ISOCountryCode.Slovakia
     },
-    {
-        name: "Slovenian",
+    {   name: "Slovenian",
         general: true,
         code: ISOLanguageCode.Slovenian,
         popular: true,
         flag: ISOCountryCode.Slovenia
     },
-    {
-        name: "Somali",
+    {   name: "Somali",
         general: true,
         code: ISOLanguageCode.Somali,
         popular: true,
         flag: ISOCountryCode.Somalia
     },
-    {
-        name: "Sotho",
+    {   name: "Sotho",
         general: true,
         code: ISOLanguageCode.Sotho,
         flag: ISOCountryCode.Lesotho
     },
-    {
-        name: "Spanish",
+    {   name: "Spanish",
         general: true,
         code: ISOLanguageCode.Spanish,
         popular: true,
         flag: ISOCountryCode.Spain
     },
-    {
-        name: "Spanish",
+    {   name: "Spanish",
         countryCode: ISOCountryCode.Argentina,
         code: ISOLanguageCode.SpanishArgentina,
         flag: ISOCountryCode.Argentina
     },
-    {
-        name: "Spanish",
+    {   name: "Spanish",
         countryCode: ISOCountryCode.Bolivia,
         code: ISOLanguageCode.SpanishBolivia,
         flag: ISOCountryCode.Bolivia
     },
-    {
-        name: "Spanish",
+    {   name: "Spanish",
         countryCode: ISOCountryCode.Chile,
         code: ISOLanguageCode.SpanishChile,
         flag: ISOCountryCode.Chile
     },
-    {
-        name: "Spanish",
+    {   name: "Spanish",
         countryCode: ISOCountryCode.Colombia,
         code: ISOLanguageCode.SpanishColombia,
         flag: ISOCountryCode.Colombia
     },
-    {
-        name: "Spanish",
+    {   name: "Spanish",
         countryCode: ISOCountryCode.CostaRica,
         code: ISOLanguageCode.SpanishCostaRica,
         flag: ISOCountryCode.CostaRica
     },
-    {
-        name: "Spanish",
+    {   name: "Spanish",
         countryCode: ISOCountryCode.DominicanRepublic,
         code: ISOLanguageCode.SpanishDominicanRepublic,
         flag: ISOCountryCode.DominicanRepublic
     },
-    {
-        name: "Spanish",
+    {   name: "Spanish",
         countryCode: ISOCountryCode.Ecuador,
         code: ISOLanguageCode.SpanishEcuador,
         flag: ISOCountryCode.Ecuador
     },
-    {
-        name: "Spanish",
+    {   name: "Spanish",
         countryCode: ISOCountryCode.ElSalvador,
         code: ISOLanguageCode.SpanishElSalvador,
         flag: ISOCountryCode.ElSalvador
     },
-    {
-        name: "Spanish",
+    {   name: "Spanish",
         countryCode: ISOCountryCode.Guatemala,
         code: ISOLanguageCode.SpanishGuatemala,
         flag: ISOCountryCode.Guatemala
     },
-    {
-        name: "Spanish",
+    {   name: "Spanish",
         countryCode: ISOCountryCode.Honduras,
         code: ISOLanguageCode.SpanishHonduras,
         flag: ISOCountryCode.Honduras
     },
-    {
-        name: "Spanish",
+    {   name: "Spanish",
         countryCode: ISOCountryCode.Mexico,
         code: ISOLanguageCode.SpanishMexico,
         popular: true,
         flag: ISOCountryCode.Mexico
     },
-    {
-        name: "Spanish",
+    {   name: "Spanish",
         countryCode: ISOCountryCode.Nicaragua,
         code: ISOLanguageCode.SpanishNicaragua,
         flag: ISOCountryCode.Nicaragua
     },
-    {
-        name: "Spanish",
+    {   name: "Spanish",
         countryCode: ISOCountryCode.Panama,
         code: ISOLanguageCode.SpanishPanama,
         flag: ISOCountryCode.Panama
     },
-    {
-        name: "Spanish",
+    {   name: "Spanish",
         countryCode: ISOCountryCode.Paraguay,
         code: ISOLanguageCode.SpanishParaguay,
         flag: ISOCountryCode.Paraguay
     },
-    {
-        name: "Spanish",
+    {   name: "Spanish",
         countryCode: ISOCountryCode.Peru,
         code: ISOLanguageCode.SpanishPeru,
         flag: ISOCountryCode.Peru
     },
-    {
-        name: "Spanish",
+    {   name: "Spanish",
         countryCode: ISOCountryCode.PuertoRico,
         code: ISOLanguageCode.SpanishPuertoRico,
         flag: ISOCountryCode.PuertoRico
     },
-    {
-        name: "Spanish",
+    {   name: "Spanish",
         countryCode: ISOCountryCode.Spain,
         code: ISOLanguageCode.SpanishSpain,
         popular: true,
         flag: ISOCountryCode.Spain
     },
-    {
-        name: "Spanish",
+    {   name: "Spanish",
         countryCode: ISOCountryCode.Uruguay,
         code: ISOLanguageCode.SpanishUruguay,
         flag: ISOCountryCode.Uruguay
     },
-    {
-        name: "Spanish",
+    {   name: "Spanish",
         countryCode: ISOCountryCode.Venezuela,
         code: ISOLanguageCode.SpanishVenezuela,
         flag: ISOCountryCode.Venezuela
     },
-    {
-        name: "Swahili",
+    {   name: "Swahili",
         general: true,
         code: ISOLanguageCode.Swahili,
         popular: true,
         flag: ISOCountryCode.Tanzania
     },
-    {
-        name: "Swazi",
+    {   name: "Swazi",
         general: true,
         code: ISOLanguageCode.Swazi,
         flag: ISOCountryCode.Eswatini
     },
-    {
-        name: "Swedish",
+    {   name: "Swedish",
         general: true,
         code: ISOLanguageCode.Swedish,
         popular: true,
         flag: ISOCountryCode.Sweden
     },
-    {
-        name: "Swedish",
+    {   name: "Swedish",
         countryCode: ISOCountryCode.Finland,
         code: ISOLanguageCode.SwedishFinland,
         flag: ISOCountryCode.Finland
     },
-    {
-        name: "Swedish",
+    {   name: "Swedish",
         countryCode: ISOCountryCode.Sweden,
         code: ISOLanguageCode.SwedishSweden,
         flag: ISOCountryCode.Sweden
     },
-    {
-        name: "Syriac",
+    {   name: "Syriac",
         general: true,
         code: ISOLanguageCode.Syriac,
         popular: true,
         flag: ISOCountryCode.Syria
     },
-    {
-        name: "Tajik",
+    {   name: "Tajik",
         general: true,
         code: ISOLanguageCode.Tajik,
         flag: ISOCountryCode.Tajikistan
     },
-    {
-        name: "Tamil",
+    {   name: "Tamil",
         general: true,
         code: ISOLanguageCode.Tamil,
         flag: ISOCountryCode.Singapore
     },
-    {
-        name: "Tatar",
+    {   name: "Tatar",
         general: true,
         code: ISOLanguageCode.Tatar,
         flag: ISOCountryCode.RussianFederation
     },
-    {
-        name: "Telugu",
+    {   name: "Telugu",
         general: true,
         code: ISOLanguageCode.Telugu,
         flag: ISOCountryCode.India
     },
-    {
-        name: "Thai",
+    {   name: "Thai",
         general: true,
         code: ISOLanguageCode.Thai,
         popular: true,
         flag: ISOCountryCode.Thailand
     },
-    {
-        name: "Tibetan",
+    {   name: "Tibetan",
         general: true,
         code: ISOLanguageCode.Tibetan,
         popular: true,
         flag: ISOCountryCode.Bhutan
     },
-    {
-        name: "Tigrinya",
+    {   name: "Tigrinya",
         general: true,
         code: ISOLanguageCode.Tigrinya,
         flag: ISOCountryCode.Ethiopia
     },
-    {
-        name: "Tsonga",
+    {   name: "Tsonga",
         general: true,
         code: ISOLanguageCode.Tsonga,
         flag: ISOCountryCode.SouthAfrica
     },
-    {
-        name: "Turkish",
+    {   name: "Turkish",
         general: true,
         code: ISOLanguageCode.Turkish,
         popular: true,
         flag: ISOCountryCode.Turkey
     },
-    {
-        name: "Turkmen",
+    {   name: "Turkmen",
         general: true,
         code: ISOLanguageCode.Turkmen,
         popular: true,
         flag: ISOCountryCode.Turkmenistan
     },
-    {
-        name: "Tuvalan",
+    {   name: "Tuvalan",
         general: true,
         code: ISOLanguageCode.Tuvalan,
         popular: true,
         flag: ISOCountryCode.Tuvalu
     },
-    {
-        name: "Ukrainian",
+    {   name: "Ukrainian",
         general: true,
         code: ISOLanguageCode.Ukrainian,
         popular: true,
         flag: ISOCountryCode.Ukraine
     },
-    {
-        name: "Urdu",
+    {   name: "Urdu",
         general: true,
         code: ISOLanguageCode.Urdu,
         flag: ISOCountryCode.Pakistan
     },
-    {
-        name: "Uzbek",
+    {   name: "Uzbek",
         general: true,
         code: ISOLanguageCode.Uzbek,
         popular: true,
         flag: ISOCountryCode.Uzbekistan
     },
-    {
-        name: "Vietnamese",
+    {   name: "Vietnamese",
         general: true,
         code: ISOLanguageCode.Vietnamese,
         popular: true,
         flag: ISOCountryCode.Vietnam
     },
-    {
-        name: "Welsh",
+    {   name: "Welsh",
         general: true,
         code: ISOLanguageCode.Welsh,
         flag: ISOCountryCode.Wales
     },
-    {
-        name: "Xhosa",
+    {   name: "Xhosa",
         general: true,
         code: ISOLanguageCode.Xhosa,
         flag: ISOCountryCode.SouthAfrica
     },
-    {
-        name: "Yiddish",
+    {   name: "Yiddish",
         general: true,
         code: ISOLanguageCode.Yiddish,
         flag: ISOCountryCode.Israel
     },
-    {
-        name: "Zulu",
+    {   name: "Zulu",
         general: true,
         code: ISOLanguageCode.Zulu,
         flag: ISOCountryCode.SouthAfrica

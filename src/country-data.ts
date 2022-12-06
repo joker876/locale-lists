@@ -8,8 +8,7 @@ import {
 } from "./types";
 
 export const countryInfo: CountryInfo[] = [
-    {
-        name: "Afghanistan",
+    {   name: "Afghanistan",
         officialName: "The Islamic Republic of Afghanistan",
         region: [
             WorldRegion.Asia
@@ -26,8 +25,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.Afghani
     },
-    {
-        name: "Åland Islands",
+    {   name: "Åland Islands",
         officialName: "Åland",
         region: [
             WorldRegion.Europe
@@ -45,8 +43,7 @@ export const countryInfo: CountryInfo[] = [
         territoryOf: ISOCountryCode.Finland,
         currency: ISOCurrencyCode.Euro
     },
-    {
-        name: "Albania",
+    {   name: "Albania",
         officialName: "The Republic of Albania",
         region: [
             WorldRegion.Europe,
@@ -64,8 +61,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.Lek
     },
-    {
-        name: "Algeria",
+    {   name: "Algeria",
         officialName: "The People's Democratic Republic of Algeria",
         region: [
             WorldRegion.Africa
@@ -83,8 +79,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.AlgerianDinar
     },
-    {
-        name: "American Samoa",
+    {   name: "American Samoa",
         officialName: "The Territory of American Samoa",
         region: [
             WorldRegion.Oceania
@@ -104,8 +99,7 @@ export const countryInfo: CountryInfo[] = [
         territoryOf: ISOCountryCode.UnitedStatesOfAmerica,
         currency: ISOCurrencyCode.USDollar
     },
-    {
-        name: "Andorra",
+    {   name: "Andorra",
         officialName: "The Principality of Andorra",
         region: [
             WorldRegion.Europe,
@@ -123,8 +117,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.Euro
     },
-    {
-        name: "Angola",
+    {   name: "Angola",
         officialName: "The Republic of Angola",
         region: [
             WorldRegion.Africa
@@ -141,8 +134,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.Kwanza
     },
-    {
-        name: "Anguilla",
+    {   name: "Anguilla",
         officialName: "Anguilla",
         region: [
             WorldRegion.America,
@@ -163,8 +155,7 @@ export const countryInfo: CountryInfo[] = [
         territoryOf: ISOCountryCode.UnitedKingdom,
         currency: ISOCurrencyCode.EastCaribbeanDollar
     },
-    {
-        name: "Antarctica",
+    {   name: "Antarctica",
         officialName: "Antarctica",
         region: [
             WorldRegion.Antarctica
@@ -179,8 +170,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: false,
         currency: null
     },
-    {
-        name: "Antigua and Barbuda",
+    {   name: "Antigua and Barbuda",
         officialName: "Antigua and Barbuda",
         region: [
             WorldRegion.America,
@@ -200,8 +190,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.EastCaribbeanDollar
     },
-    {
-        name: "Argentina",
+    {   name: "Argentina",
         officialName: "The Argentine Republic",
         region: [
             WorldRegion.America,
@@ -220,8 +209,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.ArgentinePeso
     },
-    {
-        name: "Armenia",
+    {   name: "Armenia",
         officialName: "The Republic of Armenia",
         region: [
             WorldRegion.Asia
@@ -238,8 +226,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.Dram
     },
-    {
-        name: "Aruba",
+    {   name: "Aruba",
         officialName: "Aruba",
         region: [
             WorldRegion.America,
@@ -260,8 +247,7 @@ export const countryInfo: CountryInfo[] = [
         territoryOf: ISOCountryCode.Netherlands,
         currency: ISOCurrencyCode.ArubanGuilder
     },
-    {
-        name: "Australia",
+    {   name: "Australia",
         officialName: "The Commonwealth of Australia",
         region: [
             WorldRegion.Australia,
@@ -280,8 +266,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.AustralianDollar
     },
-    {
-        name: "Austria",
+    {   name: "Austria",
         officialName: "The Republic of Austria",
         region: [
             WorldRegion.Europe,
@@ -301,8 +286,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.Euro
     },
-    {
-        name: "Azerbaijan",
+    {   name: "Azerbaijan",
         officialName: "The Republic of Azerbaijan",
         region: [
             WorldRegion.Asia
@@ -319,8 +303,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.AzerbaijaniManat
     },
-    {
-        name: "Bahamas",
+    {   name: "Bahamas",
         officialName: "The Commonwealth of The Bahamas",
         region: [
             WorldRegion.America,
@@ -341,8 +324,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.BahamianDollar
     },
-    {
-        name: "Bahrain",
+    {   name: "Bahrain",
         officialName: "The Kingdom of Bahrain",
         region: [
             WorldRegion.Asia,
@@ -361,8 +343,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.BahrainDinar
     },
-    {
-        name: "Bangladesh",
+    {   name: "Bangladesh",
         officialName: "The People's Republic of Bangladesh",
         region: [
             WorldRegion.Asia
@@ -379,8 +360,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.Taka
     },
-    {
-        name: "Barbados",
+    {   name: "Barbados",
         officialName: "Barbados",
         region: [
             WorldRegion.America,
@@ -400,8 +380,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.BarbadianDollar
     },
-    {
-        name: "Belarus",
+    {   name: "Belarus",
         officialName: "The Republic of Belarus",
         region: [
             WorldRegion.Europe,
@@ -420,8 +399,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.BelarusRubel
     },
-    {
-        name: "Belgium",
+    {   name: "Belgium",
         officialName: "The Kingdom of Belgium",
         region: [
             WorldRegion.Europe,
@@ -443,8 +421,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.Euro
     },
-    {
-        name: "Belize",
+    {   name: "Belize",
         officialName: "Belize",
         region: [
             WorldRegion.America,
@@ -463,8 +440,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.BelizeDollar
     },
-    {
-        name: "Benin",
+    {   name: "Benin",
         officialName: "The Republic of Benin",
         region: [
             WorldRegion.Africa
@@ -481,8 +457,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.WestAfricanFranc
     },
-    {
-        name: "Bermuda",
+    {   name: "Bermuda",
         officialName: "Bermuda",
         region: [
             WorldRegion.America,
@@ -502,8 +477,7 @@ export const countryInfo: CountryInfo[] = [
         territoryOf: ISOCountryCode.UnitedKingdom,
         currency: ISOCurrencyCode.BermudianDollar
     },
-    {
-        name: "Bhutan",
+    {   name: "Bhutan",
         officialName: "The Kingdom of Bhutan",
         region: [
             WorldRegion.Asia
@@ -520,8 +494,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.Ngultrum
     },
-    {
-        name: "Bolivia",
+    {   name: "Bolivia",
         officialName: "The Plurinational State of Bolivia",
         region: [
             WorldRegion.America,
@@ -542,8 +515,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.Boliviano
     },
-    {
-        name: "Bonaire, Sint Eustatius, Saba",
+    {   name: "Bonaire, Sint Eustatius, Saba",
         officialName: "Bonaire, Sint Eustatius and Saba",
         region: [
             WorldRegion.America,
@@ -565,8 +537,7 @@ export const countryInfo: CountryInfo[] = [
         territoryOf: ISOCountryCode.Netherlands,
         currency: ISOCurrencyCode.USDollar
     },
-    {
-        name: "Bosnia and Herzegovina",
+    {   name: "Bosnia and Herzegovina",
         officialName: "Bosnia and Herzegovina",
         region: [
             WorldRegion.Europe,
@@ -586,8 +557,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.ConvertibleMark
     },
-    {
-        name: "Botswana",
+    {   name: "Botswana",
         officialName: "The Republic of Botswana",
         region: [
             WorldRegion.Africa
@@ -605,8 +575,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.Pula
     },
-    {
-        name: "Bouvet Island",
+    {   name: "Bouvet Island",
         officialName: "Bouvet Island",
         region: [
             WorldRegion.America,
@@ -626,8 +595,7 @@ export const countryInfo: CountryInfo[] = [
         territoryOf: ISOCountryCode.Norway,
         currency: ISOCurrencyCode.NorwegianKrone
     },
-    {
-        name: "Brazil",
+    {   name: "Brazil",
         officialName: "The Federative Republic of Brazil",
         region: [
             WorldRegion.America,
@@ -646,8 +614,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.BrazilianReal
     },
-    {
-        name: "British Indian Ocean Territory",
+    {   name: "British Indian Ocean Territory",
         officialName: "The British Indian Ocean Territory",
         region: [
             WorldRegion.Asia
@@ -666,8 +633,7 @@ export const countryInfo: CountryInfo[] = [
         territoryOf: ISOCountryCode.UnitedKingdom,
         currency: ISOCurrencyCode.USDollar
     },
-    {
-        name: "Brunei Darussalam",
+    {   name: "Brunei Darussalam",
         officialName: "The Nation of Brunei, the Abode of Peace",
         region: [
             WorldRegion.Asia
@@ -686,8 +652,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.BruneiDollar
     },
-    {
-        name: "Bulgaria",
+    {   name: "Bulgaria",
         officialName: "The Republic of Bulgaria",
         region: [
             WorldRegion.Europe,
@@ -706,8 +671,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.BulgarianLev
     },
-    {
-        name: "Burkina Faso",
+    {   name: "Burkina Faso",
         officialName: "Burkina Faso",
         region: [
             WorldRegion.Africa
@@ -724,8 +688,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.WestAfricanFranc
     },
-    {
-        name: "Burundi",
+    {   name: "Burundi",
         officialName: "The Republic of Burundi",
         region: [
             WorldRegion.Africa
@@ -744,8 +707,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.BurundiFranc
     },
-    {
-        name: "Cambodia",
+    {   name: "Cambodia",
         officialName: "The Kingdom of Cambodia",
         region: [
             WorldRegion.Asia
@@ -762,8 +724,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.CambodianRiel
     },
-    {
-        name: "Cameroon",
+    {   name: "Cameroon",
         officialName: "The Republic of Cameroon",
         region: [
             WorldRegion.Africa
@@ -782,8 +743,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.CentralAfricanFranc
     },
-    {
-        name: "Canada",
+    {   name: "Canada",
         officialName: "Canada",
         region: [
             WorldRegion.America,
@@ -804,8 +764,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.CanadianDollar
     },
-    {
-        name: "Canary Islands",
+    {   name: "Canary Islands",
         officialName: "Canary Islands",
         region: [
             WorldRegion.Africa
@@ -824,8 +783,7 @@ export const countryInfo: CountryInfo[] = [
         territoryOf: ISOCountryCode.Spain,
         currency: ISOCurrencyCode.Euro
     },
-    {
-        name: "Cape Verde",
+    {   name: "Cape Verde",
         officialName: "The Republic of Cabo Verde",
         region: [
             WorldRegion.Africa
@@ -842,8 +800,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.CapeVerdeanEscudo
     },
-    {
-        name: "Catalonia",
+    {   name: "Catalonia",
         officialName: "Catalonia",
         region: [
             WorldRegion.Europe,
@@ -865,8 +822,7 @@ export const countryInfo: CountryInfo[] = [
         territoryOf: ISOCountryCode.Spain,
         currency: ISOCurrencyCode.Euro
     },
-    {
-        name: "Cayman Islands",
+    {   name: "Cayman Islands",
         officialName: "The Cayman Islands",
         region: [
             WorldRegion.America,
@@ -887,8 +843,7 @@ export const countryInfo: CountryInfo[] = [
         territoryOf: ISOCountryCode.UnitedKingdom,
         currency: ISOCurrencyCode.CaymanDollar
     },
-    {
-        name: "Central African Republic",
+    {   name: "Central African Republic",
         officialName: "The Central African Republic",
         region: [
             WorldRegion.Africa
@@ -905,8 +860,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.CentralAfricanFranc
     },
-    {
-        name: "Chad",
+    {   name: "Chad",
         officialName: "The Republic of Chad",
         region: [
             WorldRegion.Africa
@@ -924,8 +878,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.CentralAfricanFranc
     },
-    {
-        name: "Chile",
+    {   name: "Chile",
         officialName: "The Republic of Chile",
         region: [
             WorldRegion.America,
@@ -944,8 +897,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.ChileanPeso
     },
-    {
-        name: "China",
+    {   name: "China",
         officialName: "The People's Republic of China",
         region: [
             WorldRegion.Asia
@@ -963,8 +915,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.RenminbiYuan
     },
-    {
-        name: "Christmas Island",
+    {   name: "Christmas Island",
         officialName: "The Territory of Christmas Island",
         region: [
             WorldRegion.Asia
@@ -985,8 +936,7 @@ export const countryInfo: CountryInfo[] = [
         territoryOf: ISOCountryCode.Australia,
         currency: ISOCurrencyCode.AustralianDollar
     },
-    {
-        name: "Cocos (Keeling) Islands",
+    {   name: "Cocos (Keeling) Islands",
         officialName: "The Territory of Cocos (Keeling) Islands",
         region: [
             WorldRegion.Asia
@@ -1006,8 +956,7 @@ export const countryInfo: CountryInfo[] = [
         territoryOf: ISOCountryCode.Australia,
         currency: ISOCurrencyCode.AustralianDollar
     },
-    {
-        name: "Colombia",
+    {   name: "Colombia",
         officialName: "The Republic of Colombia",
         region: [
             WorldRegion.America,
@@ -1026,8 +975,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.ColombianPeso
     },
-    {
-        name: "Comoros",
+    {   name: "Comoros",
         officialName: "The Union of the Comoros",
         region: [
             WorldRegion.Africa
@@ -1045,8 +993,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.ComorianFranc
     },
-    {
-        name: "Cook Islands",
+    {   name: "Cook Islands",
         officialName: "The Cook Islands",
         region: [
             WorldRegion.Asia,
@@ -1066,8 +1013,7 @@ export const countryInfo: CountryInfo[] = [
         territoryOf: ISOCountryCode.NewZealand,
         currency: ISOCurrencyCode.NewZealandDollar
     },
-    {
-        name: "Costa Rica",
+    {   name: "Costa Rica",
         officialName: "The Republic of Costa Rica",
         region: [
             WorldRegion.America,
@@ -1086,8 +1032,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.Colon
     },
-    {
-        name: "Croatia",
+    {   name: "Croatia",
         officialName: "The Republic of Croatia",
         region: [
             WorldRegion.Europe,
@@ -1106,8 +1051,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.Kuna
     },
-    {
-        name: "Cuba",
+    {   name: "Cuba",
         officialName: "The Republic of Cuba",
         region: [
             WorldRegion.America,
@@ -1126,8 +1070,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.CubanPeso
     },
-    {
-        name: "Curaçao",
+    {   name: "Curaçao",
         officialName: "The Country of Curaçao",
         region: [
             WorldRegion.America,
@@ -1148,8 +1091,7 @@ export const countryInfo: CountryInfo[] = [
         territoryOf: ISOCountryCode.Netherlands,
         currency: ISOCurrencyCode.NetherlandsAntilleanGuilder
     },
-    {
-        name: "Cyprus",
+    {   name: "Cyprus",
         officialName: "The Republic of Cyprus",
         region: [
             WorldRegion.Europe,
@@ -1170,8 +1112,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.Euro
     },
-    {
-        name: "Czechia",
+    {   name: "Czechia",
         officialName: "The Czech Republic",
         region: [
             WorldRegion.Europe,
@@ -1191,8 +1132,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.CzechKrone
     },
-    {
-        name: "Democratic Republic of Congo",
+    {   name: "Democratic Republic of Congo",
         officialName: "The Democratic Republic of the Congo",
         region: [
             WorldRegion.Africa
@@ -1210,8 +1150,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.CongoleseFranc
     },
-    {
-        name: "Denmark",
+    {   name: "Denmark",
         officialName: "The Kingdom of Denmark",
         region: [
             WorldRegion.Europe,
@@ -1230,8 +1169,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.DanishKrone
     },
-    {
-        name: "Djibouti",
+    {   name: "Djibouti",
         officialName: "The Republic of Djibouti",
         region: [
             WorldRegion.Africa
@@ -1249,8 +1187,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.DjiboutiFranc
     },
-    {
-        name: "Dominica",
+    {   name: "Dominica",
         officialName: "The Commonwealth of Dominica",
         region: [
             WorldRegion.America,
@@ -1270,8 +1207,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.EastCaribbeanDollar
     },
-    {
-        name: "Dominican Republic",
+    {   name: "Dominican Republic",
         officialName: "The Dominican Republic",
         region: [
             WorldRegion.America,
@@ -1291,8 +1227,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.DominicanPeso
     },
-    {
-        name: "Ecuador",
+    {   name: "Ecuador",
         officialName: "The Republic of Ecuador",
         region: [
             WorldRegion.America,
@@ -1311,8 +1246,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.USDollar
     },
-    {
-        name: "Egypt",
+    {   name: "Egypt",
         officialName: "The Arab Republic of Egypt",
         region: [
             WorldRegion.Africa,
@@ -1331,8 +1265,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.EgyptianPound
     },
-    {
-        name: "El Salvador",
+    {   name: "El Salvador",
         officialName: "The Republic of El Salvador",
         region: [
             WorldRegion.SouthAmerica
@@ -1350,8 +1283,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.USDollar
     },
-    {
-        name: "England",
+    {   name: "England",
         officialName: "England",
         region: [
             WorldRegion.Europe,
@@ -1373,8 +1305,7 @@ export const countryInfo: CountryInfo[] = [
         territoryOf: ISOCountryCode.UnitedKingdom,
         currency: ISOCurrencyCode.SterlingPound
     },
-    {
-        name: "Equatorial Guinea",
+    {   name: "Equatorial Guinea",
         officialName: "The Republic of Equatorial Guinea",
         region: [
             WorldRegion.Africa
@@ -1393,8 +1324,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.CentralAfricanFranc
     },
-    {
-        name: "Eritrea",
+    {   name: "Eritrea",
         officialName: "The State of Eritrea",
         region: [
             WorldRegion.Africa
@@ -1411,8 +1341,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.Nakfa
     },
-    {
-        name: "Estonia",
+    {   name: "Estonia",
         officialName: "The Republic of Estonia",
         region: [
             WorldRegion.Europe,
@@ -1431,8 +1360,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.Euro
     },
-    {
-        name: "Eswatini",
+    {   name: "Eswatini",
         officialName: "The Kingdom of Eswatini",
         region: [
             WorldRegion.Africa
@@ -1451,8 +1379,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.SwaziLilangeni
     },
-    {
-        name: "Ethiopia",
+    {   name: "Ethiopia",
         officialName: "The Federal Democratic Republic of Ethiopia",
         region: [
             WorldRegion.Africa
@@ -1471,8 +1398,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.Birr
     },
-    {
-        name: "European Union",
+    {   name: "European Union",
         officialName: "European Union",
         region: [
             WorldRegion.Europe,
@@ -1491,8 +1417,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: false,
         currency: ISOCurrencyCode.Euro
     },
-    {
-        name: "Falkland Islands",
+    {   name: "Falkland Islands",
         officialName: "The Falkland Islands",
         region: [
             WorldRegion.SouthAmerica
@@ -1511,8 +1436,7 @@ export const countryInfo: CountryInfo[] = [
         territoryOf: ISOCountryCode.UnitedKingdom,
         currency: ISOCurrencyCode.FalklandsPound
     },
-    {
-        name: "Faroe Islands",
+    {   name: "Faroe Islands",
         officialName: "The Faroe Islands",
         region: [
             WorldRegion.Europe
@@ -1530,8 +1454,7 @@ export const countryInfo: CountryInfo[] = [
         territoryOf: ISOCountryCode.Denmark,
         currency: ISOCurrencyCode.FaroeseKrona
     },
-    {
-        name: "Fiji",
+    {   name: "Fiji",
         officialName: "The Republic of Fiji",
         region: [
             WorldRegion.Oceania
@@ -1549,8 +1472,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.FijianDollar
     },
-    {
-        name: "Finland",
+    {   name: "Finland",
         officialName: "The Republic of Finland",
         region: [
             WorldRegion.Europe,
@@ -1572,8 +1494,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.Euro
     },
-    {
-        name: "France",
+    {   name: "France",
         officialName: "The French Republic",
         region: [
             WorldRegion.Europe,
@@ -1593,8 +1514,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.Euro
     },
-    {
-        name: "French Guiana",
+    {   name: "French Guiana",
         officialName: "Guyane",
         region: [
             WorldRegion.SouthAmerica
@@ -1612,8 +1532,7 @@ export const countryInfo: CountryInfo[] = [
         territoryOf: ISOCountryCode.France,
         currency: ISOCurrencyCode.Euro
     },
-    {
-        name: "French Polynesia",
+    {   name: "French Polynesia",
         officialName: "French Polynesia",
         region: [
             WorldRegion.Asia,
@@ -1632,8 +1551,7 @@ export const countryInfo: CountryInfo[] = [
         territoryOf: ISOCountryCode.France,
         currency: ISOCurrencyCode.Euro
     },
-    {
-        name: "French Southern Territories",
+    {   name: "French Southern Territories",
         officialName: "The French Southern and Antarctic Lands",
         region: [
             WorldRegion.Antarctica
@@ -1651,8 +1569,7 @@ export const countryInfo: CountryInfo[] = [
         territoryOf: ISOCountryCode.France,
         currency: ISOCurrencyCode.Euro
     },
-    {
-        name: "Gabon",
+    {   name: "Gabon",
         officialName: "The Gabonese Republic",
         region: [
             WorldRegion.Africa
@@ -1669,8 +1586,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.CentralAfricanFranc
     },
-    {
-        name: "Gambia",
+    {   name: "Gambia",
         officialName: "The Republic of The Gambia",
         region: [
             WorldRegion.Africa
@@ -1688,8 +1604,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.Dalasi
     },
-    {
-        name: "Georgia",
+    {   name: "Georgia",
         officialName: "Georgia",
         region: [
             WorldRegion.Europe,
@@ -1707,8 +1622,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.GeorgianLari
     },
-    {
-        name: "Germany",
+    {   name: "Germany",
         officialName: "The Federal Republic of Germany",
         region: [
             WorldRegion.Europe,
@@ -1728,8 +1642,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.Euro
     },
-    {
-        name: "Ghana",
+    {   name: "Ghana",
         officialName: "The Republic of Ghana",
         region: [
             WorldRegion.Africa
@@ -1747,8 +1660,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.GhanaCedi
     },
-    {
-        name: "Gibraltar",
+    {   name: "Gibraltar",
         officialName: "Gibraltar",
         region: [
             WorldRegion.Europe,
@@ -1767,8 +1679,7 @@ export const countryInfo: CountryInfo[] = [
         territoryOf: ISOCountryCode.UnitedKingdom,
         currency: ISOCurrencyCode.GibraltarPound
     },
-    {
-        name: "Greece",
+    {   name: "Greece",
         officialName: "The Hellenic Republic",
         region: [
             WorldRegion.Europe,
@@ -1787,8 +1698,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.Euro
     },
-    {
-        name: "Greenland",
+    {   name: "Greenland",
         officialName: "Kalaallit Nunaat",
         region: [
             WorldRegion.America,
@@ -1807,8 +1717,7 @@ export const countryInfo: CountryInfo[] = [
         territoryOf: ISOCountryCode.Denmark,
         currency: ISOCurrencyCode.DanishKrone
     },
-    {
-        name: "Grenada",
+    {   name: "Grenada",
         officialName: "Grenada",
         region: [
             WorldRegion.America,
@@ -1827,8 +1736,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.EastCaribbeanDollar
     },
-    {
-        name: "Guadeloupe",
+    {   name: "Guadeloupe",
         officialName: "Guadeloupe",
         region: [
             WorldRegion.America,
@@ -1849,8 +1757,7 @@ export const countryInfo: CountryInfo[] = [
         territoryOf: ISOCountryCode.France,
         currency: ISOCurrencyCode.Euro
     },
-    {
-        name: "Guam",
+    {   name: "Guam",
         officialName: "The Territory of Guam",
         region: [
             WorldRegion.Oceania
@@ -1869,8 +1776,7 @@ export const countryInfo: CountryInfo[] = [
         territoryOf: ISOCountryCode.UnitedStatesOfAmerica,
         currency: ISOCurrencyCode.USDollar
     },
-    {
-        name: "Guatemala",
+    {   name: "Guatemala",
         officialName: "The Republic of Guatemala",
         region: [
             WorldRegion.America,
@@ -1889,8 +1795,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.Quetzal
     },
-    {
-        name: "Guernsey",
+    {   name: "Guernsey",
         officialName: "The Bailiwick of Guernsey",
         region: [
             WorldRegion.Europe
@@ -1907,8 +1812,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: false,
         currency: ISOCurrencyCode.GuernseyPound
     },
-    {
-        name: "Guinea",
+    {   name: "Guinea",
         officialName: "The Republic of Guinea",
         region: [
             WorldRegion.Africa
@@ -1925,8 +1829,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.GuineaFranc
     },
-    {
-        name: "Guinea-Bissau",
+    {   name: "Guinea-Bissau",
         officialName: "The Republic of Guinea-Bissau",
         region: [
             WorldRegion.Africa
@@ -1943,8 +1846,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.WestAfricanFranc
     },
-    {
-        name: "Guyana",
+    {   name: "Guyana",
         officialName: "The Co-operative Republic of Guyana",
         region: [
             WorldRegion.America,
@@ -1963,8 +1865,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.GuyanaDollar
     },
-    {
-        name: "Haiti",
+    {   name: "Haiti",
         officialName: "The Republic of Haiti",
         region: [
             WorldRegion.America,
@@ -1983,8 +1884,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.Gourde
     },
-    {
-        name: "Heard Island and McDonald Islands",
+    {   name: "Heard Island and McDonald Islands",
         officialName: "The Territory of Heard Island and McDonald Islands",
         region: [
             WorldRegion.Antarctica
@@ -2000,8 +1900,7 @@ export const countryInfo: CountryInfo[] = [
         territoryOf: ISOCountryCode.Australia,
         currency: ISOCurrencyCode.AustralianDollar
     },
-    {
-        name: "Honduras",
+    {   name: "Honduras",
         officialName: "The Republic of Honduras",
         region: [
             WorldRegion.America,
@@ -2020,8 +1919,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.Lempira
     },
-    {
-        name: "Hong Kong",
+    {   name: "Hong Kong",
         officialName: "The Hong Kong Special Administrative Region of China",
         region: [
             WorldRegion.Asia
@@ -2040,8 +1938,7 @@ export const countryInfo: CountryInfo[] = [
         territoryOf: ISOCountryCode.China,
         currency: ISOCurrencyCode.HongKongDollar
     },
-    {
-        name: "Hungary",
+    {   name: "Hungary",
         officialName: "Hungary",
         region: [
             WorldRegion.Europe,
@@ -2060,8 +1957,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.HungarianForint
     },
-    {
-        name: "Iceland",
+    {   name: "Iceland",
         officialName: "Iceland",
         region: [
             WorldRegion.Europe,
@@ -2079,8 +1975,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.IcelandicKrone
     },
-    {
-        name: "India",
+    {   name: "India",
         officialName: "The Republic of India",
         region: [
             WorldRegion.Asia
@@ -2108,8 +2003,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.IndianRupee
     },
-    {
-        name: "Indonesia",
+    {   name: "Indonesia",
         officialName: "The Republic of Indonesia",
         region: [
             WorldRegion.Asia
@@ -2126,8 +2020,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.IndonesianRupiah
     },
-    {
-        name: "Iran",
+    {   name: "Iran",
         officialName: "The Islamic Republic of Iran",
         region: [
             WorldRegion.Asia,
@@ -2145,8 +2038,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.IranianRial
     },
-    {
-        name: "Iraq",
+    {   name: "Iraq",
         officialName: "The Republic of Iraq",
         region: [
             WorldRegion.Asia,
@@ -2165,8 +2057,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.IraqiDinar
     },
-    {
-        name: "Ireland",
+    {   name: "Ireland",
         officialName: "Ireland",
         region: [
             WorldRegion.Europe,
@@ -2188,8 +2079,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.Euro
     },
-    {
-        name: "Isle of Man",
+    {   name: "Isle of Man",
         officialName: "The Isle of Man",
         region: [
             WorldRegion.Europe,
@@ -2207,8 +2097,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: false,
         currency: ISOCurrencyCode.ManxPound
     },
-    {
-        name: "Israel",
+    {   name: "Israel",
         officialName: "The State of Israel",
         region: [
             WorldRegion.Asia,
@@ -2226,8 +2115,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.IsraeliShekel
     },
-    {
-        name: "Italy",
+    {   name: "Italy",
         officialName: "The Italian Republic",
         region: [
             WorldRegion.Europe,
@@ -2247,8 +2135,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.Euro
     },
-    {
-        name: "Ivory Coast",
+    {   name: "Ivory Coast",
         officialName: "The Republic of Côte d'Ivoire",
         region: [
             WorldRegion.Africa
@@ -2266,8 +2153,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.WestAfricanFranc
     },
-    {
-        name: "Jamaica",
+    {   name: "Jamaica",
         officialName: "Jamaica",
         region: [
             WorldRegion.America,
@@ -2287,8 +2173,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.JamaicaDollar
     },
-    {
-        name: "Japan",
+    {   name: "Japan",
         officialName: "Japan",
         region: [
             WorldRegion.Asia
@@ -2305,8 +2190,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.JapaneseYen
     },
-    {
-        name: "Jersey",
+    {   name: "Jersey",
         officialName: "The Bailiwick of Jersey",
         region: [
             WorldRegion.Europe
@@ -2323,8 +2207,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: false,
         currency: ISOCurrencyCode.JerseySterlingPound
     },
-    {
-        name: "Jordan",
+    {   name: "Jordan",
         officialName: "The Hashemite Kingdom of Jordan",
         region: [
             WorldRegion.Asia,
@@ -2343,8 +2226,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.JordanianDinar
     },
-    {
-        name: "Kazakhstan",
+    {   name: "Kazakhstan",
         officialName: "The Republic of Kazakhstan",
         region: [
             WorldRegion.Asia
@@ -2362,8 +2244,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.Tenge
     },
-    {
-        name: "Kenya",
+    {   name: "Kenya",
         officialName: "The Republic of Kenya",
         region: [
             WorldRegion.Africa
@@ -2382,8 +2263,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.KenianSchilling
     },
-    {
-        name: "Kiribati",
+    {   name: "Kiribati",
         officialName: "The Republic of Kiribati",
         region: [
             WorldRegion.Oceania
@@ -2400,8 +2280,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.KiribatiDollar
     },
-    {
-        name: "Kosovo",
+    {   name: "Kosovo",
         officialName: "Republic of Kosovo",
         region: [
             WorldRegion.Europe,
@@ -2420,8 +2299,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.Euro
     },
-    {
-        name: "Kuwait",
+    {   name: "Kuwait",
         officialName: "The State of Kuwait",
         region: [
             WorldRegion.Asia,
@@ -2440,8 +2318,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.KuwaitiDinar
     },
-    {
-        name: "Kyrgyzstan",
+    {   name: "Kyrgyzstan",
         officialName: "The Kyrgyz Republic",
         region: [
             WorldRegion.Asia
@@ -2459,8 +2336,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.Som
     },
-    {
-        name: "Laos",
+    {   name: "Laos",
         officialName: "The Lao People's Democratic Republic",
         region: [
             WorldRegion.Asia
@@ -2477,8 +2353,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.Kip
     },
-    {
-        name: "Latvia",
+    {   name: "Latvia",
         officialName: "The Republic of Latvia",
         region: [
             WorldRegion.Europe,
@@ -2497,8 +2372,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.Euro
     },
-    {
-        name: "Lebanon",
+    {   name: "Lebanon",
         officialName: "The Lebanese Republic",
         region: [
             WorldRegion.Asia,
@@ -2517,8 +2391,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.LebanesePound
     },
-    {
-        name: "Lesotho",
+    {   name: "Lesotho",
         officialName: "The Kingdom of Lesotho",
         region: [
             WorldRegion.Africa
@@ -2536,8 +2409,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.LesothoLoti
     },
-    {
-        name: "Liberia",
+    {   name: "Liberia",
         officialName: "The Republic of Liberia",
         region: [
             WorldRegion.Africa
@@ -2554,8 +2426,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.LiberianDollar
     },
-    {
-        name: "Libya",
+    {   name: "Libya",
         officialName: "The State of Libya",
         region: [
             WorldRegion.Africa
@@ -2573,8 +2444,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.LibyanDinar
     },
-    {
-        name: "Liechtenstein",
+    {   name: "Liechtenstein",
         officialName: "The Principality of Liechtenstein",
         region: [
             WorldRegion.Europe,
@@ -2593,8 +2463,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.SwissFranc
     },
-    {
-        name: "Lithuania",
+    {   name: "Lithuania",
         officialName: "The Republic of Lithuania",
         region: [
             WorldRegion.Europe,
@@ -2612,8 +2481,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.Euro
     },
-    {
-        name: "Luxembourg",
+    {   name: "Luxembourg",
         officialName: "The Grand Duchy of Luxembourg",
         region: [
             WorldRegion.Europe,
@@ -2636,8 +2504,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.Euro
     },
-    {
-        name: "Macau",
+    {   name: "Macau",
         officialName: "The Macao Special Administrative Region of China",
         region: [
             WorldRegion.Asia
@@ -2657,8 +2524,7 @@ export const countryInfo: CountryInfo[] = [
         territoryOf: ISOCountryCode.China,
         currency: ISOCurrencyCode.MacanesePataca
     },
-    {
-        name: "Madagascar",
+    {   name: "Madagascar",
         officialName: "The Republic of Madagascar",
         region: [
             WorldRegion.Africa
@@ -2675,8 +2541,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.MalagasyAriary
     },
-    {
-        name: "Malawi",
+    {   name: "Malawi",
         officialName: "The Republic of Malawi",
         region: [
             WorldRegion.Africa
@@ -2693,8 +2558,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.Kwacha
     },
-    {
-        name: "Malaysia",
+    {   name: "Malaysia",
         officialName: "Malaysia",
         region: [
             WorldRegion.Asia
@@ -2712,8 +2576,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.Ringgit
     },
-    {
-        name: "Maldives",
+    {   name: "Maldives",
         officialName: "The Republic of Maldives",
         region: [
             WorldRegion.Asia
@@ -2730,8 +2593,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.MaldivianRufiyaa
     },
-    {
-        name: "Mali",
+    {   name: "Mali",
         officialName: "The Republic of Mali",
         region: [
             WorldRegion.Africa
@@ -2749,8 +2611,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.WestAfricanFranc
     },
-    {
-        name: "Malta",
+    {   name: "Malta",
         officialName: "The Republic of Malta",
         region: [
             WorldRegion.Europe,
@@ -2770,8 +2631,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.Euro
     },
-    {
-        name: "Marshall Islands",
+    {   name: "Marshall Islands",
         officialName: "The Republic of the Marshall Islands",
         region: [
             WorldRegion.Oceania
@@ -2788,8 +2648,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.USDollar
     },
-    {
-        name: "Martinique",
+    {   name: "Martinique",
         officialName: "Martinique",
         region: [
             WorldRegion.America,
@@ -2810,8 +2669,7 @@ export const countryInfo: CountryInfo[] = [
         territoryOf: ISOCountryCode.France,
         currency: ISOCurrencyCode.Euro
     },
-    {
-        name: "Mauritania",
+    {   name: "Mauritania",
         officialName: "The Islamic Republic of Mauritania",
         region: [
             WorldRegion.Africa
@@ -2828,8 +2686,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.Ouguiya
     },
-    {
-        name: "Mauritius",
+    {   name: "Mauritius",
         officialName: "The Republic of Mauritius",
         region: [
             WorldRegion.Africa
@@ -2846,8 +2703,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.MauritianRupee
     },
-    {
-        name: "Mayotte",
+    {   name: "Mayotte",
         officialName: "The Department of Mayotte",
         region: [
             WorldRegion.Africa
@@ -2866,8 +2722,7 @@ export const countryInfo: CountryInfo[] = [
         territoryOf: ISOCountryCode.France,
         currency: ISOCurrencyCode.Euro
     },
-    {
-        name: "Mexico",
+    {   name: "Mexico",
         officialName: "The United Mexican States",
         region: [
             WorldRegion.America,
@@ -2886,8 +2741,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.MexicanPeso
     },
-    {
-        name: "Micronesia",
+    {   name: "Micronesia",
         officialName: "The Federated States of Micronesia",
         region: [
             WorldRegion.Oceania
@@ -2904,8 +2758,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.USDollar
     },
-    {
-        name: "Moldova",
+    {   name: "Moldova",
         officialName: "The Republic of Moldova",
         region: [
             WorldRegion.Europe,
@@ -2926,8 +2779,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.MoldavianLeu
     },
-    {
-        name: "Monaco",
+    {   name: "Monaco",
         officialName: "The Principality of Monaco",
         region: [
             WorldRegion.Europe,
@@ -2946,8 +2798,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.Euro
     },
-    {
-        name: "Mongolia",
+    {   name: "Mongolia",
         officialName: "Mongolia",
         region: [
             WorldRegion.Asia
@@ -2964,8 +2815,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.Tugrik
     },
-    {
-        name: "Montenegro",
+    {   name: "Montenegro",
         officialName: "Montenegro",
         region: [
             WorldRegion.Europe,
@@ -2983,8 +2833,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.Euro
     },
-    {
-        name: "Montserrat",
+    {   name: "Montserrat",
         officialName: "Montserrat",
         region: [
             WorldRegion.America,
@@ -3006,8 +2855,7 @@ export const countryInfo: CountryInfo[] = [
         territoryOf: ISOCountryCode.UnitedKingdom,
         currency: ISOCurrencyCode.EastCaribbeanDollar
     },
-    {
-        name: "Morocco",
+    {   name: "Morocco",
         officialName: "The Kingdom of Morocco",
         region: [
             WorldRegion.Africa
@@ -3025,8 +2873,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.MoroccanDirham
     },
-    {
-        name: "Mozambique",
+    {   name: "Mozambique",
         officialName: "The Republic of Mozambique",
         region: [
             WorldRegion.Africa
@@ -3043,8 +2890,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.Metical
     },
-    {
-        name: "Myanmar",
+    {   name: "Myanmar",
         officialName: "The Republic of the Union of Myanmar",
         region: [
             WorldRegion.Asia
@@ -3061,8 +2907,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.Kyat
     },
-    {
-        name: "Namibia",
+    {   name: "Namibia",
         officialName: "The Republic of Namibia",
         region: [
             WorldRegion.Africa
@@ -3079,8 +2924,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.NamibianDollar
     },
-    {
-        name: "Nauru",
+    {   name: "Nauru",
         officialName: "The Republic of Nauru",
         region: [
             WorldRegion.Oceania
@@ -3097,8 +2941,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.AustralianDollar
     },
-    {
-        name: "Nepal",
+    {   name: "Nepal",
         officialName: "The Federal Democratic Republic of Nepal",
         region: [
             WorldRegion.Asia
@@ -3115,8 +2958,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.NepaleseRupee
     },
-    {
-        name: "Netherlands",
+    {   name: "Netherlands",
         officialName: "The Kingdom of the Netherlands",
         region: [
             WorldRegion.Europe,
@@ -3136,8 +2978,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.Euro
     },
-    {
-        name: "New Caledonia",
+    {   name: "New Caledonia",
         officialName: "New Caledonia",
         region: [
             WorldRegion.Oceania
@@ -3156,8 +2997,7 @@ export const countryInfo: CountryInfo[] = [
         territoryOf: ISOCountryCode.France,
         currency: ISOCurrencyCode.Euro
     },
-    {
-        name: "New Zealand",
+    {   name: "New Zealand",
         officialName: "New Zealand",
         region: [
             WorldRegion.Australia,
@@ -3177,8 +3017,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.NewZealandDollar
     },
-    {
-        name: "Nicaragua",
+    {   name: "Nicaragua",
         officialName: "The Republic of Nicaragua",
         region: [
             WorldRegion.America,
@@ -3197,8 +3036,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.CordobaOro
     },
-    {
-        name: "Niger",
+    {   name: "Niger",
         officialName: "The Republic of the Niger",
         region: [
             WorldRegion.Africa
@@ -3215,8 +3053,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.WestAfricanFranc
     },
-    {
-        name: "Nigeria",
+    {   name: "Nigeria",
         officialName: "The Federal Republic of Nigeria",
         region: [
             WorldRegion.Africa
@@ -3234,8 +3071,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.Naira
     },
-    {
-        name: "Niue",
+    {   name: "Niue",
         officialName: "Niue",
         region: [
             WorldRegion.Oceania
@@ -3254,8 +3090,7 @@ export const countryInfo: CountryInfo[] = [
         territoryOf: ISOCountryCode.NewZealand,
         currency: ISOCurrencyCode.NewZealandDollar
     },
-    {
-        name: "Norfolk Island",
+    {   name: "Norfolk Island",
         officialName: "The Territory of Norfolk Island",
         region: [
             WorldRegion.Australia
@@ -3274,8 +3109,7 @@ export const countryInfo: CountryInfo[] = [
         territoryOf: ISOCountryCode.Australia,
         currency: ISOCurrencyCode.AustralianDollar
     },
-    {
-        name: "North Korea",
+    {   name: "North Korea",
         officialName: "The Democratic People's Republic of Korea",
         region: [
             WorldRegion.Asia
@@ -3292,8 +3126,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.NorthKoreanWon
     },
-    {
-        name: "North Macedonia",
+    {   name: "North Macedonia",
         officialName: "The Republic of North Macedonia",
         region: [
             WorldRegion.Europe,
@@ -3312,8 +3145,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.MacedonianDenar
     },
-    {
-        name: "Northern Ireland",
+    {   name: "Northern Ireland",
         officialName: "Northern Ireland",
         region: [
             WorldRegion.Europe,
@@ -3336,8 +3168,7 @@ export const countryInfo: CountryInfo[] = [
         territoryOf: ISOCountryCode.UnitedKingdom,
         currency: ISOCurrencyCode.SterlingPound
     },
-    {
-        name: "Northern Mariana Islands",
+    {   name: "Northern Mariana Islands",
         officialName: "The Commonwealth of the Northern Mariana Islands",
         region: [
             WorldRegion.Oceania
@@ -3356,8 +3187,7 @@ export const countryInfo: CountryInfo[] = [
         territoryOf: ISOCountryCode.UnitedStatesOfAmerica,
         currency: ISOCurrencyCode.USDollar
     },
-    {
-        name: "Norway",
+    {   name: "Norway",
         officialName: "The Kingdom of Norway",
         region: [
             WorldRegion.Europe,
@@ -3376,8 +3206,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.NorwegianKrone
     },
-    {
-        name: "Oman",
+    {   name: "Oman",
         officialName: "The Sultanate of Oman",
         region: [
             WorldRegion.Asia,
@@ -3396,8 +3225,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.OmaniRial
     },
-    {
-        name: "Pakistan",
+    {   name: "Pakistan",
         officialName: "The Islamic Republic of Pakistan",
         region: [
             WorldRegion.Asia
@@ -3416,8 +3244,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.PakistanianRupee
     },
-    {
-        name: "Palau",
+    {   name: "Palau",
         officialName: "The Republic of Palau",
         region: [
             WorldRegion.Oceania
@@ -3434,8 +3261,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.USDollar
     },
-    {
-        name: "Palestine",
+    {   name: "Palestine",
         officialName: "The State of Palestine",
         region: [
             WorldRegion.Asia,
@@ -3453,8 +3279,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: false,
         currency: ISOCurrencyCode.EgyptianPound
     },
-    {
-        name: "Panama",
+    {   name: "Panama",
         officialName: "The Republic of Panamá",
         region: [
             WorldRegion.America,
@@ -3473,8 +3298,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.PanamanianBalboa
     },
-    {
-        name: "Papua New Guinea",
+    {   name: "Papua New Guinea",
         officialName: "The Independent State of Papua New Guinea",
         region: [
             WorldRegion.Oceania
@@ -3491,8 +3315,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.Kina
     },
-    {
-        name: "Paraguay",
+    {   name: "Paraguay",
         officialName: "The Republic of Paraguay",
         region: [
             WorldRegion.America,
@@ -3511,8 +3334,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.Guarani
     },
-    {
-        name: "Peru",
+    {   name: "Peru",
         officialName: "The Republic of Perú",
         region: [
             WorldRegion.America,
@@ -3531,8 +3353,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.Sol
     },
-    {
-        name: "Philippines",
+    {   name: "Philippines",
         officialName: "The Republic of the Philippines",
         region: [
             WorldRegion.Asia
@@ -3550,8 +3371,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.PhilippinePeso
     },
-    {
-        name: "Pitcairn",
+    {   name: "Pitcairn",
         officialName: "The Pitcairn, Henderson, Ducie and Oeno Islands",
         region: [
             WorldRegion.Oceania
@@ -3570,8 +3390,7 @@ export const countryInfo: CountryInfo[] = [
         territoryOf: ISOCountryCode.UnitedKingdom,
         currency: ISOCurrencyCode.NewZealandDollar
     },
-    {
-        name: "Poland",
+    {   name: "Poland",
         officialName: "The Republic of Poland",
         region: [
             WorldRegion.Europe,
@@ -3590,8 +3409,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.Zloty
     },
-    {
-        name: "Portugal",
+    {   name: "Portugal",
         officialName: "The Portuguese Republic",
         region: [
             WorldRegion.Europe,
@@ -3611,8 +3429,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.Euro
     },
-    {
-        name: "Puerto Rico",
+    {   name: "Puerto Rico",
         officialName: "The Commonwealth of Puerto Rico",
         region: [
             WorldRegion.America,
@@ -3633,8 +3450,7 @@ export const countryInfo: CountryInfo[] = [
         territoryOf: ISOCountryCode.UnitedStatesOfAmerica,
         currency: ISOCurrencyCode.USDollar
     },
-    {
-        name: "Qatar",
+    {   name: "Qatar",
         officialName: "The State of Qatar",
         region: [
             WorldRegion.Asia,
@@ -3653,8 +3469,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.QatariRial
     },
-    {
-        name: "Republic of Congo",
+    {   name: "Republic of Congo",
         officialName: "The Republic of the Congo",
         region: [
             WorldRegion.Africa
@@ -3672,8 +3487,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.CentralAfricanFranc
     },
-    {
-        name: "Romania",
+    {   name: "Romania",
         officialName: "Romania",
         region: [
             WorldRegion.Europe,
@@ -3692,8 +3506,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.RomanianLeu
     },
-    {
-        name: "Russian Federation",
+    {   name: "Russian Federation",
         officialName: "The Russian Federation",
         region: [
             WorldRegion.Europe,
@@ -3712,8 +3525,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.RussianRubel
     },
-    {
-        name: "Rwanda",
+    {   name: "Rwanda",
         officialName: "The Republic of Rwanda",
         region: [
             WorldRegion.Africa
@@ -3732,8 +3544,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.RwandanFranc
     },
-    {
-        name: "Réunion",
+    {   name: "Réunion",
         officialName: "Réunion",
         region: [
             WorldRegion.Africa
@@ -3752,8 +3563,7 @@ export const countryInfo: CountryInfo[] = [
         territoryOf: ISOCountryCode.France,
         currency: ISOCurrencyCode.Euro
     },
-    {
-        name: "Saint Barthélemy",
+    {   name: "Saint Barthélemy",
         officialName: "The Collectivity of Saint-Barthélemy",
         region: [
             WorldRegion.America,
@@ -3774,8 +3584,7 @@ export const countryInfo: CountryInfo[] = [
         territoryOf: ISOCountryCode.France,
         currency: ISOCurrencyCode.Euro
     },
-    {
-        name: "Saint Helena, Ascension Island, Tristan da Cunha",
+    {   name: "Saint Helena, Ascension Island, Tristan da Cunha",
         officialName: "Saint Helena, Ascension and Tristan da Cunha",
         region: [
             WorldRegion.Africa
@@ -3794,8 +3603,7 @@ export const countryInfo: CountryInfo[] = [
         territoryOf: ISOCountryCode.UnitedKingdom,
         currency: ISOCurrencyCode.SaintHelenaPound
     },
-    {
-        name: "Saint Kitts and Nevis",
+    {   name: "Saint Kitts and Nevis",
         officialName: "Saint Kitts and Nevis",
         region: [
             WorldRegion.America,
@@ -3815,8 +3623,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.EastCaribbeanDollar
     },
-    {
-        name: "Saint Lucia",
+    {   name: "Saint Lucia",
         officialName: "Saint Lucia",
         region: [
             WorldRegion.America,
@@ -3836,8 +3643,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.EastCaribbeanDollar
     },
-    {
-        name: "Saint Martin",
+    {   name: "Saint Martin",
         officialName: "The Collectivity of Saint-Martin",
         region: [
             WorldRegion.America,
@@ -3858,8 +3664,7 @@ export const countryInfo: CountryInfo[] = [
         territoryOf: ISOCountryCode.France,
         currency: ISOCurrencyCode.Euro
     },
-    {
-        name: "Saint Pierre and Miquelon",
+    {   name: "Saint Pierre and Miquelon",
         officialName: "The Overseas Collectivity of Saint-Pierre and Miquelon",
         region: [
             WorldRegion.America,
@@ -3879,8 +3684,7 @@ export const countryInfo: CountryInfo[] = [
         territoryOf: ISOCountryCode.France,
         currency: ISOCurrencyCode.Euro
     },
-    {
-        name: "Saint Vincent and the Grenadines",
+    {   name: "Saint Vincent and the Grenadines",
         officialName: "Saint Vincent and the Grenadines",
         region: [
             WorldRegion.America,
@@ -3900,8 +3704,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.EastCaribbeanDollar
     },
-    {
-        name: "Samoa",
+    {   name: "Samoa",
         officialName: "The Independent State of Samoa",
         region: [
             WorldRegion.Oceania
@@ -3919,8 +3722,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.Tala
     },
-    {
-        name: "San Marino",
+    {   name: "San Marino",
         officialName: "The Republic of San Marino",
         region: [
             WorldRegion.Europe,
@@ -3938,8 +3740,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.Euro
     },
-    {
-        name: "Sao Tome and Principe",
+    {   name: "Sao Tome and Principe",
         officialName: "The Democratic Republic of São Tomé and Príncipe",
         region: [
             WorldRegion.Africa
@@ -3956,8 +3757,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.Dobra
     },
-    {
-        name: "Saudi Arabia",
+    {   name: "Saudi Arabia",
         officialName: "The Kingdom of Saudi Arabia",
         region: [
             WorldRegion.Asia,
@@ -3976,8 +3776,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.SaudiRial
     },
-    {
-        name: "Scotland",
+    {   name: "Scotland",
         officialName: "Scotland",
         region: [
             WorldRegion.Europe,
@@ -4001,8 +3800,7 @@ export const countryInfo: CountryInfo[] = [
         territoryOf: ISOCountryCode.UnitedKingdom,
         currency: ISOCurrencyCode.SterlingPound
     },
-    {
-        name: "Senegal",
+    {   name: "Senegal",
         officialName: "The Republic of Senegal",
         region: [
             WorldRegion.Africa
@@ -4020,8 +3818,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.WestAfricanFranc
     },
-    {
-        name: "Serbia",
+    {   name: "Serbia",
         officialName: "The Republic of Serbia",
         region: [
             WorldRegion.Europe,
@@ -4039,8 +3836,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.SerbianDinar
     },
-    {
-        name: "Seychelles",
+    {   name: "Seychelles",
         officialName: "The Republic of Seychelles",
         region: [
             WorldRegion.Africa
@@ -4058,8 +3854,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.SeychellesRupee
     },
-    {
-        name: "Sierra Leone",
+    {   name: "Sierra Leone",
         officialName: "The Republic of Sierra Leone",
         region: [
             WorldRegion.Africa
@@ -4076,8 +3871,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.Leone
     },
-    {
-        name: "Singapore",
+    {   name: "Singapore",
         officialName: "The Republic of Singapore",
         region: [
             WorldRegion.Asia
@@ -4097,8 +3891,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.SingaporeDollar
     },
-    {
-        name: "Sint Maarten",
+    {   name: "Sint Maarten",
         officialName: "Sint Maarten",
         region: [
             WorldRegion.America,
@@ -4119,8 +3912,7 @@ export const countryInfo: CountryInfo[] = [
         territoryOf: ISOCountryCode.Netherlands,
         currency: ISOCurrencyCode.Euro
     },
-    {
-        name: "Slovakia",
+    {   name: "Slovakia",
         officialName: "The Slovak Republic",
         region: [
             WorldRegion.Europe,
@@ -4139,8 +3931,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.Euro
     },
-    {
-        name: "Slovenia",
+    {   name: "Slovenia",
         officialName: "The Republic of Slovenia",
         region: [
             WorldRegion.Europe,
@@ -4159,8 +3950,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.Euro
     },
-    {
-        name: "Solomon Islands",
+    {   name: "Solomon Islands",
         officialName: "The Solomon Islands",
         region: [
             WorldRegion.Oceania
@@ -4177,8 +3967,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.SalomonDollar
     },
-    {
-        name: "Somalia",
+    {   name: "Somalia",
         officialName: "The Federal Republic of Somalia",
         region: [
             WorldRegion.Africa
@@ -4195,8 +3984,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.SomalianShilling
     },
-    {
-        name: "South Africa",
+    {   name: "South Africa",
         officialName: "The Republic of South Africa",
         region: [
             WorldRegion.Africa
@@ -4219,8 +4007,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.SouthAfricanRand
     },
-    {
-        name: "South Georgia and the South Sandwich Islands",
+    {   name: "South Georgia and the South Sandwich Islands",
         officialName: "South Georgia and the South Sandwich Islands",
         region: [
             WorldRegion.America,
@@ -4240,8 +4027,7 @@ export const countryInfo: CountryInfo[] = [
         territoryOf: ISOCountryCode.UnitedKingdom,
         currency: ISOCurrencyCode.FalklandsPound
     },
-    {
-        name: "South Korea",
+    {   name: "South Korea",
         officialName: "The Republic of Korea",
         region: [
             WorldRegion.Asia
@@ -4258,8 +4044,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.SouthKoreanWon
     },
-    {
-        name: "South Sudan",
+    {   name: "South Sudan",
         officialName: "The Republic of South Sudan",
         region: [
             WorldRegion.Africa
@@ -4276,8 +4061,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.SouthSudanesePound
     },
-    {
-        name: "Spain",
+    {   name: "Spain",
         officialName: "The Kingdom of Spain",
         region: [
             WorldRegion.Europe,
@@ -4297,8 +4081,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.Euro
     },
-    {
-        name: "Sri Lanka",
+    {   name: "Sri Lanka",
         officialName: "The Democratic Socialist Republic of Sri Lanka",
         region: [
             WorldRegion.Asia
@@ -4316,8 +4099,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.SriLankaRupee
     },
-    {
-        name: "Sudan",
+    {   name: "Sudan",
         officialName: "The Republic of the Sudan",
         region: [
             WorldRegion.Africa
@@ -4334,8 +4116,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.SudanesePound
     },
-    {
-        name: "Suriname",
+    {   name: "Suriname",
         officialName: "The Republic of Suriname",
         region: [
             WorldRegion.America,
@@ -4353,8 +4134,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.SurinameseDollar
     },
-    {
-        name: "Svalbard, Jan Mayen",
+    {   name: "Svalbard, Jan Mayen",
         officialName: "Svalbard and Jan Mayen",
         region: [
             WorldRegion.Europe
@@ -4373,8 +4153,7 @@ export const countryInfo: CountryInfo[] = [
         territoryOf: ISOCountryCode.Norway,
         currency: ISOCurrencyCode.NorwegianKrone
     },
-    {
-        name: "Sweden",
+    {   name: "Sweden",
         officialName: "The Kingdom of Sweden",
         region: [
             WorldRegion.Europe,
@@ -4395,8 +4174,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.SwedishKrone
     },
-    {
-        name: "Switzerland",
+    {   name: "Switzerland",
         officialName: "The Swiss Confederation",
         region: [
             WorldRegion.Europe,
@@ -4419,8 +4197,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.SwissFranc
     },
-    {
-        name: "Syria",
+    {   name: "Syria",
         officialName: "The Syrian Arab Republic",
         region: [
             WorldRegion.Asia,
@@ -4440,8 +4217,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.SyrianPound
     },
-    {
-        name: "Taiwan",
+    {   name: "Taiwan",
         officialName: "The Republic of China",
         region: [
             WorldRegion.Asia
@@ -4460,8 +4236,7 @@ export const countryInfo: CountryInfo[] = [
         territoryOf: ISOCountryCode.China,
         currency: ISOCurrencyCode.NewTaiwanDollar
     },
-    {
-        name: "Tajikistan",
+    {   name: "Tajikistan",
         officialName: "The Republic of Tajikistan",
         region: [
             WorldRegion.Asia
@@ -4478,8 +4253,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.Somoni
     },
-    {
-        name: "Tanzania",
+    {   name: "Tanzania",
         officialName: "The United Republic of Tanzania",
         region: [
             WorldRegion.Africa
@@ -4496,8 +4270,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.TansanianShilling
     },
-    {
-        name: "Thailand",
+    {   name: "Thailand",
         officialName: "The Kingdom of Thailand",
         region: [
             WorldRegion.Asia
@@ -4514,8 +4287,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.ThaiBaht
     },
-    {
-        name: "Timor-Leste",
+    {   name: "Timor-Leste",
         officialName: "The Democratic Republic of Timor-Leste",
         region: [
             WorldRegion.Asia
@@ -4532,8 +4304,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.USDollar
     },
-    {
-        name: "Togo",
+    {   name: "Togo",
         officialName: "The Togolese Republic",
         region: [
             WorldRegion.Africa
@@ -4550,8 +4321,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.WestAfricanFranc
     },
-    {
-        name: "Tokelau",
+    {   name: "Tokelau",
         officialName: "Tokelau",
         region: [
             WorldRegion.Oceania
@@ -4569,8 +4339,7 @@ export const countryInfo: CountryInfo[] = [
         territoryOf: ISOCountryCode.NewZealand,
         currency: ISOCurrencyCode.NewZealandDollar
     },
-    {
-        name: "Tonga",
+    {   name: "Tonga",
         officialName: "The Kingdom of Tonga",
         region: [
             WorldRegion.Oceania
@@ -4587,8 +4356,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.Paanga
     },
-    {
-        name: "Trinidad and Tobago",
+    {   name: "Trinidad and Tobago",
         officialName: "The Republic of Trinidad and Tobago",
         region: [
             WorldRegion.America,
@@ -4608,8 +4376,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.TrinidadandTobagoDollar
     },
-    {
-        name: "Tunisia",
+    {   name: "Tunisia",
         officialName: "The Republic of Tunisia",
         region: [
             WorldRegion.Asia
@@ -4627,8 +4394,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.TunesianDinar
     },
-    {
-        name: "Turkey",
+    {   name: "Turkey",
         officialName: "The Republic of Türkiye",
         region: [
             WorldRegion.Europe,
@@ -4646,8 +4412,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.TurkishLira
     },
-    {
-        name: "Turkmenistan",
+    {   name: "Turkmenistan",
         officialName: "Turkmenistan",
         region: [
             WorldRegion.Asia
@@ -4664,8 +4429,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.TurkmenistaniManat
     },
-    {
-        name: "Turks and Caicos Islands",
+    {   name: "Turks and Caicos Islands",
         officialName: "The Turks and Caicos Islands",
         region: [
             WorldRegion.America,
@@ -4687,8 +4451,7 @@ export const countryInfo: CountryInfo[] = [
         territoryOf: ISOCountryCode.UnitedKingdom,
         currency: ISOCurrencyCode.USDollar
     },
-    {
-        name: "Tuvalu",
+    {   name: "Tuvalu",
         officialName: "Tuvalu",
         region: [
             WorldRegion.Oceania
@@ -4705,8 +4468,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.TuvaluanDollar
     },
-    {
-        name: "Uganda",
+    {   name: "Uganda",
         officialName: "The Republic of Uganda",
         region: [
             WorldRegion.Africa
@@ -4724,8 +4486,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.UgandanSchilling
     },
-    {
-        name: "Ukraine",
+    {   name: "Ukraine",
         officialName: "Ukraine",
         region: [
             WorldRegion.Europe,
@@ -4743,8 +4504,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.Hrywnja
     },
-    {
-        name: "United Arab Emirates",
+    {   name: "United Arab Emirates",
         officialName: "The United Arab Emirates",
         region: [
             WorldRegion.Asia,
@@ -4763,8 +4523,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.UnitedArabEmiratesDirham
     },
-    {
-        name: "United Kingdom",
+    {   name: "United Kingdom",
         officialName: "The United Kingdom of Great Britain and Northern Ireland",
         region: [
             WorldRegion.Europe,
@@ -4784,8 +4543,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.SterlingPound
     },
-    {
-        name: "United Nations",
+    {   name: "United Nations",
         officialName: "United Nations",
         region: [],
         alpha2: ISOCountryCode.UnitedNations,
@@ -4805,8 +4563,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: false,
         currency: null
     },
-    {
-        name: "United States Minor Outlying Islands",
+    {   name: "United States Minor Outlying Islands",
         officialName: "Baker Island, Howland Island, Jarvis Island, Johnston Atoll, Kingman Reef, Midway Atoll, Navassa Island, Palmyra Atoll, and Wake Island",
         region: [
             WorldRegion.Oceania
@@ -4825,8 +4582,7 @@ export const countryInfo: CountryInfo[] = [
         territoryOf: ISOCountryCode.UnitedStatesOfAmerica,
         currency: ISOCurrencyCode.USDollar
     },
-    {
-        name: "United States of America",
+    {   name: "United States of America",
         officialName: "The United States of America",
         region: [
             WorldRegion.America,
@@ -4845,8 +4601,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.USDollar
     },
-    {
-        name: "Uruguay",
+    {   name: "Uruguay",
         officialName: "The Oriental Republic of Uruguay",
         region: [
             WorldRegion.America,
@@ -4865,8 +4620,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.UruguayPeso
     },
-    {
-        name: "Uzbekistan",
+    {   name: "Uzbekistan",
         officialName: "The Republic of Uzbekistan",
         region: [
             WorldRegion.Asia
@@ -4883,8 +4637,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.UzbekistaniSoum
     },
-    {
-        name: "Vanuatu",
+    {   name: "Vanuatu",
         officialName: "The Republic of Vanuatu",
         region: [
             WorldRegion.Oceania
@@ -4902,8 +4655,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.Vatu
     },
-    {
-        name: "Vatican",
+    {   name: "Vatican",
         officialName: "The Holy See",
         region: [
             WorldRegion.Europe,
@@ -4922,8 +4674,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: false,
         currency: ISOCurrencyCode.Euro
     },
-    {
-        name: "Venezuela",
+    {   name: "Venezuela",
         officialName: "The Bolivarian Republic of Venezuela",
         region: [
             WorldRegion.Asia
@@ -4941,8 +4692,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.VenezuelanBolivar
     },
-    {
-        name: "Vietnam",
+    {   name: "Vietnam",
         officialName: "The Socialist Republic of Viet Nam",
         region: [
             WorldRegion.Asia
@@ -4959,8 +4709,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.Dong
     },
-    {
-        name: "Virgin Islands (British)",
+    {   name: "Virgin Islands (British)",
         officialName: "The Virgin Islands",
         region: [
             WorldRegion.America,
@@ -4981,8 +4730,7 @@ export const countryInfo: CountryInfo[] = [
         territoryOf: ISOCountryCode.UnitedKingdom,
         currency: ISOCurrencyCode.USDollar
     },
-    {
-        name: "Virgin Islands (U.S.)",
+    {   name: "Virgin Islands (U.S.)",
         officialName: "The Virgin Islands of the United States",
         region: [
             WorldRegion.America,
@@ -5003,8 +4751,7 @@ export const countryInfo: CountryInfo[] = [
         territoryOf: ISOCountryCode.UnitedStatesOfAmerica,
         currency: ISOCurrencyCode.USDollar
     },
-    {
-        name: "Wales",
+    {   name: "Wales",
         officialName: "Wales",
         region: [
             WorldRegion.Europe,
@@ -5029,8 +4776,7 @@ export const countryInfo: CountryInfo[] = [
         territoryOf: ISOCountryCode.UnitedKingdom,
         currency: ISOCurrencyCode.SterlingPound
     },
-    {
-        name: "Wallis and Futuna",
+    {   name: "Wallis and Futuna",
         officialName: "The Territory of the Wallis and Futuna Islands",
         region: [
             WorldRegion.Oceania
@@ -5049,8 +4795,7 @@ export const countryInfo: CountryInfo[] = [
         territoryOf: ISOCountryCode.France,
         currency: ISOCurrencyCode.PacificFranc
     },
-    {
-        name: "Yemen",
+    {   name: "Yemen",
         officialName: "The Republic of Yemen",
         region: [
             WorldRegion.Asia,
@@ -5069,8 +4814,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.YemeniRial
     },
-    {
-        name: "Zambia",
+    {   name: "Zambia",
         officialName: "The Republic of Zambia",
         region: [
             WorldRegion.Africa
@@ -5087,8 +4831,7 @@ export const countryInfo: CountryInfo[] = [
         isSovereign: true,
         currency: ISOCurrencyCode.ZambianKwacha
     },
-    {
-        name: "Zimbabwe",
+    {   name: "Zimbabwe",
         officialName: "The Republic of Zimbabwe",
         region: [
             WorldRegion.Africa

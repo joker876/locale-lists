@@ -1,813 +1,651 @@
 import { CurrencyInfo, ISOCurrencyCode } from "./types";
 
 export const currencyInfo: CurrencyInfo[] = [
-    {
-        name: "Afghani",
+    {   name: "Afghani",
         code: ISOCurrencyCode.Afghani,
         symbol: "؋"
     },
-    {
-        name: "Algerian Dinar",
+    {   name: "Algerian Dinar",
         code: ISOCurrencyCode.AlgerianDinar,
         symbol: "دج"
     },
-    {
-        name: "United Arab Emirates Dirham",
+    {   name: "United Arab Emirates Dirham",
         code: ISOCurrencyCode.UnitedArabEmiratesDirham,
         symbol: "د.إ"
     },
-    {
-        name: "Argentine Peso",
+    {   name: "Argentine Peso",
         code: ISOCurrencyCode.ArgentinePeso,
         symbol: "$"
     },
-    {
-        name: "Australian Dollar",
+    {   name: "Australian Dollar",
         code: ISOCurrencyCode.AustralianDollar,
         symbol: "$"
     },
-    {
-        name: "Azerbaijani Manat",
+    {   name: "Azerbaijani Manat",
         code: ISOCurrencyCode.AzerbaijaniManat,
         symbol: "₼"
     },
-    {
-        name: "Bahamian Dollar",
+    {   name: "Bahamian Dollar",
         code: ISOCurrencyCode.BahamianDollar,
         symbol: "B$"
     },
-    {
-        name: "Bahrain Dinar",
+    {   name: "Bahrain Dinar",
         code: ISOCurrencyCode.BahrainDinar,
         symbol: "د.ب"
     },
-    {
-        name: "Barbadian Dollar",
+    {   name: "Barbadian Dollar",
         code: ISOCurrencyCode.BarbadianDollar,
         symbol: "$"
     },
-    {
-        name: "Belarus Rubel",
+    {   name: "Belarus Rubel",
         code: ISOCurrencyCode.BelarusRubel,
         symbol: "Br"
     },
-    {
-        name: "Belize Dollar",
+    {   name: "Belize Dollar",
         code: ISOCurrencyCode.BelizeDollar,
         symbol: "BZ$"
     },
-    {
-        name: "Bermudian Dollar",
+    {   name: "Bermudian Dollar",
         code: ISOCurrencyCode.BermudianDollar,
         symbol: "BD$"
     },
-    {
-        name: "Birr",
+    {   name: "Birr",
         code: ISOCurrencyCode.Birr,
         symbol: "Br"
     },
-    {
-        name: "Boliviano",
+    {   name: "Boliviano",
         code: ISOCurrencyCode.Boliviano,
         symbol: "Bs."
     },
-    {
-        name: "Brazilian Real",
+    {   name: "Brazilian Real",
         code: ISOCurrencyCode.BrazilianReal,
         symbol: "R$"
     },
-    {
-        name: "Brunei Dollar",
+    {   name: "Brunei Dollar",
         code: ISOCurrencyCode.BruneiDollar,
         symbol: "B$"
     },
-    {
-        name: "Bulgarian Lev",
+    {   name: "Bulgarian Lev",
         code: ISOCurrencyCode.BulgarianLev,
         symbol: "лв"
     },
-    {
-        name: "Burundi Franc",
+    {   name: "Burundi Franc",
         code: ISOCurrencyCode.BurundiFranc,
         symbol: "FBu"
     },
-    {
-        name: "Cambodian Riel",
+    {   name: "Cambodian Riel",
         code: ISOCurrencyCode.CambodianRiel,
         symbol: "៛"
     },
-    {
-        name: "Canadian Dollar",
+    {   name: "Canadian Dollar",
         code: ISOCurrencyCode.CanadianDollar,
         symbol: "$"
     },
-    {
-        name: "Cape Verdean Escudo",
+    {   name: "Cape Verdean Escudo",
         code: ISOCurrencyCode.CapeVerdeanEscudo,
         symbol: "Esc"
     },
-    {
-        name: "Cayman Dollar",
+    {   name: "Cayman Dollar",
         code: ISOCurrencyCode.CaymanDollar,
         symbol: "$"
     },
-    {
-        name: "Central African Franc",
+    {   name: "Central African Franc",
         code: ISOCurrencyCode.CentralAfricanFranc,
         symbol: "CFA"
     },
-    {
-        name: "Chilean Peso",
+    {   name: "Chilean Peso",
         code: ISOCurrencyCode.ChileanPeso,
         symbol: "$"
     },
-    {
-        name: "Colombian Peso",
+    {   name: "Colombian Peso",
         code: ISOCurrencyCode.ColombianPeso,
         symbol: "$"
     },
-    {
-        name: "Colón",
+    {   name: "Colón",
         code: ISOCurrencyCode.Colon,
         symbol: "₡"
     },
-    {
-        name: "Comorian Franc",
+    {   name: "Comorian Franc",
         code: ISOCurrencyCode.ComorianFranc,
         symbol: "CF"
     },
-    {
-        name: "Congolese Franc",
+    {   name: "Congolese Franc",
         code: ISOCurrencyCode.CongoleseFranc,
         symbol: "FC"
     },
-    {
-        name: "Convertible Mark",
+    {   name: "Convertible Mark",
         code: ISOCurrencyCode.ConvertibleMark,
         symbol: "KM"
     },
-    {
-        name: "Cook Dollar",
+    {   name: "Cook Dollar",
         code: ISOCurrencyCode.CookDollar,
         symbol: "$"
     },
-    {
-        name: "Cuban Peso",
+    {   name: "Cuban Peso",
         code: ISOCurrencyCode.CubanPeso,
         symbol: "$MN"
     },
-    {
-        name: "Czech Krone",
+    {   name: "Czech Krone",
         code: ISOCurrencyCode.CzechKrone,
         symbol: "Kč"
     },
-    {
-        name: "Córdoba Oro",
+    {   name: "Córdoba Oro",
         code: ISOCurrencyCode.CordobaOro,
         symbol: "C$"
     },
-    {
-        name: "Dalasi",
+    {   name: "Dalasi",
         code: ISOCurrencyCode.Dalasi,
         symbol: "D"
     },
-    {
-        name: "Danish Krone",
+    {   name: "Danish Krone",
         code: ISOCurrencyCode.DanishKrone,
         symbol: "kr"
     },
-    {
-        name: "Djibouti Franc",
+    {   name: "Djibouti Franc",
         code: ISOCurrencyCode.DjiboutiFranc,
         symbol: "Fdj"
     },
-    {
-        name: "Dobra",
+    {   name: "Dobra",
         code: ISOCurrencyCode.Dobra,
         symbol: "Db"
     },
-    {
-        name: "Dominican Peso",
+    {   name: "Dominican Peso",
         code: ISOCurrencyCode.DominicanPeso,
         symbol: "RD$"
     },
-    {
-        name: "Dong",
+    {   name: "Dong",
         code: ISOCurrencyCode.Dong,
         symbol: "₫"
     },
-    {
-        name: "Dram",
+    {   name: "Dram",
         code: ISOCurrencyCode.Dram,
         symbol: "դր"
     },
-    {
-        name: "East Caribbean Dollar",
+    {   name: "East Caribbean Dollar",
         code: ISOCurrencyCode.EastCaribbeanDollar,
         symbol: "$"
     },
-    {
-        name: "Egyptian Pound",
+    {   name: "Egyptian Pound",
         code: ISOCurrencyCode.EgyptianPound,
         symbol: "E£"
     },
-    {
-        name: "Euro",
+    {   name: "Euro",
         code: ISOCurrencyCode.Euro,
         symbol: "€"
     },
-    {
-        name: "Falklands Pound",
+    {   name: "Falklands Pound",
         code: ISOCurrencyCode.FalklandsPound,
         symbol: "£"
     },
-    {
-        name: "Faroese Krona",
+    {   name: "Faroese Krona",
         code: ISOCurrencyCode.FaroeseKrona,
         symbol: "kr"
     },
-    {
-        name: "Fijian Dollar",
+    {   name: "Fijian Dollar",
         code: ISOCurrencyCode.FijianDollar,
         symbol: "FJ$"
     },
-    {
-        name: "Georgian Lari",
+    {   name: "Georgian Lari",
         code: ISOCurrencyCode.GeorgianLari,
         symbol: "₾"
     },
-    {
-        name: "Ghana Cedi",
+    {   name: "Ghana Cedi",
         code: ISOCurrencyCode.GhanaCedi,
         symbol: "GH₵"
     },
-    {
-        name: "Gibraltar Pound",
+    {   name: "Gibraltar Pound",
         code: ISOCurrencyCode.GibraltarPound,
         symbol: "£"
     },
-    {
-        name: "Gourde",
+    {   name: "Gourde",
         code: ISOCurrencyCode.Gourde,
         symbol: "G"
     },
-    {
-        name: "Guaraní",
+    {   name: "Guaraní",
         code: ISOCurrencyCode.Guarani,
         symbol: "₲"
     },
-    {
-        name: "Guernsey Pound",
+    {   name: "Guernsey Pound",
         code: ISOCurrencyCode.GuernseyPound,
         symbol: "£"
     },
-    {
-        name: "Aruban Guilder",
+    {   name: "Aruban Guilder",
         code: ISOCurrencyCode.ArubanGuilder,
         symbol: "ƒ"
     },
-    {
-        name: "Guinea Franc",
+    {   name: "Guinea Franc",
         code: ISOCurrencyCode.GuineaFranc,
         symbol: "FG"
     },
-    {
-        name: "Guyana Dollar",
+    {   name: "Guyana Dollar",
         code: ISOCurrencyCode.GuyanaDollar,
         symbol: "$"
     },
-    {
-        name: "Hong Kong Dollar",
+    {   name: "Hong Kong Dollar",
         code: ISOCurrencyCode.HongKongDollar,
         symbol: "HK$"
     },
-    {
-        name: "Hrywnja",
+    {   name: "Hrywnja",
         code: ISOCurrencyCode.Hrywnja,
         symbol: "₴"
     },
-    {
-        name: "Hungarian Forint",
+    {   name: "Hungarian Forint",
         code: ISOCurrencyCode.HungarianForint,
         symbol: "Ft"
     },
-    {
-        name: "Icelandic Krone",
+    {   name: "Icelandic Krone",
         code: ISOCurrencyCode.IcelandicKrone,
         symbol: "kr"
     },
-    {
-        name: "Indian Rupee",
+    {   name: "Indian Rupee",
         code: ISOCurrencyCode.IndianRupee,
         symbol: "₹"
     },
-    {
-        name: "Indonesian Rupiah",
+    {   name: "Indonesian Rupiah",
         code: ISOCurrencyCode.IndonesianRupiah,
         symbol: "Rp"
     },
-    {
-        name: "Iranian Rial",
+    {   name: "Iranian Rial",
         code: ISOCurrencyCode.IranianRial,
         symbol: "﷼"
     },
-    {
-        name: "Iraqi Dinar",
+    {   name: "Iraqi Dinar",
         code: ISOCurrencyCode.IraqiDinar,
         symbol: "ID"
     },
-    {
-        name: "Israeli Shekel",
+    {   name: "Israeli Shekel",
         code: ISOCurrencyCode.IsraeliShekel,
         symbol: "₪"
     },
-    {
-        name: "Jamaica Dollar",
+    {   name: "Jamaica Dollar",
         code: ISOCurrencyCode.JamaicaDollar,
         symbol: "J$"
     },
-    {
-        name: "Japanese Yen",
+    {   name: "Japanese Yen",
         code: ISOCurrencyCode.JapaneseYen,
         symbol: "¥"
     },
-    {
-        name: "Yemeni Rial",
+    {   name: "Yemeni Rial",
         code: ISOCurrencyCode.YemeniRial,
         symbol: "﷼"
     },
-    {
-        name: "Jersey Sterling Pound",
+    {   name: "Jersey Sterling Pound",
         code: ISOCurrencyCode.JerseySterlingPound,
         symbol: "£"
     },
-    {
-        name: "Jordanian Dinar",
+    {   name: "Jordanian Dinar",
         code: ISOCurrencyCode.JordanianDinar,
         symbol: "د.أ"
     },
-    {
-        name: "Kenian Schilling",
+    {   name: "Kenian Schilling",
         code: ISOCurrencyCode.KenianSchilling,
         symbol: "KSh"
     },
-    {
-        name: "Kina",
+    {   name: "Kina",
         code: ISOCurrencyCode.Kina,
         symbol: "K"
     },
-    {
-        name: "Kip",
+    {   name: "Kip",
         code: ISOCurrencyCode.Kip,
         symbol: "₭"
     },
-    {
-        name: "Kiribati Dollar",
+    {   name: "Kiribati Dollar",
         code: ISOCurrencyCode.KiribatiDollar,
         symbol: "$T"
     },
-    {
-        name: "Kuna",
+    {   name: "Kuna",
         code: ISOCurrencyCode.Kuna,
         symbol: "KN"
     },
-    {
-        name: "Kuwaiti Dinar",
+    {   name: "Kuwaiti Dinar",
         code: ISOCurrencyCode.KuwaitiDinar,
         symbol: "d"
     },
-    {
-        name: "Kwanza",
+    {   name: "Kwanza",
         code: ISOCurrencyCode.Kwanza,
         symbol: "Kz"
     },
-    {
-        name: "Kyat",
+    {   name: "Kyat",
         code: ISOCurrencyCode.Kyat,
         symbol: "K"
     },
-    {
-        name: "Lebanese Pound",
+    {   name: "Lebanese Pound",
         code: ISOCurrencyCode.LebanesePound,
         symbol: "ل.ل"
     },
-    {
-        name: "Lek",
+    {   name: "Lek",
         code: ISOCurrencyCode.Lek,
         symbol: "L"
     },
-    {
-        name: "Lempira",
+    {   name: "Lempira",
         code: ISOCurrencyCode.Lempira,
         symbol: "L"
     },
-    {
-        name: "Leone",
+    {   name: "Leone",
         code: ISOCurrencyCode.Leone,
         symbol: "Le"
     },
-    {
-        name: "Lesotho Loti",
+    {   name: "Lesotho Loti",
         code: ISOCurrencyCode.LesothoLoti,
         symbol: "L"
     },
-    {
-        name: "Liberian Dollar",
+    {   name: "Liberian Dollar",
         code: ISOCurrencyCode.LiberianDollar,
         symbol: "L$"
     },
-    {
-        name: "Libyan Dinar",
+    {   name: "Libyan Dinar",
         code: ISOCurrencyCode.LibyanDinar,
         symbol: "LD"
     },
-    {
-        name: "Macanese Pataca",
+    {   name: "Macanese Pataca",
         code: ISOCurrencyCode.MacanesePataca,
         symbol: "MOP$"
     },
-    {
-        name: "Macedonian Denar",
+    {   name: "Macedonian Denar",
         code: ISOCurrencyCode.MacedonianDenar,
         symbol: "ден"
     },
-    {
-        name: "Malagasy Ariary",
+    {   name: "Malagasy Ariary",
         code: ISOCurrencyCode.MalagasyAriary,
         symbol: "Ar"
     },
-    {
-        name: "Malawian Kwacha",
+    {   name: "Malawian Kwacha",
         code: ISOCurrencyCode.Kwacha,
         symbol: "K"
     },
-    {
-        name: "Maldivian Rufiyaa",
+    {   name: "Maldivian Rufiyaa",
         code: ISOCurrencyCode.MaldivianRufiyaa,
         symbol: "Rf"
     },
-    {
-        name: "Manx Pound",
+    {   name: "Manx Pound",
         code: ISOCurrencyCode.ManxPound,
         symbol: "£"
     },
-    {
-        name: "Mauritian Rupee",
+    {   name: "Mauritian Rupee",
         code: ISOCurrencyCode.MauritianRupee,
         symbol: "Rs"
     },
-    {
-        name: "Metical",
+    {   name: "Metical",
         code: ISOCurrencyCode.Metical,
         symbol: "MTn"
     },
-    {
-        name: "Mexican Peso",
+    {   name: "Mexican Peso",
         code: ISOCurrencyCode.MexicanPeso,
         symbol: "$"
     },
-    {
-        name: "Moldavian Leu",
+    {   name: "Moldavian Leu",
         code: ISOCurrencyCode.MoldavianLeu,
         symbol: "L"
     },
-    {
-        name: "Moroccan Dirham",
+    {   name: "Moroccan Dirham",
         code: ISOCurrencyCode.MoroccanDirham,
         symbol: "DH"
     },
-    {
-        name: "Naira",
+    {   name: "Naira",
         code: ISOCurrencyCode.Naira,
         symbol: "₦"
     },
-    {
-        name: "Nakfa",
+    {   name: "Nakfa",
         code: ISOCurrencyCode.Nakfa,
         symbol: "Nfk"
     },
-    {
-        name: "Namibian Dollar",
+    {   name: "Namibian Dollar",
         code: ISOCurrencyCode.NamibianDollar,
         symbol: "N$"
     },
-    {
-        name: "Nepalese Rupee",
+    {   name: "Nepalese Rupee",
         code: ISOCurrencyCode.NepaleseRupee,
         symbol: "Rs"
     },
-    {
-        name: "Netherlands Antillean Guilder",
+    {   name: "Netherlands Antillean Guilder",
         code: ISOCurrencyCode.NetherlandsAntilleanGuilder,
         symbol: "NAƒ"
     },
-    {
-        name: "New Taiwan Dollar",
+    {   name: "New Taiwan Dollar",
         code: ISOCurrencyCode.NewTaiwanDollar,
         symbol: "NT$"
     },
-    {
-        name: "New Zealand Dollar",
+    {   name: "New Zealand Dollar",
         code: ISOCurrencyCode.NewZealandDollar,
         symbol: "$"
     },
-    {
-        name: "Ngultrum",
+    {   name: "Ngultrum",
         code: ISOCurrencyCode.Ngultrum,
         symbol: "Nu."
     },
-    {
-        name: "North Korean Won",
+    {   name: "North Korean Won",
         code: ISOCurrencyCode.NorthKoreanWon,
         symbol: "₩"
     },
-    {
-        name: "Norwegian Krone",
+    {   name: "Norwegian Krone",
         code: ISOCurrencyCode.NorwegianKrone,
         symbol: "kr"
     },
-    {
-        name: "Omani Rial",
+    {   name: "Omani Rial",
         code: ISOCurrencyCode.OmaniRial,
         symbol: "ر.ع"
     },
-    {
-        name: "Ouguiya",
+    {   name: "Ouguiya",
         code: ISOCurrencyCode.Ouguiya,
         symbol: "UM"
     },
-    {
-        name: "Pa'anga",
+    {   name: "Pa'anga",
         code: ISOCurrencyCode.Paanga,
         symbol: "T$"
     },
-    {
-        name: "Pacific Franc",
+    {   name: "Pacific Franc",
         code: ISOCurrencyCode.PacificFranc,
         symbol: "F"
     },
-    {
-        name: "Pakistanian Rupee",
+    {   name: "Pakistanian Rupee",
         code: ISOCurrencyCode.PakistanianRupee,
         symbol: "Rs"
     },
-    {
-        name: "Panamanian Balboa",
+    {   name: "Panamanian Balboa",
         code: ISOCurrencyCode.PanamanianBalboa,
         symbol: "B"
     },
-    {
-        name: "Philippine Peso",
+    {   name: "Philippine Peso",
         code: ISOCurrencyCode.PhilippinePeso,
         symbol: "₱"
     },
-    {
-        name: "Pula",
+    {   name: "Pula",
         code: ISOCurrencyCode.Pula,
         symbol: "P"
     },
-    {
-        name: "Qatari Rial",
+    {   name: "Qatari Rial",
         code: ISOCurrencyCode.QatariRial,
         symbol: "QR"
     },
-    {
-        name: "Quetzal",
+    {   name: "Quetzal",
         code: ISOCurrencyCode.Quetzal,
         symbol: "Q"
     },
-    {
-        name: "Renminbi Yuan",
+    {   name: "Renminbi Yuan",
         code: ISOCurrencyCode.RenminbiYuan,
         symbol: "¥"
     },
-    {
-        name: "Ringgit",
+    {   name: "Ringgit",
         code: ISOCurrencyCode.Ringgit,
         symbol: "RM"
     },
-    {
-        name: "Romanian Leu",
+    {   name: "Romanian Leu",
         code: ISOCurrencyCode.RomanianLeu,
         symbol: "L"
     },
-    {
-        name: "Russian Rubel",
+    {   name: "Russian Rubel",
         code: ISOCurrencyCode.RussianRubel,
         symbol: "₽"
     },
-    {
-        name: "Rwandan Franc",
+    {   name: "Rwandan Franc",
         code: ISOCurrencyCode.RwandanFranc,
         symbol: "RF"
     },
-    {
-        name: "Saint Helena Pound",
+    {   name: "Saint Helena Pound",
         code: ISOCurrencyCode.SaintHelenaPound,
         symbol: "£"
     },
-    {
-        name: "Salomon Dollar",
+    {   name: "Salomon Dollar",
         code: ISOCurrencyCode.SalomonDollar,
         symbol: "SI$"
     },
-    {
-        name: "Saudi Rial",
+    {   name: "Saudi Rial",
         code: ISOCurrencyCode.SaudiRial,
         symbol: "SR"
     },
-    {
-        name: "Serbian Dinar",
+    {   name: "Serbian Dinar",
         code: ISOCurrencyCode.SerbianDinar,
         symbol: "РСД"
     },
-    {
-        name: "Seychelles Rupee",
+    {   name: "Seychelles Rupee",
         code: ISOCurrencyCode.SeychellesRupee,
         symbol: "SR"
     },
-    {
-        name: "Singapore Dollar",
+    {   name: "Singapore Dollar",
         code: ISOCurrencyCode.SingaporeDollar,
         symbol: "S$"
     },
-    {
-        name: "Sol",
+    {   name: "Sol",
         code: ISOCurrencyCode.Sol,
         symbol: "S/"
     },
-    {
-        name: "Som",
+    {   name: "Som",
         code: ISOCurrencyCode.Som,
         symbol: "с"
     },
-    {
-        name: "Somalian Shilling",
+    {   name: "Somalian Shilling",
         code: ISOCurrencyCode.SomalianShilling,
         symbol: "So. Sh."
     },
-    {
-        name: "Somoni",
+    {   name: "Somoni",
         code: ISOCurrencyCode.Somoni,
         symbol: "SM"
     },
-    {
-        name: "South African Rand",
+    {   name: "South African Rand",
         code: ISOCurrencyCode.SouthAfricanRand,
         symbol: "R"
     },
-    {
-        name: "South Korean Won",
+    {   name: "South Korean Won",
         code: ISOCurrencyCode.SouthKoreanWon,
         symbol: "₩"
     },
-    {
-        name: "South Sudanese Pound",
+    {   name: "South Sudanese Pound",
         code: ISOCurrencyCode.SouthSudanesePound,
         symbol: "SS£"
     },
-    {
-        name: "Sri Lanka Rupee",
+    {   name: "Sri Lanka Rupee",
         code: ISOCurrencyCode.SriLankaRupee,
         symbol: "රු"
     },
-    {
-        name: "Sterling Pound",
+    {   name: "Sterling Pound",
         code: ISOCurrencyCode.SterlingPound,
         symbol: "£"
     },
-    {
-        name: "Sudanese Pound",
+    {   name: "Sudanese Pound",
         code: ISOCurrencyCode.SudanesePound,
         symbol: "SD"
     },
-    {
-        name: "Surinamese Dollar",
+    {   name: "Surinamese Dollar",
         code: ISOCurrencyCode.SurinameseDollar,
         symbol: "$"
     },
-    {
-        name: "Swazi Lilangeni",
+    {   name: "Swazi Lilangeni",
         code: ISOCurrencyCode.SwaziLilangeni,
         symbol: "L"
     },
-    {
-        name: "Swedish Krone",
+    {   name: "Swedish Krone",
         code: ISOCurrencyCode.SwedishKrone,
         symbol: "kr"
     },
-    {
-        name: "Swiss Franc",
+    {   name: "Swiss Franc",
         code: ISOCurrencyCode.SwissFranc,
         symbol: "fr."
     },
-    {
-        name: "Syrian Pound",
+    {   name: "Syrian Pound",
         code: ISOCurrencyCode.SyrianPound,
         symbol: "LS"
     },
-    {
-        name: "Taka",
+    {   name: "Taka",
         code: ISOCurrencyCode.Taka,
         symbol: "৳"
     },
-    {
-        name: "Tala",
+    {   name: "Tala",
         code: ISOCurrencyCode.Tala,
         symbol: "WS$"
     },
-    {
-        name: "Tansanian Shilling",
+    {   name: "Tansanian Shilling",
         code: ISOCurrencyCode.TansanianShilling,
         symbol: "TSh"
     },
-    {
-        name: "Tenge",
+    {   name: "Tenge",
         code: ISOCurrencyCode.Tenge,
         symbol: "₸"
     },
-    {
-        name: "Thai Baht",
+    {   name: "Thai Baht",
         code: ISOCurrencyCode.ThaiBaht,
         symbol: "฿"
     },
-    {
-        name: "Trinidad and Tobago Dollar",
+    {   name: "Trinidad and Tobago Dollar",
         code: ISOCurrencyCode.TrinidadandTobagoDollar,
         symbol: "$"
     },
-    {
-        name: "Tugrik",
+    {   name: "Tugrik",
         code: ISOCurrencyCode.Tugrik,
         symbol: "₮"
     },
-    {
-        name: "Tunesian Dinar",
+    {   name: "Tunesian Dinar",
         code: ISOCurrencyCode.TunesianDinar,
         symbol: "DT"
     },
-    {
-        name: "Turkish Lira",
+    {   name: "Turkish Lira",
         code: ISOCurrencyCode.TurkishLira,
         symbol: "₺"
     },
-    {
-        name: "Turkmenistani Manat",
+    {   name: "Turkmenistani Manat",
         code: ISOCurrencyCode.TurkmenistaniManat,
         symbol: "m"
     },
-    {
-        name: "Tuvaluan Dollar",
+    {   name: "Tuvaluan Dollar",
         code: ISOCurrencyCode.TuvaluanDollar,
         symbol: "$"
     },
-    {
-        name: "US Dollar",
+    {   name: "US Dollar",
         code: ISOCurrencyCode.USDollar,
         symbol: "$"
     },
-    {
-        name: "Ugandan Schilling",
+    {   name: "Ugandan Schilling",
         code: ISOCurrencyCode.UgandanSchilling,
         symbol: "USh"
     },
-    {
-        name: "Uruguay Peso",
+    {   name: "Uruguay Peso",
         code: ISOCurrencyCode.UruguayPeso,
         symbol: "$"
     },
-    {
-        name: "Uzbekistani Soum",
+    {   name: "Uzbekistani Soum",
         code: ISOCurrencyCode.UzbekistaniSoum,
         symbol: ""
     },
-    {
-        name: "Vatu",
+    {   name: "Vatu",
         code: ISOCurrencyCode.Vatu,
         symbol: "VT"
     },
-    {
-        name: "Venezuelan Bolívar",
+    {   name: "Venezuelan Bolívar",
         code: ISOCurrencyCode.VenezuelanBolivar,
         symbol: "Bs."
     },
-    {
-        name: "West African Franc",
+    {   name: "West African Franc",
         code: ISOCurrencyCode.WestAfricanFranc,
         symbol: "F.CFA"
     },
-    {
-        name: "Zambian Kwacha",
+    {   name: "Zambian Kwacha",
         code: ISOCurrencyCode.ZambianKwacha,
         symbol: "ZK"
     },
-    {
-        name: "Zimbabwe Dollar",
+    {   name: "Zimbabwe Dollar",
         code: ISOCurrencyCode.ZimbabweDollar,
         symbol: "$"
     },
-    {
-        name: "Zloty",
+    {   name: "Zloty",
         code: ISOCurrencyCode.Zloty,
         symbol: "zł"
     },
